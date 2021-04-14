@@ -78,6 +78,7 @@ get_header();
 					<a href="http://172.28.0.120/noticias/" class="btn btn-primary btn-sm" role="button">MÁS NOTICIAS</a>
 				</div>
 			</div>
+			a
 		</div>
 		<!--Noticias Destacadas-->
 		<div class="row div-destacados">
