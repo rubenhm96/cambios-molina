@@ -14,7 +14,7 @@
 	<footer id="colophon" class="site-footer">
 		<div class="row">
 			<div class="img-pie">
-				<img src="http://172.28.0.120/sedeelectronica/wp-content/uploads/sites/4/2021/04/pie.png" alt="">
+				<img src="http://172.28.0.120/sedeelectronica/wp-content/uploads/sites/7/2021/04/pie.png" alt="">
 			</div>
 		</div>
 		<div class="row links-1-pie">
