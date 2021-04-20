@@ -23,11 +23,11 @@ get_header();
 			</div>
 			<div class="div-a-un-click">
 			<a href="" class="col-lg-3 col-md-4 col-sm-6 col-6 btn-a-un-click"><i class="bi bi-paperclip btn-2"></i><span class="btn-1 from-right">Trámites Destacados</span></a>
-			<a href="" class="col-lg-3 col-md-4 col-sm-6 col-6 btn-a-un-click"><i class="bi bi-file-earmark-arrow-up-fill btn-2"></i><span class="btn-1 from-right">Mi Carpeta</span></a>
+			<a href="" class="col-lg-3 col-md-4 col-sm-6 col-6 btn-a-un-click"><i class="bi bi-folder-fill btn-2"></i><span class="btn-1 from-right">Mi Carpeta</span></a>
 			<a href="" class="col-lg-3 col-md-4 col-sm-6 col-6 btn-a-un-click"><i class="bi bi-at btn-2"></i><span class="btn-1 from-right">Registro Electrónico</span></a>
-			<a href="" class="col-lg-3 col-md-4 col-sm-6 col-6 btn-a-un-click"><i class="bi bi-file-text-fill btn-2"></i><span class="btn-1 from-right">Validación de Documentos</span></a>
+			<a href="" class="col-lg-3 col-md-4 col-sm-6 col-6 btn-a-un-click"><i class="bi bi-file-earmark-arrow-up-fill btn-2"></i><span class="btn-1 from-right">Validación de Documentos</span></a>
 			<a href="" class="col-lg-3 col-md-4 col-sm-6 col-6 btn-a-un-click"><i class="bi bi-calendar-week-fill btn-2"></i><span class="btn-1 from-right">Calendarios</span></a>
-			<a href="" class="col-lg-3 col-md-4 col-sm-6 col-6 btn-a-un-click"><i class="bi bi-calendar-week-fill btn-2"></i><span class="btn-1 from-right">Normativa Municipal</span></a>
+			<a href="" class="col-lg-3 col-md-4 col-sm-6 col-6 btn-a-un-click"><i class="bi bi-file-text-fill btn-2"></i><span class="btn-1 from-right">Normativa Municipal</span></a>
 			<a href="" class="col-lg-3 col-md-4 col-sm-6 col-6 btn-a-un-click"><i class="bi bi-envelope-open-fill btn-2"></i><span class="btn-1 from-right">Sugerencias y Quejas</span></a>
 			</div>
 		</div>

@@ -700,7 +700,7 @@ textarea {
 	display: block;
 	text-decoration: none;
 	color: #fff;
-	padding: 0.625rem 3.5rem 0.625rem;
+	padding: 0.625rem 3rem 0.625rem;
 	transition: all 0.5s;
 }
 .main-navigation a:hover{
@@ -1029,18 +1029,22 @@ textarea {
 	padding: 0.625rem;
 }
 .titulo-sede{
-	padding: 1.25rem 0.625rem 1.25rem;
+	padding: 1.25rem 0.625rem 1.6rem;
 	text-transform: uppercase;
-	/*font-family: "Gotham";*/
-	text-align: right;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-end;
+	justify-content: flex-end;
 }
 .titulo-sede h1{
 	margin: 0;
+	text-align: center;
 }
 .titulo-sede h1 a{
 	font-size: 2.5rem;
 	color: #252525;
 	font-weight: 700;
+	width: 100%;
 }
 @media screen and (max-width:800px){
 	.main-navigation{
@@ -1346,7 +1350,7 @@ textarea {
 	color: #fff;
 }
 .footer-copy{
-	margin-top: 2rem;
+	margin-top: 3rem;
 	padding: 1.25rem 0.625rem 1.25rem;
 	background-color: #100f0b;
 	color: #fff;
@@ -1359,6 +1363,39 @@ textarea {
 .footer-copy p{
 	margin-bottom: 0;
 }
+/*ICONOS RRSS
+-------------------------------------*/
+.div-iconos-pie{
+	display: flex;
+	flex-direction: row;
+	font-size: 2.5rem;
+	justify-content: center;
+	align-items: center;
+}
+.div-iconos-pie a{
+	margin-left: 3%;
+	margin-right: 3%;
+	color: #fff;
+}
+.div-iconos-pie a .bi{
+	transition: all 0.5s;
+}
+.div-iconos-pie a:hover .bi-facebook{
+	color: #3b5998;
+}
+.div-iconos-pie a:hover .bi-twitter{
+	color:  #00acee;
+}
+.div-iconos-pie a:hover .bi-instagram{
+	color: #E1306C;
+}
+.div-iconos-pie a:hover .bi-youtube{
+	color: #c4302b;
+}
+.div-iconos-pie a:hover .bi-telegram{
+	color: #0088cc;
+}
+
 
 /*MEDIA QUERY MENU-TITULO
 -------------------------------------*/
@@ -1373,17 +1410,17 @@ textarea {
 }
 @media screen and (max-width:1300px){
 	.main-navigation a{
-		padding: 0.625rem 2.2rem 0.625rem;
+		padding: 0.625rem 1.9rem 0.625rem;
 	}
 }
 @media screen and (max-width:1100px){
 	.main-navigation a{
-		padding: 0.625rem 1.5rem 0.625rem;
+		padding: 0.625rem 1.2rem 0.625rem;
 	}
 }
 @media screen and (max-width:963px){
 	.main-navigation a{
-		padding: 0.625rem 1rem 0.625rem;
+		padding: 0.625rem 0.625rem 0.625rem;
 	}
 	.titulo-sede h1 a{
 		font-size: 2rem;
@@ -1391,12 +1428,13 @@ textarea {
 }
 @media screen and (max-width:870px){
 	.main-navigation a{
-		padding: 0.625rem 0.625rem 0.625rem;
+		padding: 0.625rem 0.315rem 0.625rem;
 	}
 }
 @media screen and (max-width:574px){
 	.titulo-sede{
-		text-align: center;
+		justify-content: center;
+		align-items: center;
 	}
 	.site-date{
 		text-align: center;
