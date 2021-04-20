@@ -43,7 +43,7 @@
 
 			</div>
 			<div class="img-pie col-lg-6 col-md-6 col-sm-12 col-12">
-				<img src="http://172.28.0.120/sedeelectronica/wp-content/uploads/sites/4/2021/04/pie-2.png" alt="">
+				<img src="http://172.28.0.120/sedeelectronica/wp-content/uploads/sites/9/2021/04/pie-2.png" alt="">
 			</div>
 		</div>
 		<div class="row">
