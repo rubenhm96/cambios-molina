@@ -122,6 +122,15 @@
 		var hora = horaActual.getHours();
 		var minutos = horaActual.getMinutes();
 		var segundos = horaActual.getSeconds();
+		if(hora<10){
+			hora = "0"+hora;
+		}
+		if(minutos<10){
+			minutos = "0"+minutos
+		}
+		if(segundos<10){
+			segundos = "0"+segundos
+		}
 
 		var mostrarHora = " "+hora + ":" + minutos + ":" + segundos;
 		document.getElementById("reloj").textContent=mostrarHora;

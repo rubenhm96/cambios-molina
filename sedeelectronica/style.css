@@ -49,14 +49,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	- Alignments
 
 --------------------------------------------------------------*/
-@import url(//db.onlinewebfonts.com/c/db33e70bc9dee9fa9ae9737ad83d77ba?family=Gotham);
-@font-face {font-family: "Gotham"; 
-	src: url("//db.onlinewebfonts.com/t/db33e70bc9dee9fa9ae9737ad83d77ba.eot"); 
-	src: url("//db.onlinewebfonts.com/t/db33e70bc9dee9fa9ae9737ad83d77ba.eot?#iefix") 
-	format("embedded-opentype"), url("//db.onlinewebfonts.com/t/db33e70bc9dee9fa9ae9737ad83d77ba.woff2") 
-	format("woff2"), url("//db.onlinewebfonts.com/t/db33e70bc9dee9fa9ae9737ad83d77ba.woff") format("woff"), 
-	url("//db.onlinewebfonts.com/t/db33e70bc9dee9fa9ae9737ad83d77ba.ttf") format("truetype"), 
-	url("//db.onlinewebfonts.com/t/db33e70bc9dee9fa9ae9737ad83d77ba.svg#Gotham") format("svg"); }
 /*--------------------------------------------------------------
 # Generic
 --------------------------------------------------------------*/
