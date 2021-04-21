@@ -12,17 +12,17 @@
 	<footer id="colophon">
 		<div class="row">
 			<!--Enlaces parte izquierda-->
-			<div class="col-lg-8 col-md-8 col-sm-12 col-12 site-footer">
-				<div class="col-lg-8 col-md-8 col-sm-7 col-7 site-footer-left-links">
-					<a href="http://192.168.3.216/wordpress">Inicio</a>
+			<div class="col-lg-5 col-md-8 col-sm-12 col-12 site-footer">
+				<div class="col-lg-7 col-md-8 col-sm-7 col-7 site-footer-left-links">
+					<a href="http://172.28.0.120">Inicio</a>
 					<a href="">Ayuntamiento</a>
 					<a href="">Servicios</a>
-					<a href="http://192.168.3.216/wordpress/sitio2/">Turismo</a>
+					<a href="http://172.28.0.120/sitio2/">Turismo</a>
 					<a href="">Participación</a>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-5 col-5 site-footer-right-links">
+				<div class="col-lg-5 col-md-4 col-sm-5 col-5 site-footer-right-links">
 					<a href="">Contacto</a>
-					<a href="http://192.168.3.216/wordpress/site-map/">Mapa del Sitio</a>
+					<a href="http://172.28.0.120/site-map/">Mapa del Sitio</a>
 					<a href="">Sede Electrónica</a>
 					<a href="">Política de Privacidad</a>
 				</div>

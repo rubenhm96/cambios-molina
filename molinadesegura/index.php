@@ -16,14 +16,14 @@ get_header();
 
 	<main id="primary" class="site-main">
 		<div class="video-promo"><!--Video promocion-->
-			<?php echo do_shortcode('[evp_embed_video url="http://192.168.3.216/wordpress/wp-content/uploads/2021/03/PromoWeb3-1-1.mp4" autoplay="true" loop="true" muted="true"]');?>
+			<?php echo do_shortcode('[evp_embed_video url="http://172.28.0.120/wp-content/uploads/2021/03/PromoWeb3-1-1.mp4" autoplay="true" loop="true" muted="true"]');?>
 		</div>
 		<!--Enlaces Alcalde y otros-->
 		<div class="row div-other-links">
 			<!--Enlace Alcalde-->
 			<div class="col-lg-4 col-md-6 col-sm-6 col-12 div-link-alcalde">
 				<a href="##">
-					<img src="http://192.168.3.216/wordpress/wp-content/uploads/2021/03/Alcalde-a-un-click-movimiento.gif" alt="">
+					<img src="http://172.28.0.120/wp-content/uploads/2021/03/Alcalde-a-un-click-movimiento.gif" alt="">
 				</a>
 			</div>
 			<!--Otros Enlaces-->
@@ -48,7 +48,7 @@ get_header();
 			</div>
 			<div class="div-prox-eventos col-lg-9 col-md-8 col-sm-12 col-12">
 				<?php echo do_shortcode('[MEC id="111"]')?>
-				<a class="btn btn-secundary" href="http://192.168.3.216/wordpress/blog/category/eventos/">Ver Más Eventos</a>
+				<a class="btn btn-secundary" href="http://172.28.0.120/blog/category/eventos/">Ver Más Eventos</a>
 			</div>
 		</div>
 		<div class="row div-noticias">
@@ -73,7 +73,7 @@ get_header();
 				<h4><i class="bi bi-newspaper ultima-hora"></i> NOTICIAS</h4>
 				<?php echo do_shortcode('[frontpage_news widget="122" name="Noticias"]')?>
 				<div class="morenews-link">
-					<a href="http://192.168.3.216/wordpress/noticias/" class="btn btn-primary btn-sm" role="button">MÁS NOTICIAS</a>
+					<a href="http://172.28.0.120/noticias/" class="btn btn-primary btn-sm" role="button">MÁS NOTICIAS</a>
 				</div>
 			</div>
 		</div>
@@ -114,23 +114,20 @@ get_header();
 		<!--Banners-->
 		<div class="row">
 			<div class="div-banners col-12">
-				<div class="col-lg-2 col-md-2 col-sm-4 col-4">
+				<div class="div-banners-campania">
 					<?php echo do_shortcode('[cm_ad_changer campaign_id="1"]')?>
 				</div>
-				<div class="col-lg-2 col-md-2 col-sm-4 col-4">
+				<div class="div-banners-campania">
 					<?php echo do_shortcode('[cm_ad_changer campaign_id="2"]')?>
 				</div>
-				<div class="col-lg-2 col-md-2 col-sm-4 col-4">
-					<?php echo do_shortcode('[cm_ad_changer campaign_id="1"]')?>
+				<div class="div-banners-campania">
+					<?php echo do_shortcode('[cm_ad_changer campaign_id="3"]')?>
 				</div>
-				<div class="col-lg-2 col-md-2 col-sm-4 col-4">
-					<?php echo do_shortcode('[cm_ad_changer campaign_id="2"]')?>
+				<div class="div-banners-campania">
+					<?php echo do_shortcode('[cm_ad_changer campaign_id="4"]')?>
 				</div>
-				<div class="col-lg-2 col-md-2 col-sm-4 col-4">
-					<?php echo do_shortcode('[cm_ad_changer campaign_id="1"]')?>
-				</div>
-				<div class="col-lg-2 col-md-2 col-sm-4 col-4">
-					<?php echo do_shortcode('[cm_ad_changer campaign_id="2"]')?>
+				<div class="div-banners-campania">
+					<?php echo do_shortcode('[cm_ad_changer campaign_id="5"]')?>
 				</div>
 			</div>
 		</div>

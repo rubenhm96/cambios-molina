@@ -137,7 +137,7 @@
 		const buscador_responsive = document.createElement("div");
 		//insertar buscador en menu responsive
 		buscador_responsive.className="div-form-responsive";
-		buscador_responsive.innerHTML = "<form role='search' method='get' class='search-form search-form-responsive' action='http://192.168.3.216/wordpress/'>"+
+		buscador_responsive.innerHTML = "<form role='search' method='get' class='search-form search-form-responsive' action='http://172.28.0.120'>"+
 		"<button type='submit' class='search-submit'><i class='bi-search'></i></button>"+
 		"<label><span class='screen-reader-text'>Buscar:</span><input type='search'name='s' class='search-field' id='buscador_responsive' placeholder='Buscador' value></label></form>";
 		document.getElementById("site-navigation").insertBefore(buscador_responsive,parentrrss[i]);
@@ -152,8 +152,29 @@
 	//Cambiar texto botones paginacion galeria de videos
 	const pag = document.getElementsByClassName("pagination");
 	for(i=0;i<pag.length;i++){
+		for(z=0;z<pag[i].children.length;z++){
+			pag[i].children[z].firstElementChild.style.setProperty("background-color", "#850037", "important");
+			pag[i].children[z].firstElementChild.style.setProperty("border-color", "#850037", "important");
+			pag[i].children[z].firstElementChild.style.setProperty("color", "#fff", "important");
+			pag[i].children[z].firstElementChild.addEventListener("mouseover",function(event){
+				event.target.style.setProperty("background-color","#fff","important");
+				event.target.style.setProperty("border-color", "#fff", "important");
+				event.target.style.setProperty("color","#850037","important");
+			});
+			pag[i].children[z].firstElementChild.addEventListener("mouseout",function(event){
+				event.target.style.setProperty("background-color", "#850037", "important");
+				event.target.style.setProperty("border-color", "#850037", "important");
+				event.target.style.setProperty("color", "#fff", "important");
+			});
+		}
 		pag[i].firstElementChild.firstElementChild.textContent="<";
+		pag[i].firstElementChild.firstElementChild.style.setProperty("background-color", "#850037", "important");
+		pag[i].firstElementChild.firstElementChild.style.setProperty("border-color", "#850037", "important");
+		pag[i].firstElementChild.firstElementChild.style.setProperty("color", "#fff", "important");
 		pag[i].lastElementChild.firstElementChild.textContent=">";
+		pag[i].lastElementChild.firstElementChild.style.setProperty("background-color", "#850037", "important");
+		pag[i].lastElementChild.firstElementChild.style.setProperty("border-color", "#850037", "important");
+		pag[i].lastElementChild.firstElementChild.style.setProperty("color", "#fff", "important");
 	}
 	var aux = document.getElementsByClassName("mec-holding-status-expired");
 	for(i=0;i<aux.length;i++){
