@@ -647,10 +647,17 @@ textarea {
 /* Navigation
 --------------------------------------------- */
 .main-navigation {
-	display: block;
+	display: flex;
+	flex-flow: row wrap;
 	width: 100%;
 	background: #850037;
 	z-index: 99;
+}
+.menu-menu-principal-container{
+	width: 100%;
+}
+.nav-menu{
+	width: 100%;
 }
 .main-navigation ul {
 	display: none;
@@ -809,6 +816,10 @@ textarea {
 /* Make sure logo link wraps around logo image. */
 .custom-logo{
 	width: 100%;
+}
+.logo-menu-responsive{
+	width: 10.5rem;
+	transition: all 0.5s;
 }
 
 /* Captions
@@ -1038,7 +1049,7 @@ textarea {
 }
 .titulo-sede h1{
 	margin: 0;
-	text-align: center;
+	text-align: right;
 }
 .titulo-sede h1 a{
 	font-size: 2.5rem;
@@ -1175,7 +1186,7 @@ textarea {
 /*TRAMITES
 ------------------------*/
 .div-tramites{
-	background:url("http://172.28.0.120/sedeelectronica/wp-content/uploads/sites/9/2021/04/teatro-molina.jpg");
+	background:url("http://192.168.3.216/wordpress/sedeelectronica/wp-content/uploads/sites/4/2021/04/teatro-molina.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1395,7 +1406,13 @@ textarea {
 .div-iconos-pie a:hover .bi-telegram{
 	color: #0088cc;
 }
-
+@media screen and (max-width:800px){
+	.div-iconos-pie{
+		font-size: 1.7rem;
+		margin-top: 1rem;
+		margin-bottom: 2rem;
+	}
+}
 
 /*MEDIA QUERY MENU-TITULO
 -------------------------------------*/
@@ -1406,6 +1423,9 @@ textarea {
 
 	.main-navigation ul {
 		display: flex;
+	}
+	.logo-menu-responsive{
+		display: none;
 	}
 }
 @media screen and (max-width:1300px){
@@ -1436,11 +1456,17 @@ textarea {
 		justify-content: center;
 		align-items: center;
 	}
+	.titulo-sede h1{
+		text-align: center;
+	}
 	.site-date{
 		text-align: center;
 	}
 	.site-date .search-form{
 		text-align: center;
+	}
+	.logo-div{
+		display: none;
 	}
 }
 @media screen and (min-width:1600px){

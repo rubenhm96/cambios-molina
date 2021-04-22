@@ -650,7 +650,7 @@ textarea {
 }
 .search-field{
 	right: 0rem;
-	width: 5rem;
+	width: 5.4rem;
 	background: #850037;
 	border: inherit;
 	color: #fff;
@@ -761,6 +761,68 @@ main .main_wrap{
 }
 .main_wrap.super-small .weather_temp_wrap{
 	margin-left: 0.625rem;
+}
+/*Apartado el Tiempo
+--------------------------------------------------*/
+.site-main-2 .weather_center_wrap{
+	margin-top: 1.25rem;
+	height: 3.9375rem;
+	padding-left: 1.875rem;
+}
+.site-main-2 .weather_image_wrap{
+	width: 4.375rem;
+}
+.site-main-2 .weather_temp_wrap{
+	margin-left: 1.25rem;
+	line-height: 4.125rem;
+}
+.site-main-2 .weather_temp{
+	font-size: 3.25rem;
+}
+.site-main-2 .weather_temp_type{
+	font-size: 1.375rem;
+}
+.site-main-2 .weather_description{
+	padding: 0.75rem 0.625rem 0rem;
+	font-size: 1.5625rem;
+	margin-top: 0.5rem;
+}
+.site-main-2 .weather_sunrise{
+	margin-top: 1.25rem;
+	font-size: 0.75rem;
+}
+.site-main-2 .weather_sunset{
+	margin-top: 0.5rem;
+	font-size: 0.75rem;
+}
+.site-main-2 .weather_data_wrap{
+	font-size: 0.8125rem;
+	margin: 1.25rem auto 0 auto;
+
+}
+.site-main-2 .weather_data_wrap div{
+	margin-bottom: 0.5rem;
+	font-size: 0.8125rem;
+}
+.site-main-2 .weather_days_wrap{
+	margin: 0.625rem auto 0 auto;
+}
+.site-main-2 .weather_day_wrap{
+	padding: 0.8125rem 1rem;
+}
+.site-main-2 .weather_day_name{
+	font-size: 0.875rem;
+	margin-top: 0.375rem;
+	line-height: 1.25rem;
+}
+.site-main-2 .weather_day_image_wrap{
+	width: 3.125rem;
+	margin: 0.25rem;
+	height: 1.875rem;
+}
+.site-main-2 .weather_day_temp{
+	font-size: 0.875rem;
+	margin-top: 0.375rem;
 }
 /*CONTACTO HEADER
 --------------------------------------------------*/
@@ -999,10 +1061,10 @@ main .main_wrap{
 	text-align: center;
 }
 .mec-event-grid-classic .mec-event-article{
-	min-height: 24rem;
+	min-height: 24.4rem;
 }
 .btn-secundary{
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	padding: 0.3125rem;
 	width: 9.5rem;
 	background: #850037;
@@ -1190,6 +1252,9 @@ main .main_wrap{
 .mec-calendar .mec-calendar-events-side{
 	min-height: 29.9rem;
 }
+.site-main .mec-calendar .mec-calendar-events-side{
+	display: none;
+}
 .mec-bg-color, .mec-bg-color-hover:hover, .mec-wrap .mec-bg-color, .mec-wrap .mec-bg-color-hover:hover{
 	background-color: #850037;
 }
@@ -1314,6 +1379,60 @@ main .main_wrap{
 }
 .mec-full-calendar-wrap .mec-totalcal-box .mec-totalcal-view span{
 	min-width: 0rem;
+}
+.site-main-2 .div-calendar{
+	padding-left: 0rem;
+}
+.site-main-2 .mec-search-form .mec-full-calendar-search-ends .mec-text-input-search.col-md-12{
+	padding: 0 0.625rem;
+}
+.site-main-2 .mec-search-form .mec-full-calendar-search-ends .mec-text-input-search.col-md-12, .mec-search-form .mec-minmax-event-cost, .mec-search-form .mec-text-address-search{
+	min-height: 3.4375rem;
+}
+.site-main-2 .mec-wrap .mec-totalcal-box i{
+	width: 2.25rem;
+	height: 2.25rem;
+	border: 0.0625rem solid #efefef;
+	padding: 0.625rem 0;
+	font-size: 0.9375rem;
+}
+.site-main-2 .mec-wrap .mec-search-form .mec-minmax-price input, .mec-wrap .mec-search-form .mec-text-address-search input, .mec-wrap .mec-search-form .mec-text-input-search input{
+	margin-bottom: 0.625rem;
+}
+.site-main-2 .mec-wrap .mec-totalcal-box input[type=search]{
+	width: calc(100%-2.25rem);
+}
+.site-main-2 .mec-search-form .mec-date-search, .mec-search-form .mec-time-picker-search, .mec-search-form .mec-totalcal-view{
+	padding: 0 0.625rem;
+}
+.site-main-2 .mec-checkboxes-search .mec-searchbar-category-wrap, .mec-wrap .mec-totalcal-box .mec-totalcal-view span, .mec-wrap .mec-totalcal-box input, .mec-wrap .mec-totalcal-box select{
+	min-height: 2.25rem;
+	height: 2.25rem;
+	line-height: 2.25rem;
+	font-size: 0.8125rem;
+	border: 0.0625rem solid #efefef;
+	margin: 0 0 0 -0.0625rem;
+	padding: 0 0.3125rem;
+}
+.site-main-2 .mec-wrap .mec-search-form .mec-date-search select{
+	width: calc(100%-6.625rem);
+}
+.site-main-2 .mec-wrap .mec-search-form .mec-date-search select:last-child{
+	width: 4.375rem;
+}
+.site-main-2 .mec-calendar.mec-calendar-daily .mec-calendar-day-events .mec-event-article{
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+}
+.site-main-2 .mec-calendar.mec-calendar-weekly .mec-event-list-weekly-date{
+	width: 4rem;
+	height: 4rem;
+	margin-right: 0.625rem;
+	font-size: 0.6875rem;
+	padding-top: 0.125rem;
+}
+.site-main-2 .mec-wrap{
+	width: 100%;
 }
 /*BANNERS
 --------------------------------------------------------*/
@@ -1606,6 +1725,9 @@ main .main_wrap{
 .basic-yop-poll-container a.basic-back-to-vote-button, .basic-yop-poll-container a.basic-results-button, .basic-yop-poll-container a.basic-vote-button:hover{
 	background: #850037!important;
 	color: #fff!important;
+}
+.basic-yop-poll-container .basic-message p{
+	font-size: 0.875rem !important;
 }
 /*NEWSLETTER
 ----------------------------------------------*/
@@ -1901,6 +2023,25 @@ footer{
 	flex-direction: row;
 	padding:2.5rem 0rem 1.25rem;
 	margin-top: 1.25rem;
+}
+.div-mapa-img{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+}
+.div-mapa-img div{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+}
+.div-mapa-img img{
+	filter: brightness(0.8);
+	transition: all 0.5s;
+}
+.div-mapa-img a:hover img{
+	filter: brightness(1);
 }
 .site-footer{
 	display: flex;

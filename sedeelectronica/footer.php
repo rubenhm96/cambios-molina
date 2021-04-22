@@ -23,9 +23,9 @@
 			</div>
 			<div class="col-lg-3 col-md-4 col-sm-6 col-12">
 				<h4>Enlaces de Interés</h4>
-				<a href="">Portal del Ayuntamiento</a>
-				<a href="">Portal de Turismo</a>
-				<a href="">Portal de Cultura</a>
+				<a href="http://192.168.3.216/wordpress/">Portal del Ayuntamiento</a>
+				<a href="http://192.168.3.216/wordpress/sitio2/">Portal de Turismo</a>
+				<a href="http://192.168.3.216/wordpress/cultura/">Portal de Cultura</a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-6 col-12">
 				<h4>Otros Enlaces</h4>
@@ -35,20 +35,20 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-5 div-iconos-pie">
-				<a href=""><i class="bi bi-facebook"></i></a>
-				<a href=""><i class="bi bi-twitter"></i></a>
-				<a href=""><i class="bi bi-instagram"></i></a>
-				<a href=""><i class="bi bi-youtube"></i></a>
-				<a href=""><i class="bi bi-telegram"></i></a>
+			<div class="col-lg-5 col-md-5 col-sm-12 col-12 div-iconos-pie">
+				<a href="https://www.facebook.com/AytoMolinaSegura" title="Facebook"><i class="bi bi-facebook"></i></a>
+				<a href="https://twitter.com/AytMolinaSegura" title="Twitter"><i class="bi bi-twitter"></i></a>
+				<a href="https://www.instagram.com/aytomolina" title="Instagram"><i class="bi bi-instagram"></i></a>
+				<a href="https://www.youtube.com/channel/UC0g4oAo4hihGQrfB2x7qxiw" title="Youtube"><i class="bi bi-youtube"></i></a>
+				<a href="https://t.me/AytoMolina" title="Telegram"><i class="bi bi-telegram"></i></a>
 			</div>
-			<div class="col-7">
-				<img src="http://172.28.0.120/sedeelectronica/wp-content/uploads/sites/9/2021/04/pie-2.png" alt="">
+			<div class="col-lg-7 col-md-7 col-sm-12 col-12">
+				<img src="http://192.168.3.216/wordpress/sedeelectronica/wp-content/uploads/sites/4/2021/04/pie-2.png" alt="">
 			</div>	
 		</div>
 		<div class="row">
 			<div class="footer-copy col-12">
-				<p class="text-center">Copyright © 2021 Alpha Syltec Ingeniera SLP. Todos los derechos reservados.</p>
+				<p class="text-center"></p>
 			</div>
 		</div>
 

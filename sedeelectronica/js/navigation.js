@@ -116,6 +116,15 @@
 	for(let i=0; i<menubutton.length; i++){
 		menubutton[i].innerHTML="<i class='bi-list' style='font-size: 1.8rem'></i>"
 	}
+	//Logo Responsive
+	const parentrrss = document.getElementsByClassName("menu-menu-principal-container");
+	const divlogo_responsive = document.createElement("div");
+	divlogo_responsive.className="logo-menu-responsive"
+	divlogo_responsive.innerHTML="<img src='http://192.168.3.216/wordpress/wp-content/uploads/2021/03/logo-molina-responsive.jpg' alt=''>";
+	for(let i = 0; i < parentrrss.length; i++){
+		//insertar logo portal
+		document.getElementById("site-navigation").insertBefore(divlogo_responsive,parentrrss[i]);
+	}
 	//Reloj Dinámico
 	function iniciarReloj(){
 		var horaActual = new Date();
