@@ -23,9 +23,9 @@
 			</div>
 			<div class="col-lg-3 col-md-4 col-sm-6 col-12">
 				<h4>Enlaces de Interés</h4>
-				<a href="http://192.168.3.216/wordpress/">Portal del Ayuntamiento</a>
-				<a href="http://192.168.3.216/wordpress/sitio2/">Portal de Turismo</a>
-				<a href="http://192.168.3.216/wordpress/cultura/">Portal de Cultura</a>
+				<a href="http://172.28.0.120">Portal del Ayuntamiento</a>
+				<a href="http://172.28.0.120/sitio2/">Portal de Turismo</a>
+				<a href="http://172.28.0.120/cultura/">Portal de Cultura</a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-6 col-12">
 				<h4>Otros Enlaces</h4>
@@ -43,7 +43,7 @@
 				<a href="https://t.me/AytoMolina" title="Telegram"><i class="bi bi-telegram"></i></a>
 			</div>
 			<div class="col-lg-7 col-md-7 col-sm-12 col-12">
-				<img src="http://192.168.3.216/wordpress/sedeelectronica/wp-content/uploads/sites/4/2021/04/pie-2.png" alt="">
+				<img src="http://172.28.0.120/sedeelectronica/wp-content/uploads/sites/9/2021/04/pie-2.png" alt="">
 			</div>	
 		</div>
 		<div class="row">

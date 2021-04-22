@@ -30,7 +30,7 @@
 	<header id="masthead" class="site-header">
 		<div class="row site-date">
 			<p class="col-lg-6 col-md-6 col-sm-6 col-12 fecha-acceso" title="Fecha y Hora Actual"><i class="bi bi-clock"></i> <?php date_default_timezone_set("Europe/Madrid"); echo date("d/m/Y"); ?> <span id="reloj"></span></p>
-			<form role='search' method='get' class='search-form col-lg-6 col-md-6 col-sm-6 col-12' action='http://192.168.3.216/wordpress/sedeelectronica'>
+			<form role='search' method='get' class='search-form col-lg-6 col-md-6 col-sm-6 col-12' action='http://172.28.0.120/sedeelectronica'>
 				<button type='submit' class='search-submit'><i class='bi-search'></i></button>
 				<label><span class='screen-reader-text'>Buscar:</span><input type='search'name='s' class='search-field' id='buscador' placeholder='Buscador' value></label>
 			</form>	
