@@ -24,7 +24,7 @@
 			<div class="col-lg-3 col-md-4 col-sm-6 col-12">
 				<h4>Enlaces de Interés</h4>
 				<a href="http://172.28.0.120">Portal del Ayuntamiento</a>
-				<a href="http://172.28.0.120/sitio2/">Portal de Turismo</a>
+				<a href="http://172.28.0.120/turismo/">Portal de Turismo</a>
 				<a href="http://172.28.0.120/cultura/">Portal de Cultura</a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-6 col-12">
