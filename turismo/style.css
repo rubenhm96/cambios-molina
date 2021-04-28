@@ -852,7 +852,7 @@ header nav{
 	background: transparent;
 	border: none!important;
 	width: 5.4rem;
-	color: #fff!important;
+	color: rgb(173, 173, 173)!important;
 	transition: all 500ms;
 	border-radius: 0!important;
 }
