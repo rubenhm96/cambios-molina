@@ -66,7 +66,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-html {
+ html {
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
 	box-sizing: border-box;
@@ -565,11 +565,10 @@ input[type="reset"],
 input[type="submit"] {
 	border: 1px solid;
 	border-color: #ccc #ccc #bbb;
-	border-radius: 3px;
 	background: #e6e6e6;
 	color: rgba(0, 0, 0, 0.8);
 	line-height: 1;
-	padding: 0.6em 1em 0.4em;
+	padding: 0.6em 1em 0.6em;
 }
 
 button:hover,
@@ -802,6 +801,7 @@ textarea {
 
 /* Make sure logo link wraps around logo image. */
 header{
+	position: absolute;
 	width: 90%;
 	margin-right: 5%;
 	margin-left: 5%;
@@ -812,6 +812,7 @@ header{
 .custom-logo-link {
 	display: inline-block;
 	padding: 1rem;
+	max-width: 17.875rem;
 }
 .site-branding{
 	position: relative;
@@ -821,7 +822,77 @@ header{
 header nav{
 	z-index: 999;
 }
-
+.div-cont-header{
+	display:flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: flex-end;
+}
+/*BUSCADOR
+-------------------------------*/
+.search-form{
+	padding: 0.625rem;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: flex-end;
+}
+.search-submit{
+	background: #2D2926;
+	color: #fff;
+	padding: 0.5rem;
+	border: none;
+	border-radius: 50%	;
+	transition: all 500ms;
+}
+.search-submit-on-focus{
+	background-color: #850037;
+}
+.search-field{
+	background: transparent;
+	border: none!important;
+	width: 5.4rem;
+	color: #fff!important;
+	transition: all 500ms;
+	border-radius: 0!important;
+}
+.on-focus{
+	width: 12.5rem;
+	background: transparent;
+	color:#000!important;
+	outline: none;
+	border-bottom: 0.0625rem solid #2D2926!important;
+}
+.div-iconos-header{
+	padding-right: 1.5rem;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: flex-end;
+}
+.div-iconos-header a{
+	padding-left: 0.315rem;
+}
+.bi{
+	font-size: 1.8rem;
+	color: #2D2926;
+	transition: all 500ms;
+}
+.bi-facebook:hover{
+	color: #3b5998;
+}
+.bi-twitter:hover{
+	color:  #00acee;
+}
+.bi-instagram:hover{
+	color: #E1306C;
+}
+.bi-youtube:hover{
+	color: #c4302b;
+}
+.bi-telegram:hover{
+	color: #0088cc;
+}
 /* Captions
 --------------------------------------------- */
 .wp-caption {
@@ -1396,8 +1467,6 @@ header nav{
 /*Slider
 ---------------------------------------*/
 .slider-index{
-	position: relative;
-	margin-top: -12.6%;
 	margin-bottom: 2rem;
 }
 /*DIV Que esta Pasando
@@ -1412,6 +1481,23 @@ header nav{
 }
 .que-esta-pasando{
 	margin-bottom: 2rem;
+}
+/* TWITTER
+------------------------------------------*/
+.div-twitter{
+	margin-bottom: 1.25rem;
+}
+#ctf{
+	border: 0.0625rem solid rgb(211, 211, 211);
+	border-radius: 0.5rem;
+}
+.ctf-tweets{
+	max-height: 23rem;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+#ctf.ctf-narrow .ctf-context{
+	margin-left: 0.5rem;
 }
 /*BANNERS
 --------------------------------------------------------*/
@@ -1523,12 +1609,36 @@ footer{
 }
 /*RESPONSIVE TAMAÑO/PANTALLA
 -----------------------------------*/
+@media screen and (max-width:900px){
+	header{
+		position: relative;
+		width: 100%;
+		margin-right: 0;
+		margin-left: 0;
+	}
+}
+@media screen and (max-width:575px){
+	.site-branding{
+		text-align: center;
+	}
+	.search-form{
+		justify-content: center;
+	}
+	.div-iconos-header{
+		justify-content: center;
+	}
+}
+@media screen and (max-width:400px){
+	.search-form{
+		width: 100%;
+	}
+	.div-iconos-header{
+		width: 100%;
+	}
+}
 @media screen and (min-width:1600px){
 	html{
 		font-size: 1.2rem;
-	}
-	.slider-index{
-		margin-top: -10.3%;
 	}
 }
 @media screen and (min-width:1920px){

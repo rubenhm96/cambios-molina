@@ -96,14 +96,17 @@
 			menuItem.classList.toggle( 'focus' );
 		}
 	}
+	//Añadir Evento Finalizado
 	var aux = document.getElementsByClassName("mec-holding-status-expired");
 	for(i=0;i<aux.length;i++){
 		aux[i].textContent="Evento Finalizado"
 	}
+	//Cambiar texto boton ver mas grid calendar
 	aux = document.getElementsByClassName("mec-booking-button");
 	for(i=0;i<aux.length;i++){
 		aux[i].textContent="Ver";
 	}
+	//limite de caracteres a mostrar titulo grid calendar
 	function limiteGridCalendar(){
 		aux = document.getElementsByClassName("mec-color-hover")
 		for(i=0; i<aux.length;i++){
@@ -115,6 +118,14 @@
 	}
 	if(document.readyState=="loading"){
 		limiteGridCalendar();
-		console.log("111");
 	}
+	//Buscador Navegador
+	document.getElementById("buscador").addEventListener("focus",function(){
+		this.className+=" on-focus";
+		document.getElementById("btn-buscador").className+=" search-submit-on-focus";
+	});
+	document.getElementById("buscador").addEventListener("focusout",function(){
+		this.className="search-field";
+		document.getElementById("btn-buscador").className="search-submit";
+	});
 }() );

@@ -23,8 +23,11 @@ get_header();
 		</div>
 		<div class="que-esta-pasando row">
 			<h4 class=""><i class="bi bi-calendar"></i> Qué Está Pasando</h4>
-			<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-				<?php echo do_shortcode('[MEC id="15"]') ?>
+			<div class="div-eventos-grid col-lg-7 col-md-7 col-sm-12 col-12">
+				<?php echo do_shortcode('[MEC id="16"]') ?>
+			</div>
+			<div class="col-lg-5 col-md-5 col-sm-12 col-12 div-twitter">
+					<?php echo do_shortcode('[custom-twitter-feeds]') ?>
 			</div>
 		</div>
 		<div class="row">
