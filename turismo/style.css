@@ -421,6 +421,7 @@ h6 {
 
 p {
 	margin-bottom: 1.5em;
+	text-align: justify;
 }
 
 dfn,
@@ -852,7 +853,7 @@ header nav{
 	background: transparent;
 	border: none!important;
 	width: 5.4rem;
-	color: rgb(173, 173, 173)!important;
+	color: #fff!important;
 	transition: all 500ms;
 	border-radius: 0!important;
 }
@@ -1051,11 +1052,9 @@ header nav{
 }
 
 .aligncenter {
-	clear: both;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 1.5em;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
 }
 /*INDEX
 ----------------------------------------*/
@@ -1576,12 +1575,13 @@ footer{
 	flex-direction: row;
 }
 .site-footer a{
-	color: #fff;
+	color: rgb(192, 192, 192);
 	text-decoration: none;
 	padding:0.625rem;
+	transition: all 500ms;
 }
 .site-footer a:hover{
-	text-decoration: underline;
+	color: #fff;
 }
 .site-footer-left-links{
 	display: flex;
@@ -1606,6 +1606,36 @@ footer{
 }
 .footer-turismo p{
 	margin-bottom: 0;
+}
+/*MIGAS DE PAN
+----------------------------------*/
+#breadcrumbs{
+	background: #cecece;
+	border-bottom: 0.125rem solid #aaa;
+	width: 100%;
+	padding-left: 5%;
+}
+#breadcrumbs a{
+	color: #404040;
+}
+/*CATEGORIAS
+-------------------------------------*/
+.header-title-category{
+	background-image: url();
+}
+.site-main-2 .row{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+/*Video Muestra
+------------------------------------*/
+.div-video-muestra-iframe{
+	width: 50%;
+}
+.video-muestra-iframe{
+	width: 100%;
+	height: 100%;
 }
 /*RESPONSIVE TAMAÑO/PANTALLA
 -----------------------------------*/
