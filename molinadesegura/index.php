@@ -29,15 +29,15 @@ get_header();
 			<!--Otros Enlaces-->
 			<div class="col-lg-4 col-md-6 col-sm-6 col-12 links-1">
 				<a href="##"><i class="bi-at"></i><h4>Sede electrónica</h4></a>
-				<a href="##"><i class="bi-building"></i><h4>Perfil del contratante</h4></a>
-				<a href="##"><i class="bi-display"></i><h4>Cita Previa</h4></a>
+				<a href="##"><i class="bi-briefcase"></i><h4>Perfil del contratante</h4></a>
+				<a href="##"><i class="bi-calendar3"></i><h4>Cita Previa</h4></a>
 				<a href="##"><i class="bi-clipboard-check"></i><h4>Transparencia</h4></a>
 			</div>
 			<div class="col-lg-4 col-md-12 col-sm-12 col-12 links-2">
-				<a href="##"><i class="bi-envelope-open"></i><h4>Contacto</h4></a>
-				<a href="##"><i class="bi-clipboard-check"></i><h4>Corporación</h4></a>
 				<a href="##"><i class="bi-file-earmark-text"></i><h4>Trámites Administrativos</h4></a>
-				<a href="##"><i class="bi-calendar3"></i><h4>Registro Electrónico</h4></a>
+				<a href="##"><i class="bi-display"></i><h4>Registro Electrónico</h4></a>
+				<a href="##"><i class="bi-envelope-open"></i><h4>Contacto</h4></a>
+				<a href="##"><i class="bi-building"></i><h4>Corporación</h4></a>
 			</div>
 		</div>
 		<!--Calendario-->
