@@ -62,7 +62,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-html {
+ html {
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
 	box-sizing: border-box;
@@ -362,7 +362,7 @@ optgroup,
 textarea {
 	color: #404040;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-	font-size: 1rem;
+	font-size: 1.15rem;
 	line-height: 1.5;
 }
 h1,
@@ -562,8 +562,17 @@ textarea {
 # Layouts
 --------------------------------------------------------------*/
 .row{
-	width: 90%;
+	width: 80%;
 	margin: auto;
+}
+@media screen and (max-width:470px){
+	.row{
+		width: 100%;
+	}
+	.row>*{
+		padding-right: calc(var(--bs-gutter-x)/ 2)!important;
+    	padding-left: calc(var(--bs-gutter-x)/ 2)!important;
+	}
 }
 /*--------------------------------------------------------------
 # Components
@@ -628,8 +637,9 @@ textarea {
 	display: block;
 	text-decoration: none;
 	color: #fff;
-	padding: 0.6rem 1.3rem 0.6rem;
+	padding: 0.6rem 2rem 0.6rem;
 	transition: all 0.5s;
+	font-size: 1.15rem;
 }
 .main-navigation a:hover{
 	background: #531127;
@@ -650,7 +660,7 @@ textarea {
 }
 .search-field{
 	right: 0rem;
-	width: 5.4rem;
+	width: 6rem;
 	background: #850037;
 	border: inherit;
 	color: #fff;
@@ -734,7 +744,7 @@ textarea {
 	padding-bottom: 0rem;
 }
 .main_wrap.super-small .weather_temp_wrap{
-	line-height: 1.8rem!important;
+	line-height: 2.7rem!important;
 }
 main .main_wrap{
 	display: flex;
@@ -744,7 +754,7 @@ main .main_wrap{
 	padding-right: 0rem!important;
 }
 .main_wrap.super-small .weather_center_wrap{
-	margin-top: 0.625rem;
+	margin-top: 0rem;
 	height: 3.125rem;
 }
 .main_wrap.super-small .weather_image_wrap{
@@ -854,6 +864,7 @@ main .main_wrap{
 .contact a span{
 	margin-left: 0.2rem;
 	font-size: 1rem;
+	font-weight: 600;
 }
 .social-media{
 	display: flex;
@@ -861,17 +872,17 @@ main .main_wrap{
 	padding: 0.3rem 0.3rem 0.3rem;
 }
 .social-media a{
-	height: 1.875rem!important;
-	width: 1.875rem!important;
+	height: 2.1875rem!important;
+	width: 2.1875rem!important;
 	margin: 0.125rem!important;
-	padding: 0.3125rem 0!important;
+	padding: 0.375rem 0!important;
 	transition: all 1s;
 }
 .cnss-social-icon a:hover{
 	transform: scale(1.3);
 }
 .social-media a i{
-	font-size: 1.25rem!important;
+	font-size: 1.4rem!important;
 }
 .social-media a:hover{
 	background-color: #531127;
@@ -951,7 +962,7 @@ main .main_wrap{
 .div-link-alcalde{
 	display: flex;
 	flex-direction: column;
-	padding: 1.5rem;
+	padding: 4rem;
 	align-items: center;
 }
 .div-link-alcalde a{
@@ -986,17 +997,29 @@ main .main_wrap{
 	transition: all 0.3s;
 }
 .links-1 i,.links-2 i{
-	font-size: 2rem;
+	font-size: 3rem;
 }
 .links-1 h4,.links-2 h4{
 	margin: 0rem;
 	font-size: 0.9375rem;
 	font-weight: 600;
-
 }
 .links-1 a:hover,.links-2 a:hover{
 	text-decoration: underline;
 	transform: scale(1.3);
+}
+@media screen and (max-width:1370px){
+	.div-link-alcalde{
+		padding: 2rem;
+	}
+	.links-1 i,.links-2 i{
+		font-size: 2.5rem;
+	}
+}
+@media screen and (max-width:770px){
+	.div-link-alcalde{
+		padding: 1rem;
+	}
 }
 /* Posts and pages
 --------------------------------------------- */
@@ -1498,6 +1521,12 @@ main .main_wrap{
 	margin-right: 5%;
 	margin-left: 5%;
 }
+@media screen and (max-width: 640px){
+	#ctf{
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
 .ctf-tweets{
 	max-height: 18rem;
 	overflow: scroll;
@@ -1522,7 +1551,17 @@ main .main_wrap{
 	font-size: 2rem; color: #850037;
 }
 .noticias-ultima-hora .wplp_outside{
-	max-height: 31.25rem;
+	max-height: 23.75rem;
+}
+@media screen and (max-width:1600px){
+	.noticias-ultima-hora .wplp_outside{
+		max-height: 21rem;
+	}
+}
+@media screen and (max-width:768px){
+	.noticias-ultima-hora .wplp_outside{
+		max-height: 26.5rem;
+	}
 }
 .noticias-ultima-hora{
 	margin-bottom: 1.25rem;
@@ -1801,7 +1840,7 @@ main .main_wrap{
 	background: transparent;
 	border: 0.125rem solid #fff;
 	border-radius: 0.5rem;
-	width: 3.75rem;
+	width: 5rem;
 	transition: all 1s;
 	font-weight: 600;
 }
@@ -1859,7 +1898,7 @@ ul.pagination li span{
 }
 .custom-logo-link {
 	display: inline-block;
-	width: 26rem;
+	width: 20rem;
 	margin-top: 1.2rem;
 }
 .logo-menu-responsive{
@@ -2082,9 +2121,18 @@ footer{
 }
 /*Media Querys
 -------------------------------------------------------------*/
-@media screen and (max-width:1125px){
+@media screen and (max-width:1315px){
+	.main-navigation a{
+		padding: 0.625rem 1.4rem 0.625rem;
+	}
+}
+@media screen and (max-width:1170px){
 	.main-navigation a{
 		padding: 0.625rem 1.25rem 0.625rem;
+		font-size: 1rem;
+	}
+	.search-form button{
+		font-size: 1rem;
 	}
 }
 @media screen and (max-width:991px){
@@ -2123,9 +2171,6 @@ footer{
 	}
 	.logo-menu-responsive{
 		display: none;
-	}
-	.noticias-ultima-hora .wplp_container.default{
-		max-height: 18.75rem;
 	}
 }
 @media screen and (max-width:768px){
@@ -2181,17 +2226,11 @@ footer{
 	.cnss-social-icon{
 		padding-left: 0rem!important;
 	}
-	.cnss-social-icon li a{
-		padding: 0.3125rem 0rem!important;
-	}
 	.noticias-ultima-hora{
 		margin-bottom: 1.25rem;
 	}
 	.div-calendar{
 		padding-right: 0.75rem;
-	}
-	.div-prox-eventos .mec-event-footer{
-		position: relative;
 	}
 }
 @media screen and (max-width:575px){
@@ -2487,6 +2526,12 @@ footer{
 }
 /*RESPONSIVE TAMAÑO/PANTALLA
 -----------------------------------*/
+@media screen and (max-width:400px){
+	.mec-calendar dl{
+		table-layout: auto;
+	}
+}
+/*
 @media screen and (min-width:1600px){
 	html{
 		font-size: 1.2rem;
@@ -2525,4 +2570,4 @@ footer{
 	html{
 		font-size: 5.6rem;
 	}
-}
+}*/
