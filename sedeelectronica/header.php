@@ -35,16 +35,12 @@
 				<label><span class='screen-reader-text'>Buscar:</span><input type='search'name='s' class='search-field' id='buscador' placeholder='Buscador' value></label>
 			</form>	
 		</div>
-		<div class="site-branding row">
-			<div class="logo-div col-lg-3 col-md-4 col-sm-6 col-12">
+		<div class="site-branding">
 			<?php
 			/*Logo Sede*/
 			the_custom_logo();
 			?>
-			</div>
-			<div class="titulo-sede col-lg-9 col-md-8 col-sm-6 col-12">
-				<h1><a href="">Sede Electrónica</a></h1>
-			</div>
+			<h1><a href="">Sede Electrónica</a></h1>
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">

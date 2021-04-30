@@ -65,7 +65,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-html {
+ html {
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
 	box-sizing: border-box;
@@ -707,7 +707,7 @@ textarea {
 	display: block;
 	text-decoration: none;
 	color: #fff;
-	padding: 0.625rem 3rem 0.625rem;
+	padding: 0.625rem 5rem 0.625rem;
 	transition: all 0.5s;
 }
 .main-navigation a:hover{
@@ -814,6 +814,10 @@ textarea {
 }
 
 /* Make sure logo link wraps around logo image. */
+.custom-logo-link{
+	width: 20rem;
+	margin-left: 10%;
+}
 .custom-logo{
 	width: 100%;
 }
@@ -1001,6 +1005,7 @@ textarea {
 	font-size: 0.8rem;
 	font-weight: 600;
 	padding: 0.625rem;
+	padding-left: 10%;
 }
 .fecha-acceso .bi{
 	margin-right: 0.625rem;
@@ -1011,6 +1016,7 @@ textarea {
 .site-date .search-form{
 	padding: 0.3125rem;
 	text-align: right;
+	padding-right: 10%;
 }
 .search-submit{
 	background: transparent;
@@ -1035,6 +1041,36 @@ textarea {
 -------------------------------*/
 .site-branding{
 	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+.site-branding h1{
+	font-size: 3rem;
+	margin: 0;
+	position: absolute;
+	right: 10%;
+}
+@media screen and (max-width:900px){
+	.site-branding h1{
+		right: 5%;
+	}
+	.custom-logo-link{
+		margin-left: 5%;
+	}
+	.site-date .fecha-acceso{
+		padding-left: 5%;
+	}
+	.site-date .search-form{
+		padding-right: 5%;
+	}
+}
+@media screen and (max-width:400px){
+	.site-branding h1{
+		font-size: 2rem;
+	}
+}
+.site-branding h1 a{
+	color: #100f0b;
 }
 .logo-div{
 	padding: 0.625rem;
@@ -1072,6 +1108,22 @@ textarea {
 	.main-navigation ul ul li{
 		border-bottom: none;
 	}
+	.site-branding{
+		flex-flow: column;
+	}
+	.site-branding h1{
+		position: relative;
+		right: 0;
+	}
+	.site-date .fecha-acceso{
+		padding-left: 0.625rem;
+	}
+	.site-date .search-form{
+		padding-right: 0.625rem;
+	}
+	.custom-logo-link{
+		display: none;
+	}
 }
 /*MAIN
 ------------------------------*/
@@ -1086,6 +1138,7 @@ textarea {
 ------------*/
 .div-parent-click{
 	margin-bottom: 3rem;
+	justify-content: center;
 }
 .div-a-un-click{
 	text-align: center;
@@ -1093,6 +1146,7 @@ textarea {
 	justify-content: center;
 	display: flex;
 	flex-flow: row wrap;
+	max-width: 75rem;
 }
 .title-click{
 	text-align: center;
@@ -1186,7 +1240,7 @@ textarea {
 /*TRAMITES
 ------------------------*/
 .div-tramites{
-	background:url("http://172.28.0.120/sedeelectronica/wp-content/uploads/sites/9/2021/04/teatro-molina.jpg");
+	background:url("http://192.168.3.216/wordpress/sedeelectronica/wp-content/uploads/sites/4/2021/04/teatro-molina.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1200,6 +1254,7 @@ textarea {
 ---------------------*/
 .div-tramites-destacados{
 	padding: 2rem 2rem 2rem;
+	padding-left: 10%;
 }
 .link-destacado{
 	font-size: 1.1rem;
@@ -1234,6 +1289,7 @@ textarea {
 ------------------*/
 .div-tramites-momento{
 	padding: 2rem 2rem 2rem;
+	padding-right: 10%;
 }
 .link-tmomento{
 	padding: 0.625rem 1.25rem 0.625rem 0.625rem;
@@ -1337,7 +1393,7 @@ textarea {
 	margin-top: 2.5rem;
 }
 .links-1-pie{
-	padding: 0.625rem;
+	padding: 0.625rem 5% 0.625rem;
 	text-align: left;
 	display: flex;
 	flex-flow: row wrap;
@@ -1376,11 +1432,14 @@ textarea {
 }
 /*ICONOS RRSS
 -------------------------------------*/
+.div-footer-ext{
+	margin: 0 5% 0;
+}
 .div-iconos-pie{
 	display: flex;
 	flex-direction: row;
 	font-size: 2.5rem;
-	justify-content: center;
+	justify-content: left;
 	align-items: center;
 }
 .div-iconos-pie a{
@@ -1411,6 +1470,7 @@ textarea {
 		font-size: 1.7rem;
 		margin-top: 1rem;
 		margin-bottom: 2rem;
+		justify-content: center;
 	}
 }
 
@@ -1423,9 +1483,20 @@ textarea {
 
 	.main-navigation ul {
 		display: flex;
+		justify-content: center;
 	}
 	.logo-menu-responsive{
 		display: none;
+	}
+}
+@media screen and (max-width:1700px){
+	.main-navigation a{
+		padding: 0.625rem 4rem 0.625rem;
+	}
+}
+@media screen and (max-width:1500px){
+	.main-navigation a{
+		padding: 0.625rem 3rem 0.625rem;
 	}
 }
 @media screen and (max-width:1300px){
@@ -1469,6 +1540,7 @@ textarea {
 		display: none;
 	}
 }
+/*
 @media screen and (min-width:1600px){
 	html{
 		font-size: 1.2rem;
@@ -1498,4 +1570,4 @@ textarea {
 	html{
 		font-size: 5.6rem;
 	}
-}
+}*/

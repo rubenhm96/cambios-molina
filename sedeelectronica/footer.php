@@ -34,7 +34,7 @@
 				<a href="">Mapa Web</a>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row div-footer-ext">
 			<div class="col-lg-5 col-md-5 col-sm-12 col-12 div-iconos-pie">
 				<a href="https://www.facebook.com/AytoMolinaSegura" title="Facebook"><i class="bi bi-facebook"></i></a>
 				<a href="https://twitter.com/AytMolinaSegura" title="Twitter"><i class="bi bi-twitter"></i></a>
