@@ -101,7 +101,7 @@
 		submenu[i].firstElementChild.innerHTML+= " <i class='bi-chevron-down' style='font-size: 0.75rem; color: #fff;'></i>";
 	}
 	const buscador = document.getElementById("primary-menu");
-	buscador.innerHTML+="<form role='search' method='get' class='search-form' action='http://172.28.0.120'>"+
+	buscador.innerHTML+="<form role='search' method='get' class='search-form' action='http://172.28.0.120/'>"+
 	"<button type='submit' class='search-submit'><i class='bi-search'></i></button>"+
 	"<label><span class='screen-reader-text'>Buscar:</span><input type='search'name='s' class='search-field' id='buscador' placeholder='Buscador' value></label></form>";
 	//Icono de Inicio
@@ -193,4 +193,20 @@
 	if(document.readyState=="loading"){
 		limiteGridCalendar();
 	}
+	/*Contenedor seleccion categorias newsletter*/
+	document.getElementById("mc4wp-form-1").innerHTML+='<div class="seleccion-categorias-newsletter-parent display-none" id="seleccion-categorias-newsletter-parent-id"><div class="seleccion-categorias-newsletter popup" id="seleccion-categorias-newsletter-id"><button class="btn-newsletter-cerrar" id="seleccion-newsletter-cerrar"><i class="bi bi-x-circle"></i></button></div></div>';
+	var categorias_newsletter = document.getElementById("categorias-newsletter-id").cloneNode(true);
+	document.getElementById("seleccion-categorias-newsletter-id").appendChild(categorias_newsletter);
+	document.getElementById("seleccion-categorias-newsletter-id").innerHTML+='<button class="btn-newsletter-aceptar" id="seleccion-newsletter-aceptar"><i class="bi bi-check-circle"></i></button>';
+	var elegir_preferencias = document.getElementById("elegir-preferencias");
+	elegir_preferencias.addEventListener("click",function(){
+		document.getElementById("seleccion-categorias-newsletter-parent-id").classList="seleccion-categorias-newsletter-parent display-flex";
+		document.getElementById("seleccion-categorias-newsletter-id").style.left="auto";
+	});
+	document.getElementById("seleccion-newsletter-cerrar").addEventListener("click",function(){
+		document.getElementById("seleccion-categorias-newsletter-parent-id").classList="seleccion-categorias-newsletter-parent display-none";
+	});
+	document.getElementById("seleccion-newsletter-aceptar").addEventListener("click",function(){
+		document.getElementById("seleccion-categorias-newsletter-parent-id").classList="seleccion-categorias-newsletter-parent display-none";
+	})
 }() );

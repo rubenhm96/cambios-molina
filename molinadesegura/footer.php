@@ -9,8 +9,8 @@
  * @package molinadesegura
  */
 ?>
-	<footer id="colophon">
-		<div class="row">
+	<footer id="colophon" class="max-width">
+		<div class="row max-width-content">
 			<div class="col-lg-8 col-md-8 col-sm-12 col-12 div-mapa-img">
 				<div class="col-lg-9 col-md-7 col-sm-12 col-12">
 	
