@@ -208,5 +208,10 @@
 	});
 	document.getElementById("seleccion-newsletter-aceptar").addEventListener("click",function(){
 		document.getElementById("seleccion-categorias-newsletter-parent-id").classList="seleccion-categorias-newsletter-parent display-none";
-	})
+	});
+
+	function cambiarUrlTiempo() {
+		setTimeout(function(){ document.getElementById("tiempo-widget-enlace").firstChild.href="http://www.aemet.es/es/eltiempo/prediccion/municipios/molina-de-segura-id30027"; }, 5000);
+	}
+	cambiarUrlTiempo();
 }() );

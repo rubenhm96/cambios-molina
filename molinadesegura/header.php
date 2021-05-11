@@ -37,7 +37,7 @@
 				<!--Plugin El tiempo-->
 				<div class="div-weather">
 					<section id="tiempo_widget-2" class="widget tiempo_widget">
-						<div class="tiempo-widget weather_widget_wrap tight" data-background="#ffff" data-text-color="#000"  data-width="tight" data-days="0" data-sunrise="false" data-wind="false" data-current="on" data-language="spanish" data-city="Molina de Segura" data-country="Spain">
+						<div id="tiempo-widget-enlace" class="tiempo-widget weather_widget_wrap tight" data-background="#ffff" data-text-color="#000"  data-width="tight" data-days="0" data-sunrise="false" data-wind="false" data-current="on" data-language="spanish" data-city="Murcia" data-country="Spain">
                 		<div class="weather_widget_placeholder"></div>
             			</div>
 					</section>
