@@ -881,7 +881,7 @@ header nav{
 	background: transparent;
 	border: none!important;
 	width: 5.4rem;
-	color: #fff!important;
+	color: #2D2926!important;
 	transition: all 500ms;
 	border-radius: 0!important;
 }
@@ -905,7 +905,7 @@ header nav{
 .bi{
 	font-size: 1.8rem;
 	transition: all 500ms;
-	color: #ff6000;
+	color: #2D2926;
 }
 .bi-facebook:hover{
 	color: #3b5998;
@@ -1543,6 +1543,10 @@ header nav{
 .slider-videos-parent{
 	margin-bottom: 3rem;
 }
+.slider-videos-parent .bi{
+	color: #ff6000;
+	font-size: 2rem;
+}
 
 /*EL TIEMPO
 -------------------------------------*/
@@ -1823,6 +1827,9 @@ header nav{
 	align-items: center;
 	justify-content: center;
 }
+.banner-turismo-content .bi{
+	color: #ff6000;
+}
 .banner-turismo-content p{
 	display: flex;
 	flex-flow: row wrap;
@@ -1832,6 +1839,8 @@ header nav{
 }
 .banner-turismo-content p .bi{
 	font-size: 1.4rem;
+	color: #2D2926;
+	margin-right: 0.125rem;
 }
 .banner-turismo-content a{
 	display: flex;
@@ -1847,6 +1856,11 @@ header nav{
 }
 .banner-turismo-content a .bi{
 	font-size: 1.4rem;
+	color: #2D2926;
+	margin-right: 0.125rem;
+}
+.banner-turismo-content a:hover .bi{
+	color: #ff6000;
 }
 .banner-turismo-content-contact{
 	padding: 0.625rem;
@@ -2115,8 +2129,7 @@ footer{
 ----------------------------------------------*/
 .mc4wp-form-fields{
 	padding: 0.3125rem;
-	border: 0.0625rem solid #ff923e;
-	background: #ff6000;
+	background: #ffffff;
 	border-radius: 0.5rem;
 	box-shadow: 0rem 0rem 0.125rem 0.125rem rgba(153, 153, 153, 0.247);
 }
@@ -2124,6 +2137,11 @@ footer{
 	text-align: center;
 	color: #fff;
 	font-size: 1.25rem;
+	background-color: #ff6000;
+	padding: 0.5rem 0rem 0.5rem;
+	border-top-left-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
+	box-shadow: 0rem 0rem 0.125rem 0.125rem rgba(153, 153, 153, 0.247);
 }
 .email-newsletter-label{
 	width: 100%;
@@ -2188,11 +2206,11 @@ footer{
 .terminos-newsletter{
 	font-size: 0.825rem;
 	text-align: center;
-	color: #fff;
+	color: #ff6000;
 }
 .terminos-newsletter a{
-	color: #fff;
-	text-decoration: underline #fff;
+	color: #ff6000;
+	text-decoration: underline #c42b00;
 }
 .btn-newsletter{
 	text-align: center;
@@ -2200,16 +2218,18 @@ footer{
 }
 .btn-newsletter input{
 	background: transparent;
-	border: 0.125rem solid #fff;
 	border-radius: 0.5rem;
 	width: 5rem;
 	transition: all 1s;
 	font-weight: 600;
+	background-color: #ff6000;
+	color: #fff;
+	box-shadow: 0rem 0rem 0.125rem 0.125rem rgba(153, 153, 153, 0.247);
 }
 .btn-newsletter input:hover{
 	width: 100%;
-	background-color: #fff;
-	color: #c42b00	;
+	background-color: #c42b00;
+	color: #fff	;
 }
 /*Contenedor categorias oculto*/
 .seleccion-categorias-newsletter-parent{
@@ -2236,7 +2256,7 @@ footer{
 	background: #ff6000;
 	width: 40%;
 	margin: auto;
-	height: 65%;
+	height: 45%;
 	border-radius: 0.625rem;
 	transform: scale(1);
 	padding: 0.625rem	;

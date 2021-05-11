@@ -38,7 +38,7 @@
 				<div class="col-lg-6 col-md-6 col-sm-6 col-6 site-footer-right-links">
 					<a href="">Contacto</a>
 					<a href="http://172.28.0.120/site-map/">Mapa del Sitio</a>
-					<a href="http://172.28.0.120/sedeelectronica">Sede Electrónica</a>
+					<a href="http://172.28.0.120/sedeelectronica/">Sede Electrónica</a>
 					<a href="">Política de Privacidad</a>
 				</div>
 			</div>
