@@ -32,12 +32,14 @@ get_header();
 		</div>
 		<div class="max-width-content">
 			<div class="que-esta-pasando row">
-				<h4 class=""><i class="bi bi-calendar"></i> QUÉ ESTÁ PASANDO</h4>
+				<h4 class="title-qep-out"><i class="bi bi-calendar"></i> QUÉ ESTÁ PASANDO</h4>
 				<div class="div-eventos-grid col-lg-7 col-md-7 col-sm-8 col-12">
+					<h4 class="title-qep-in"><i class="bi bi-calendar"></i> QUÉ ESTÁ PASANDO</h4>
 					<?php echo do_shortcode('[MEC id="16"]') ?>
 				</div>
 				<div class="col-lg-5 col-md-5 col-sm-12 col-12 div-twitter">
-						<?php echo do_shortcode('[custom-twitter-feeds]') ?>
+					<h4 class=""><i class="bi bi-twitter"></i> TWITTER</h4>
+					<?php echo do_shortcode('[custom-twitter-feeds]') ?>
 				</div>
 			</div>
 			<div class="row">

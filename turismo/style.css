@@ -1653,6 +1653,20 @@ header nav{
 	flex-flow: row wrap;
 	justify-content: center;
 }
+.title-qep-out{
+	display: none;
+}
+.title-qep-in{
+	display: block;
+}
+@media screen and (max-width:768px){
+	.title-qep-out{
+		display: block;
+	}
+	.title-qep-in{
+		display: none;
+	}
+}
 /* TWITTER
 ------------------------------------------*/
 .div-twitter{
