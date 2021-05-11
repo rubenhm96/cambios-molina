@@ -1669,7 +1669,7 @@ header nav{
 	box-shadow: 0rem 0rem 0.125rem 0.125rem rgba(153, 153, 153, 0.247);
 }
 .ctf-tweets{
-	max-height: 31.5rem;
+	max-height: 25rem;
 	overflow: scroll;
 	overflow-x: hidden;
 }
