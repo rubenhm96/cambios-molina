@@ -20,25 +20,26 @@ get_header();
 			<?php echo do_shortcode('[smartslider3 slider="2"]'); ?>
 		</div>
 		<div class="max-width-content banners-index-juventud">
+		
 			<a class="item-banner" href="">
-				<img class="img-banner-pred" src="http://192.168.3.216/wordpress/juventud/wp-content/uploads/sites/6/2021/05/J_ActividadesCursos.gif" alt="">
-				<img class="img-banner-hover" src="http://192.168.3.216/wordpress/juventud/wp-content/uploads/sites/6/2021/05/SJ_ActividadesCursos.png" alt="">
+				<img class="img-banner-pred" src="http://172.28.0.120/juventud/wp-content/uploads/sites/11/2021/05/J_ActividadesCursos.gif" alt="">
+				<img class="img-banner-hover" src="http://172.28.0.120/juventud/wp-content/uploads/sites/11/2021/05/SJ_ActividadesCursos.png" alt="">
 			</a>
 			<a class="item-banner" href="">
-				<img class="img-banner-pred" src="http://192.168.3.216/wordpress/juventud/wp-content/uploads/sites/6/2021/05/J_Espacio_Joven.gif" alt="">
-				<img class="img-banner-hover" src="http://192.168.3.216/wordpress/juventud/wp-content/uploads/sites/6/2021/05/SJ_Espacio_Joven.png" alt="">
+				<img class="img-banner-pred" src="http://172.28.0.120/juventud/wp-content/uploads/sites/11/2021/05/J_Espacio_Joven.gif" alt="">
+				<img class="img-banner-hover" src="http://172.28.0.120/juventud/wp-content/uploads/sites/11/2021/05/SJ_Espacio_Joven.png" alt="">
 			</a>
 			<a class="item-banner" href="">
-				<img class="img-banner-pred" src="http://192.168.3.216/wordpress/juventud/wp-content/uploads/sites/6/2021/05/J_ParticipacionJuvenil.gif" alt="">
-				<img class="img-banner-hover" src="http://192.168.3.216/wordpress/juventud/wp-content/uploads/sites/6/2021/05/SJ_ParticipacionJuvenil.png" alt="">
+				<img class="img-banner-pred" src="http://172.28.0.120/juventud/wp-content/uploads/sites/11/2021/05/J_ParticipacionJuvenil.gif" alt="">
+				<img class="img-banner-hover" src="http://172.28.0.120/juventud/wp-content/uploads/sites/11/2021/05/SJ_ParticipacionJuvenil.png" alt="">
 			</a>
 			<a class="item-banner" href="">
-				<img class="img-banner-pred" src="http://192.168.3.216/wordpress/juventud/wp-content/uploads/sites/6/2021/05/J_Informajoven.gif" alt="">
-				<img class="img-banner-hover" src="http://192.168.3.216/wordpress/juventud/wp-content/uploads/sites/6/2021/05/SJ_Informajoven.png" alt="">
+				<img class="img-banner-pred" src="http://172.28.0.120/juventud/wp-content/uploads/sites/11/2021/05/J_Informajoven.gif" alt="">
+				<img class="img-banner-hover" src="http://172.28.0.120/juventud/wp-content/uploads/sites/11/2021/05/SJ_Informajoven.png" alt="">
 			</a>
 			<a class="item-banner" href="">
-				<img class="img-banner-pred" src="http://192.168.3.216/wordpress/juventud/wp-content/uploads/sites/6/2021/05/J_Inscripcion.gif" alt="">
-				<img class="img-banner-hover" src="http://192.168.3.216/wordpress/juventud/wp-content/uploads/sites/6/2021/05/SJ_Inscripcion.png" alt="">
+				<img class="img-banner-pred" src="http://172.28.0.120/juventud/wp-content/uploads/sites/11/2021/05/J_Inscripcion.gif" alt="">
+				<img class="img-banner-hover" src="http://172.28.0.120/juventud/wp-content/uploads/sites/11/2021/05/SJ_Inscripcion.png" alt="">
 			</a>
 		</div>
 		
