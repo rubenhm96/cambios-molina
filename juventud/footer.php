@@ -65,16 +65,16 @@
 							Otras Sedes
 						</h6>
 						<p>
-							<a href="#!" class="text-reset">Ayuntamiento</a>
+							<a href="http://172.28.0.120/" class="text-reset">Ayuntamiento</a>
 						</p>
 						<p>
-							<a href="#!" class="text-reset">Sede Electronica</a>
+							<a href="http://172.28.0.120/sedeelectronica" class="text-reset">Sede Electronica</a>
 						</p>
 						<p>
-							<a href="#!" class="text-reset">Turismo</a>
+							<a href="http://172.28.0.120/turismo" class="text-reset">Turismo</a>
 						</p>
 						<p>
-							<a href="#!" class="text-reset">Cultura</a>
+							<a href="http://172.28.0.120/cultura" class="text-reset">Cultura</a>
 						</p>
 					</div>
 					<!-- Grid column -->
@@ -86,7 +86,7 @@
 							Enlaces de Interés
 						</h6>
 						<p>
-							<a href="#!" class="text-reset">Mapa Web</a>
+							<a href="http://172.28.0.120/site-map" class="text-reset">Mapa Web</a>
 						</p>
 						<p>
 							<a href="#!" class="text-reset">Ayuda</a>

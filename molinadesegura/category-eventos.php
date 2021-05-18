@@ -14,13 +14,14 @@
 
 get_header();
 ?>
-
+    <?php if ( function_exists('yoast_breadcrumb') ) {yoast_breadcrumb( '<p class="breadcrumbs">','</p>' );} ?>
 	<main id="primary" class="site-main-2 row">
-	<?php if ( function_exists('yoast_breadcrumb') ) {yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );} ?>
-    <h1 class="entry-title"><i class="bi bi-calendar prox-eventos"></i> Eventos</h1>
-    <div class="calendario-de-eventos div-calendar">
-       <?php echo do_shortcode('[MEC id="106"]') ?>
-    </div>
+        <div class="max-width-content">
+            <h1 class="entry-title"><i class="bi bi-calendar prox-eventos"></i> Eventos</h1>
+            <div class="calendario-de-eventos div-calendar">
+                <?php echo do_shortcode('[MEC id="106"]') ?>
+            </div>
+        </div>
 	</main><!-- #main -->
 
 <?php

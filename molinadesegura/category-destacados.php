@@ -14,11 +14,12 @@
 
 get_header();
 ?>
-
+	<?php if ( function_exists('yoast_breadcrumb') ) {yoast_breadcrumb( '<p class="breadcrumbs">','</p>' );} ?>
 	<main id="primary" class="site-main-2 row">
-	<?php if ( function_exists('yoast_breadcrumb') ) {yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );} ?>
-    <h1 class="entry-title"><i class="bi bi-newspaper ultima-hora"></i> Noticias Destacadas</h1>
-    <?php echo do_shortcode('[ajax_load_more loading_style="infinite fading-circles" container_type="div" css_classes="col-lg-8 col-md-8 col-sm-12 col-12" post_type="post" posts_per_page="4" category="destacados" images_loaded="true" progress_bar="true" progress_bar_color="ed7070" no_results_text="<div class="no-results">No se encontraron resultados.</div>"]') ?>
+		<div class="max-width-content">
+			<h1 class="entry-title"><i class="bi bi-newspaper ultima-hora"></i> Noticias Destacadas</h1>
+			<?php echo do_shortcode('[ajax_load_more loading_style="infinite fading-circles" container_type="div" css_classes="col-lg-8 col-md-8 col-sm-12 col-12" post_type="post" posts_per_page="4" category="destacados" images_loaded="true" progress_bar="true" progress_bar_color="ed7070" no_results_text="<div class="no-results">No se encontraron resultados.</div>"]') ?>
+		</div>	
 	</main><!-- #main -->
 
 <?php

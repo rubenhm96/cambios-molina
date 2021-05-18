@@ -129,21 +129,15 @@
 		document.getElementById("btn-buscador").className="search-submit";
 	});
 	/*Contenedor seleccion categorias newsletter*/
-	document.getElementById("mc4wp-form-1").innerHTML+='<div class="seleccion-categorias-newsletter-parent display-none" id="seleccion-categorias-newsletter-parent-id"><div class="seleccion-categorias-newsletter popup" id="seleccion-categorias-newsletter-id"><button class="btn-newsletter-cerrar" id="seleccion-newsletter-cerrar"><i class="bi bi-x-circle"></i></button></div></div>';
-	var categorias_newsletter = document.getElementById("categorias-newsletter-id").cloneNode(true);
-	document.getElementById("seleccion-categorias-newsletter-id").appendChild(categorias_newsletter);
-	document.getElementById("seleccion-categorias-newsletter-id").innerHTML+='<button class="btn-newsletter-aceptar" id="seleccion-newsletter-aceptar"><i class="bi bi-check-circle"></i></button>';
-	var elegir_preferencias = document.getElementById("elegir-preferencias");
-	elegir_preferencias.addEventListener("click",function(){
-		document.getElementById("seleccion-categorias-newsletter-parent-id").classList="seleccion-categorias-newsletter-parent display-flex";
-		document.getElementById("seleccion-categorias-newsletter-id").style.left="auto";
-	});
-	document.getElementById("seleccion-newsletter-cerrar").addEventListener("click",function(){
-		document.getElementById("seleccion-categorias-newsletter-parent-id").classList="seleccion-categorias-newsletter-parent display-none";
-	});
-	document.getElementById("seleccion-newsletter-aceptar").addEventListener("click",function(){
-		document.getElementById("seleccion-categorias-newsletter-parent-id").classList="seleccion-categorias-newsletter-parent display-none";
-	});
+	function modalNewsletter(){
+		setTimeout(function(){
+			document.getElementById("mc4wp-form-1").innerHTML+='<div class="seleccion-categorias-newsletter-parent modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="exampleModalLabel">Selección de Categorías</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="cerrar"></button></div><div class="seleccion-categorias-newsletter modal-body" id="seleccion-categorias-newsletter-id"></div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button><button type="button" class="btn btn-success" data-bs-dismiss="modal">Aceptar</button></div></div></div></div>';
+			var categorias_newsletter = document.getElementById("categorias-newsletter-id").cloneNode(true);
+			document.getElementById("seleccion-categorias-newsletter-id").appendChild(categorias_newsletter);
+		})
+	}
+	modalNewsletter();
+
 	function cambiarUrlTiempo() {
 		setTimeout(function(){ document.getElementById("tiempo-widget-enlace").firstChild.href="http://www.aemet.es/es/eltiempo/prediccion/municipios/molina-de-segura-id30027"; }, 5000);
 	}

@@ -128,12 +128,12 @@
 		parentrrss[i].appendChild(divrrss_responsive_clon);
 	}
 	//menu responsive logo portal
-	const divlogo_responsive = document.createElement("div");
+	/*const divlogo_responsive = document.createElement("div");
 	divlogo_responsive.className="logo-menu-responsive"
-	divlogo_responsive.innerHTML="<img src='http://172.28.0.120/wp-content/uploads/2021/03/logo-molina-responsive.jpg' alt=''>";
+	divlogo_responsive.innerHTML="<img src='http://172.28.0.120/sedeelectronica/wp-content/uploads/sites/4/2021/04/logo-molina-responsive.jpg' alt=''>";*/
 	for(let i = 0; i < parentrrss.length; i++){
 		//insertar logo portal
-		document.getElementById("site-navigation").insertBefore(divlogo_responsive,parentrrss[i]);
+		//document.getElementById("site-navigation").insertBefore(divlogo_responsive,parentrrss[i]);
 		const buscador_responsive = document.createElement("div");
 		//insertar buscador en menu responsive
 		buscador_responsive.className="div-form-responsive";
@@ -153,17 +153,17 @@
 	const pag = document.getElementsByClassName("pagination");
 	for(i=0;i<pag.length;i++){
 		for(z=0;z<pag[i].children.length;z++){
-			pag[i].children[z].firstElementChild.style.setProperty("background-color", "#850037", "important");
-			pag[i].children[z].firstElementChild.style.setProperty("border-color", "#850037", "important");
+			pag[i].children[z].firstElementChild.style.setProperty("background-color", "#832945", "important");
+			pag[i].children[z].firstElementChild.style.setProperty("border-color", "#832945", "important");
 			pag[i].children[z].firstElementChild.style.setProperty("color", "#fff", "important");
 			pag[i].children[z].firstElementChild.addEventListener("mouseover",function(event){
 				event.target.style.setProperty("background-color","#fff","important");
 				event.target.style.setProperty("border-color", "#fff", "important");
-				event.target.style.setProperty("color","#850037","important");
+				event.target.style.setProperty("color","#832945","important");
 			});
 			pag[i].children[z].firstElementChild.addEventListener("mouseout",function(event){
-				event.target.style.setProperty("background-color", "#850037", "important");
-				event.target.style.setProperty("border-color", "#850037", "important");
+				event.target.style.setProperty("background-color", "#832945", "important");
+				event.target.style.setProperty("border-color", "#832945", "important");
 				event.target.style.setProperty("color", "#fff", "important");
 			});
 		}
@@ -194,21 +194,14 @@
 		limiteGridCalendar();
 	}
 	/*Contenedor seleccion categorias newsletter*/
-	document.getElementById("mc4wp-form-1").innerHTML+='<div class="seleccion-categorias-newsletter-parent display-none" id="seleccion-categorias-newsletter-parent-id"><div class="seleccion-categorias-newsletter popup" id="seleccion-categorias-newsletter-id"><button class="btn-newsletter-cerrar" id="seleccion-newsletter-cerrar"><i class="bi bi-x-circle"></i></button></div></div>';
-	var categorias_newsletter = document.getElementById("categorias-newsletter-id").cloneNode(true);
-	document.getElementById("seleccion-categorias-newsletter-id").appendChild(categorias_newsletter);
-	document.getElementById("seleccion-categorias-newsletter-id").innerHTML+='<button class="btn-newsletter-aceptar" id="seleccion-newsletter-aceptar"><i class="bi bi-check-circle"></i></button>';
-	var elegir_preferencias = document.getElementById("elegir-preferencias");
-	elegir_preferencias.addEventListener("click",function(){
-		document.getElementById("seleccion-categorias-newsletter-parent-id").classList="seleccion-categorias-newsletter-parent display-flex";
-		document.getElementById("seleccion-categorias-newsletter-id").style.left="auto";
-	});
-	document.getElementById("seleccion-newsletter-cerrar").addEventListener("click",function(){
-		document.getElementById("seleccion-categorias-newsletter-parent-id").classList="seleccion-categorias-newsletter-parent display-none";
-	});
-	document.getElementById("seleccion-newsletter-aceptar").addEventListener("click",function(){
-		document.getElementById("seleccion-categorias-newsletter-parent-id").classList="seleccion-categorias-newsletter-parent display-none";
-	});
+	function modalNewsletter(){
+		setTimeout(function(){
+			document.getElementById("mc4wp-form-1").innerHTML+='<div class="seleccion-categorias-newsletter-parent modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="exampleModalLabel">Selección de Categorías</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="cerrar"></button></div><div class="seleccion-categorias-newsletter modal-body" id="seleccion-categorias-newsletter-id"></div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button><button type="button" class="btn btn-success" data-bs-dismiss="modal">Aceptar</button></div></div></div></div>';
+			var categorias_newsletter = document.getElementById("categorias-newsletter-id").cloneNode(true);
+			document.getElementById("seleccion-categorias-newsletter-id").appendChild(categorias_newsletter);
+		})
+	}
+	modalNewsletter();
 
 	function cambiarUrlTiempo() {
 		setTimeout(function(){ document.getElementById("tiempo-widget-enlace").firstChild.href="http://www.aemet.es/es/eltiempo/prediccion/municipios/molina-de-segura-id30027"; }, 5000);

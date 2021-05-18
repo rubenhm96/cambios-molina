@@ -39,7 +39,7 @@ get_header();
 				</div>
 				<div class="col-lg-5 col-md-5 col-sm-12 col-12 div-twitter">
 					<h4 class=""><i class="bi bi-twitter"></i> TWITTER</h4>
-					<?php echo do_shortcode('[custom-twitter-feeds]') ?>
+						<?php echo do_shortcode('[custom-twitter-feeds]') ?>
 				</div>
 			</div>
 			<div class="row">

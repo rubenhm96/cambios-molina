@@ -576,10 +576,6 @@ a {
 	color: #4169e1;
 }
 
-a:visited {
-	color: #800080;
-}
-
 a:hover,
 a:focus,
 a:active {
@@ -681,12 +677,6 @@ textarea {
 /*--------------------------------------------------------------
 # Layouts
 --------------------------------------------------------------*/
-.row{
-	padding: 0 0.625rem 0;
-	margin-left: 0;
-	margin-right: 0;
-	width: 100%;
-}
 .max-width{
 	max-width: 1920px;
 	margin: auto;
@@ -703,6 +693,14 @@ textarea {
 	max-width: 85rem;
 	margin: auto;
 	align-items: center;
+}
+.row{
+	padding: 0 0 0;
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+	margin-bottom: 1.25rem;
+	margin-top: 1.25rem;
 }
 @media screen and (max-width:470px){
 	.row{
@@ -817,6 +815,10 @@ textarea {
 /* Navigation
 --------------------------------------------- */
 #mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-item > a.mega-menu-link{
+	font-family: BloggerSans;
+}
+#mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-item > a.mega-menu-link, #mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-megamenu > ul.mega-sub-menu li.mega-menu-column > ul.mega-sub-menu > li.mega-menu-item > a.mega-menu-link{
+	border-radius: 0.5rem;
 	font-family: BloggerSans;
 }
 @media only screen and (min-width: 769px){
@@ -945,7 +947,7 @@ textarea {
 		justify-content: center;
 	}
 }
-@media screen and (max-width:686px){
+@media screen and (max-width:726px){
 	.mega-menu-wrap{
 		width: 100%!important;
 	}
@@ -982,6 +984,12 @@ textarea {
 	clear: both;
 	margin: 0 0 1.5em;
 }
+.content-title{
+	margin-bottom: 1.875rem;
+}
+main h4 .bi{
+	color: #2ecc71;
+}
 /*Banners Index
 ----------------------------------------*/
 .banners-index-juventud{
@@ -989,7 +997,7 @@ textarea {
 	margin-top: 3rem;
 	align-items: center;
 	justify-content: center;
-	margin-bottom: 3rem;
+	margin-bottom: 4rem;
 }
 .item-banner{
 	width: 20%;
@@ -1001,6 +1009,123 @@ textarea {
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
+}
+/*PUBLICACIONES 
+-----------------------------------------------*/
+span.img_cropper{
+	max-height: 9.375rem;
+}
+.wplp_container.default li{
+	padding: 0.125rem;
+}
+.wplp_container .title{
+	max-width: 95%!important;
+}
+/*LO + LEIDO 
+----------------------------------------------*/
+[class^="bi-"]::before, [class*=" bi-"]::before{
+	vertical-align: -.125em;
+}
+.lo-mas-leido{
+	margin-top: 3.8rem;
+}
+.active{
+	background-color: #2ecc71!important;
+	border-color: #2ecc71!important;
+}
+/* TWITTER
+------------------------------------------*/
+.div-twitter{
+	margin-bottom: 1.25rem;
+	height: 100%;
+}
+@media screen and (max-width:768px){
+	.div-twitter{
+		margin-top: 3rem;
+	}
+}
+#ctf{
+	border-radius: 0.5rem;
+	box-shadow: 0rem 0rem 0.125rem 0.125rem rgba(153, 153, 153, 0.247);
+}
+.ctf-tweets{
+	max-height: 25rem;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+#ctf.ctf-narrow .ctf-context{
+	margin-left: 0.5rem;
+}
+/* AGENDA
+--------------------------------------------------------*/
+.mec-event-footer{
+	min-height: 0px!important;
+	height: 48px;
+}
+.mec-calendar.mec-calendar-daily .mec-calendar-d-top h2{
+	font-size: 1rem;
+}
+.mec-calendar.mec-calendar-daily .mec-calendar-d-top h3{
+	font-size: 1.25rem;
+}
+.mec-calendar.mec-calendar-daily .mec-calendar-d-top{
+	padding: 0px;
+}
+.mec-daily-view-dates-events{
+	height: 11.1875rem;
+	overflow-y: scroll;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+/*BANNERS
+--------------------------------------------------------*/
+.div-banners-parent{
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+.div-banners{
+	display: flex;
+	flex-flow:row wrap;
+	align-items: center;
+	justify-content: center;
+}
+.div-banners img{
+	transition: all 0.5s;
+}
+.div-banners div{
+	display: flex;
+	flex-direction: column;
+	padding: 0.125rem;
+	align-items: center;
+}
+.div-banners a{
+	overflow: hidden;
+}
+.div-banners img:hover{
+	transform: scale(1.5);
+}
+.div-banners button{
+	width: 100% !important;
+	pointer-events: none;
+	font-size: 0.75rem;
+	color: #fff;
+	background: #2ecc71;
+}
+.div-banners-campania{
+	width: 20%;
+}
+@media screen and (max-width:1000px){
+	.div-banners-campania{
+		width: 33%;
+	}
+}
+@media screen and (max-width:600px){
+	.div-banners-campania{
+		width: 50%;
+	}
+	.div-banners-campania:last-child{
+		width: 100%;
+	}
 }
 
 /* Comments

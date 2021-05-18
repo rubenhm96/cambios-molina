@@ -1683,7 +1683,7 @@ header nav{
 	box-shadow: 0rem 0rem 0.125rem 0.125rem rgba(153, 153, 153, 0.247);
 }
 .ctf-tweets{
-	max-height: 27.5rem;
+	max-height: 25rem;
 	overflow: scroll;
 	overflow-x: hidden;
 }
@@ -2157,6 +2157,15 @@ footer{
 	border-top-right-radius: 0.5rem;
 	box-shadow: 0rem 0rem 0.125rem 0.125rem rgba(153, 153, 153, 0.247);
 }
+.mc4wp-alert{
+	padding: 0.625rem;
+	text-align: center;
+} 
+.mc4wp-notice{
+	padding: 0.625rem;
+	text-align: center;
+
+}
 .email-newsletter-label{
 	width: 100%;
 }
@@ -2165,21 +2174,17 @@ footer{
 	width: 100%!important;
 }
 .categorias-newsletter{
-	margin-top: 1rem;
 	background: #fff;
 	color: #c42b00;
-	align-items: center;
-	justify-content: center;
 	display: none;
-	height: 70%;
-	border-radius: 0.625rem;
 }
-.categorias-newsletter h5{
-	width: 100%;
-	font-size: 2rem;
-	text-align: center;
-	border-bottom: 0.125rem solid #c42b00;
-	padding: 0.625rem;
+.modal-header{
+	background-color: #ff6000;
+	color: #fff;
+}
+.btn-success{
+	background: #ff6000;
+	border-color: #ff6000;
 }
 .categorias-newsletter label{
 	margin-left: 2%;
@@ -2267,31 +2272,7 @@ footer{
 .seleccion-categorias-newsletter{
 	display: flex;
 	flex-flow: column wrap;
-	background: #ff6000;
-	width: 40%;
-	margin: auto;
-	height: 45%;
-	border-radius: 0.625rem;
-	transform: scale(1);
-	padding: 0.625rem	;
-}
-@media screen and (max-width:1200px){
-	.seleccion-categorias-newsletter{
-		width: 80%;
-	}
-}
-@media screen and (max-width:800px){
-	.seleccion-categorias-newsletter{
-		width: 90%;
-	}
-}
-@media screen and (max-width:600px){
-	.seleccion-categorias-newsletter{
-		width: 95%;
-	}
-}
-#seleccion-categorias-newsletter-id{
-	box-shadow: 0rem 0rem 0.125rem 0.125rem rgba(153, 153, 153, 0.247);	
+	padding: 0.1rem;
 }
 .seleccion-categorias-newsletter .categorias-newsletter{
 	display: flex;
@@ -2302,8 +2283,6 @@ footer{
 	justify-content: left;
 	width: 100%;
 	height: 100%;
-	margin: 2.3rem 0rem 2.6rem;
-	box-shadow: 0rem 0rem 0.125rem 0.125rem rgba(153, 153, 153, 0.247);
 }
 .mc4wp-form-basic label>span{
 	font-weight: 500;
@@ -2333,52 +2312,6 @@ footer{
 }
 .btn-elegir-preferencias:active{
 	background-color: #fff;
-}
-.btn-newsletter-cerrar{
-	position: fixed;
-	right: 0rem;
-	top: -0.225rem;
-	border-radius: 50%;
-	transition: all 500ms;
-	border: none;
-	background: transparent;
-}
-.btn-newsletter-cerrar .bi{
-	color: #fff;
-	font-size: 2rem;
-}
-.btn-newsletter-cerrar:hover{
-	transform: rotate(360deg);
-}
-.btn-newsletter-cerrar:active{
-	background: transparent;
-}
-.btn-newsletter-aceptar{
-	font-size: 2.5rem;
-	position: fixed;
-	bottom: -1.15rem;
-	left: 50%;
-	transform: translate(-50%,0%);
-	color: #fff;
-	width: auto;
-	height: auto;
-	border-radius: 50%;
-	margin: auto;
-	margin-top: 0rem;
-	margin-bottom: 0rem;
-	transition: all 500ms;
-	border: none;
-	background: transparent;
-}
-.btn-newsletter-aceptar .bi{
-	color: #fff;
-	font-size: 2.5rem;
-}
-.btn-newsletter-aceptar:hover .bi{
-	color: rgb(4, 231, 4);
-}
-.btn-newsletter-aceptar:active{
-	background: transparent;
 }
 /*RESPONSIVE TAMAÑO/PANTALLA
 -----------------------------------*/
