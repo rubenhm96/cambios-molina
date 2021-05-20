@@ -96,14 +96,6 @@
 			menuItem.classList.toggle( 'focus' );
 		}
 	}
-	//icono apartado que contiene submenu
-	const submenu = document.getElementsByClassName("menu-item-has-children");
-	for(let i = 0; i < submenu.length; i++){
-		submenu[i].firstElementChild.innerHTML+= " <i class='bi-chevron-down' style='font-size: 0.75rem; color: #fff;'></i>";
-	}
-	//Icono de Inicio
-	document.getElementById("menu-item-77").firstChild.textContent="";
-	document.getElementById("menu-item-77").firstChild.innerHTML="<i class='bi-house-door-fill' style='font-size:1rem'></i>";
 	//EFECTO BUSCADOR
 	document.getElementById("buscador").addEventListener("focus",function(){
 		this.className+=" on-focus";
@@ -115,15 +107,6 @@
 	const menubutton = document.getElementsByClassName("menu-toggle");
 	for(let i=0; i<menubutton.length; i++){
 		menubutton[i].innerHTML="<i class='bi-list' style='font-size: 1.8rem'></i>"
-	}
-	//Logo Responsive
-	const parentrrss = document.getElementsByClassName("menu-menu-principal-container");
-	const divlogo_responsive = document.createElement("div");
-	divlogo_responsive.className="logo-menu-responsive"
-	divlogo_responsive.innerHTML="<img src='http://172.28.0.120/sedeelectronica/wp-content/uploads/sites/9/2021/04/logo-molina-responsive.jpg' alt=''>";
-	for(let i = 0; i < parentrrss.length; i++){
-		//insertar logo portal
-		document.getElementById("site-navigation").insertBefore(divlogo_responsive,parentrrss[i]);
 	}
 	//Reloj Dinámico
 	function iniciarReloj(){
@@ -146,4 +129,11 @@
 		setTimeout(iniciarReloj,1000);
 	}
 	iniciarReloj();
+
 }() );
+function startJS(){
+	$(function () {
+		$('[data-toggle="tooltip"]').tooltip()
+	});
+}
+window.onload=startJS;

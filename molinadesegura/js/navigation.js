@@ -128,12 +128,12 @@
 		parentrrss[i].appendChild(divrrss_responsive_clon);
 	}
 	//menu responsive logo portal
-	/*const divlogo_responsive = document.createElement("div");
+	const divlogo_responsive = document.createElement("div");
 	divlogo_responsive.className="logo-menu-responsive"
-	divlogo_responsive.innerHTML="<img src='http://172.28.0.120/sedeelectronica/wp-content/uploads/sites/4/2021/04/logo-molina-responsive.jpg' alt=''>";*/
+	divlogo_responsive.innerHTML="<img src='http://172.28.0.120/wp-content/uploads/2021/03/logo-molina-responsive.jpg' alt=''>";
 	for(let i = 0; i < parentrrss.length; i++){
 		//insertar logo portal
-		//document.getElementById("site-navigation").insertBefore(divlogo_responsive,parentrrss[i]);
+		document.getElementById("site-navigation").insertBefore(divlogo_responsive,parentrrss[i]);
 		const buscador_responsive = document.createElement("div");
 		//insertar buscador en menu responsive
 		buscador_responsive.className="div-form-responsive";
@@ -153,17 +153,17 @@
 	const pag = document.getElementsByClassName("pagination");
 	for(i=0;i<pag.length;i++){
 		for(z=0;z<pag[i].children.length;z++){
-			pag[i].children[z].firstElementChild.style.setProperty("background-color", "#832945", "important");
-			pag[i].children[z].firstElementChild.style.setProperty("border-color", "#832945", "important");
+			pag[i].children[z].firstElementChild.style.setProperty("background-color", "#850037", "important");
+			pag[i].children[z].firstElementChild.style.setProperty("border-color", "#850037", "important");
 			pag[i].children[z].firstElementChild.style.setProperty("color", "#fff", "important");
 			pag[i].children[z].firstElementChild.addEventListener("mouseover",function(event){
 				event.target.style.setProperty("background-color","#fff","important");
 				event.target.style.setProperty("border-color", "#fff", "important");
-				event.target.style.setProperty("color","#832945","important");
+				event.target.style.setProperty("color","#850037","important");
 			});
 			pag[i].children[z].firstElementChild.addEventListener("mouseout",function(event){
-				event.target.style.setProperty("background-color", "#832945", "important");
-				event.target.style.setProperty("border-color", "#832945", "important");
+				event.target.style.setProperty("background-color", "#850037", "important");
+				event.target.style.setProperty("border-color", "#850037", "important");
 				event.target.style.setProperty("color", "#fff", "important");
 			});
 		}

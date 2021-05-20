@@ -86,7 +86,7 @@
 							Enlaces de Interés
 						</h6>
 						<p>
-							<a href="http://172.28.0.120/site-map" class="text-reset">Mapa Web</a>
+							<a href="#!" class="text-reset">Mapa Web</a>
 						</p>
 						<p>
 							<a href="#!" class="text-reset">Ayuda</a>

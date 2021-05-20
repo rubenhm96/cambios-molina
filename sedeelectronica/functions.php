@@ -140,6 +140,9 @@ add_action( 'widgets_init', 'sedeelectronica_widgets_init' );
  * Enqueue scripts and styles.
  */
 function sedeelectronica_scripts() {
+	wp_deregister_script( 'jquery' );
+	$jquery_cdn = 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js';
+	wp_enqueue_script( 'jquery', $jquery_cdn, array(), '3.4.1', true );
 	wp_enqueue_style( 'sedeelectronica-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'sedeelectronica-style', 'rtl', 'replace' );
 

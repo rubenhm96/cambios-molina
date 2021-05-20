@@ -492,7 +492,7 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
 	border: inherit;
-	background: #832945;
+	background: #850037;
 	color: #fff;
 	padding: 0.4rem 0.4rem 0.4rem;
 }
@@ -602,7 +602,7 @@ textarea {
 	position: relative;
 	top: 1.4rem;
 	width: 90%;
-	background: #832945;
+	background: #850037;
 	margin-right: 5%;
 	margin-left: 5%;
 	z-index: 99;
@@ -624,7 +624,7 @@ textarea {
 	top: 100%;
 	left: -999em;
 	z-index: 99999;
-	background: #832945;
+	background: #850037;
 	border-top: 0.0625rem solid #fff;
 	padding-bottom: 0.2rem;
 	padding-left: 0rem;
@@ -679,7 +679,7 @@ textarea {
 .search-field{
 	right: 0rem;
 	width: 6rem;
-	background: #832945;
+	background: #850037;
 	border: inherit;
 	color: #fff;
 	transition: all 1s;
@@ -879,7 +879,7 @@ header{
 .contact a{
 	display: flex;
 	text-decoration: none;
-	background: #832945;
+	background: #850037;
 	color: #fff;
 	padding: 0.2rem 0.4rem 0.2rem;
 	border-radius: 0.4rem;
@@ -940,7 +940,7 @@ header{
 	width: 100%;
 	align-items: center;
 	position: relative;
-	border: 0.0625rem solid #832945;
+	border: 0.0625rem solid #850037;
 	border-radius: 0.5rem;
 	overflow: hidden;
 	margin-top: 0.625rem;
@@ -953,7 +953,7 @@ header{
 	margin: 0rem;
 	padding: 0.6rem;
 	color: #fff;
-	background-color: #832945;
+	background-color: #850037;
 	text-align: center;
 }
 .wpp-list{
@@ -975,20 +975,19 @@ header{
 	transition: all 0.5s;
 }
 .wpp-post-title:hover{
-	color: #832945;
+	color: #850037;
 }
 /*Other Links Inicio
 --------------------------------------------*/
 .div-other-links{
 	width: 100%;
-	background: #832945;
-	padding: 1.2rem;
+	background: #850037;
+	padding: 1.2rem 0rem 1.2rem;
 }
 .div-link-alcalde{
 	display: flex;
 	flex-direction: column;
-	padding: 1.5rem;
-	align-items: center;
+	padding: 0.7rem;
 }
 .div-link-alcalde a{
 	text-align: center;
@@ -1034,16 +1033,13 @@ header{
 	transform: scale(1.3);
 }
 @media screen and (max-width:1370px){
-	.div-link-alcalde{
-		padding: 1rem;
-	}
 	.links-1 i,.links-2 i{
 		font-size: 2.5rem;
 	}
 }
 @media screen and (max-width:991px){
 	.div-link-alcalde{
-		padding: 3rem;
+		align-items: center;
 	}
 }
 @media screen and (max-width:770px){
@@ -1126,7 +1122,7 @@ header{
 	font-size: 1.1rem;
 	padding: 0.3125rem;
 	width: 9.5rem;
-	background: #832945;
+	background: #850037;
 	color: #fff!important;
 	text-decoration: none;
 	transition: all 1s;
@@ -1134,8 +1130,8 @@ header{
 .btn-secundary:hover{
 	width: 18rem;
 	background: #eee;
-	color: #832945!important;
-	border-color: #832945;
+	color: #850037!important;
+	border-color: #850037;
 }
 .div-prox-eventos .mec-event-footer{
 	position: absolute;
@@ -1155,16 +1151,16 @@ header{
 	margin-bottom: 1.25rem;
 }
 .div-calendar .mec-calendar .mec-selected-day, .mec-calendar .mec-selected-day:hover{
-	background: #832945;
+	background: #850037;
 }
 
 .div-calendar .mec-calendar .mec-has-event:after{
-	background-color: #832945;
+	background-color: #850037;
 	margin: -0.25rem 0 0 -0.25rem;
 }
 
 .div-calendar .mec-calendar .mec-calendar-row dt.mec-has-event:hover{
-	background: #832945;
+	background: #850037;
 }
 
 .div-calendar .mec-calendar .mec-calendar-side .mec-next-month i, .mec-calendar .mec-calendar-side .mec-previous-month i {
@@ -1172,14 +1168,14 @@ header{
 	font-size: 0.75rem;
 }
 .div-calendar .mec-calendar .mec-calendar-side .mec-next-month:hover, .mec-calendar .mec-calendar-side .mec-previous-month:hover{
-	color: #832945 !important;
+	color: #850037 !important;
 }
 
 .div-calendar .mec-color, .mec-color-before :before, .mec-color-hover:hover, .mec-wrap .mec-color, .mec-wrap .mec-color-before :before, .mec-wrap .mec-color-hover:hover {
-	color: #832945 !important;
+	color: #850037 !important;
 }
 .div-calendar .mec-calendar .mec-calendar-events-side .mec-table-side-day{
-	border: 0.0625 solid #832945 !important;
+	border: 0.0625 solid #850037 !important;
 	border-radius: 0;
 	width: 2.875rem;
 	height: 2.875rem;
@@ -1191,7 +1187,7 @@ header{
 	display: none;
 }
 .prox-eventos{
-	font-size: 1.5rem;color: #832945;
+	font-size: 1.5rem;color: #850037;
 }
 #mec_skin_60{
 	width: 100%;
@@ -1227,7 +1223,7 @@ header{
 	padding: 0.625rem;
 }
 .mec-table-side-title{
-	border-bottom: 0.125rem solid #832945;
+	border-bottom: 0.125rem solid #850037;
 }
 .mec-wrap .row{
 	width: 100%;
@@ -1315,7 +1311,7 @@ header{
 	display: none;
 }
 .mec-bg-color, .mec-bg-color-hover:hover, .mec-wrap .mec-bg-color, .mec-wrap .mec-bg-color-hover:hover{
-	background-color: #832945;
+	background-color: #850037;
 }
 .mec-event-sharing-wrap{
 	left: 0.9375rem;
@@ -1324,7 +1320,7 @@ header{
 	border: 0.0625rem solid #d9d9d9;
 }
 .mec-event-sharing-wrap:hover>li{
-	background-color: #832945;
+	background-color: #850037;
 }
 .mec-event-sharing-wrap li i{
 	width: 2.25rem;
@@ -1340,7 +1336,7 @@ header{
 
 }
 .mec-event-sharing-wrap .mec-event-sharing li:hover a{
-	color: #832945;
+	color: #850037;
 }
 .mec-event-sharing-wrap li{
 	margin-right: 0.125rem;
@@ -1521,7 +1517,7 @@ header{
 	width: 100% !important;
 	pointer-events: none;
 	font-size: 0.75rem;
-	background: #832945;
+	background: #850037;
 }
 .div-banners-campania{
 	width: 20%;
@@ -1549,7 +1545,7 @@ header{
 }
 .div-twitter i{
 	font-size: 2rem;
-	color: #832945;
+	color: #850037;
 }
 #ctf{
 	border: 0.0625rem solid rgb(211, 211, 211);
@@ -1580,7 +1576,7 @@ header{
 /*Ultima hora
 -----------------------------------------------*/
 .ultima-hora{
-	font-size: 2rem; color: #832945;
+	font-size: 2rem; color: #850037;
 }
 .noticias-ultima-hora .wplp_outside{
 	min-height: 24.68rem;
@@ -1655,8 +1651,8 @@ header{
 }
 .btn-primary{
 	color: #fff!important;
-	background: #832945;
-	border-color: #832945;
+	background: #850037;
+	border-color: #850037;
 	/*margin-top: 0.75rem;*/
 	margin-bottom: 1.25rem;
 	max-height: 1.875rem;
@@ -1665,8 +1661,8 @@ header{
 }
 .btn-primary:hover{
 	background: #fff;
-	color: #832945!important;
-	border-color: #832945;
+	color: #850037!important;
+	border-color: #850037;
 	width: 15rem;
 }
 .wplp_container.default{
@@ -1866,15 +1862,15 @@ header{
 }
 .basic-yop-poll-container a.basic-back-to-vote-button, .basic-yop-poll-container a.basic-results-button, .basic-yop-poll-container a.basic-vote-button{
 	background: transparent!important;
-	border: 0.0625rem solid #832945!important;
+	border: 0.0625rem solid #850037!important;
 	border-radius: 0.5rem!important;
 	padding: 0.3125rem 0.625rem!important;
 	font-size: 0.875rem!important;
-	color: #832945!important;
+	color: #850037!important;
 	transition: all 0.5s;
 }
 .basic-yop-poll-container a.basic-back-to-vote-button, .basic-yop-poll-container a.basic-results-button, .basic-yop-poll-container a.basic-vote-button:hover{
-	background: #832945!important;
+	background: #850037!important;
 	color: #fff!important;
 }
 .basic-yop-poll-container .basic-message p{
@@ -1884,14 +1880,21 @@ header{
 ----------------------------------------------*/
 .mc4wp-form-fields{
 	padding: 0.3125rem;
-	border: 0.0625rem solid #832945;
-	background: #832945;
+	border: 0.0625rem solid #850037;
+	background: #fff;
 	border-radius: 0.5rem;
 }
 .mc4wp-form-fields h4{
 	text-align: center;
+	background: #850037;
 	color: #fff;
 	font-size: 1.25rem;
+	padding: 0.5rem 0rem 0.5rem;
+	border-top-left-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
+}
+.mc4wp-form-basic input[type=email]{
+	border: 1px solid #ccc;
 }
 .email-newsletter{
 	outline: none;
@@ -1899,16 +1902,16 @@ header{
 }
 .categorias-newsletter{
 	background: #fff;
-	color: #832945;
+	color: #850037;
 	display: none;
 }
 .modal-header{
-	background: #832945;
+	background: #850037;
 	color: #fff;
 }
 .btn-success{
-	background: #832945;
-	border-color: #832945;
+	background: #850037;
+	border-color: #850037;
 }
 .mc4wp-alert{
 	padding: 0.625rem;
@@ -1936,7 +1939,7 @@ header{
 	padding: 0.625rem;
 }
 .gestion-newsletter{
-	color: #832945;
+	color: #850037;
 	display: flex;
 	flex-flow: row wrap;
 	align-items: center;
@@ -1948,7 +1951,7 @@ header{
 .gestion-newsletter h5{
 	font-size: 1.1rem;
 	text-align: center;
-	border-bottom: 0.0625rem solid #832945;
+	border-bottom: 0.0625rem solid #850037;
 	width: 100%;
 }
 .gestion-newsletter label{
@@ -1958,18 +1961,18 @@ header{
 .terminos-newsletter{
 	font-size: 0.825rem;
 	text-align: center;
-	color: #fff;
+	color: #850037;
 }
 .terminos-newsletter a{
-	color: #fff;
-	text-decoration: underline #fff;
+	color: #850037;
+	text-decoration: underline #850037;
 }
 .btn-newsletter{
 	text-align: center;
 	margin-top: 1rem;
 }
 .btn-newsletter input{
-	background: transparent;
+	background: #850037;
 	border: 0.125rem solid #fff;
 	border-radius: 0.5rem;
 	width: 5rem;
@@ -1979,7 +1982,7 @@ header{
 .btn-newsletter input:hover{
 	width: 100%;
 	background-color: #fff;
-	color: #832945;
+	color: #850037;
 }
 /*Contenedor categorias oculto*/
 .seleccion-categorias-newsletter-parent{
@@ -2026,7 +2029,7 @@ header{
 	cursor: pointer;
 	outline: none;
 	color: #fff;
-	background-color: #832945;
+	background-color: #850037;
 	border: none;
 	border-radius: 0.625rem;
 	box-shadow: 0 5px #999;
@@ -2050,7 +2053,7 @@ header{
 }
 ul.pagination li span{
 	transition: all 0.5s;
-	color: #832945!important;
+	color: #850037!important;
 }
 .da-thumbs img{
 	height: auto!important;
@@ -2255,7 +2258,7 @@ ul.pagination li span{
 /*Footer
 ------------------------------------------------------*/
 footer{
-	background: #832945;
+	background: #850037;
 	margin: 0;
 	padding:2.5rem 0rem 1.25rem;
 	margin-top: 1.25rem;
@@ -2305,7 +2308,7 @@ footer{
 .footer-molina{
 	margin-top: 1.25rem;
 	padding: 1.25rem 0.625rem 0.625rem;
-	background-color: #832945;
+	background-color: #850037;
 	color: #fff;
 	display: flex;
 	flex-direction: column;
@@ -2479,7 +2482,7 @@ footer{
 	}
 }
 .entry-title{
-	border-bottom: 0.125rem solid #832945;
+	border-bottom: 0.125rem solid #850037;
 	margin-bottom: 0rem;
 	color: #000;
 	width: 100%;
@@ -2532,7 +2535,7 @@ footer{
 ----------------------------------*/
 .breadcrumbs{
 	background: #fff;
-	border: 0.125rem solid #832945;
+	border: 0.125rem solid #850037;
 	border-top: none;
 	width: 90%;
 	margin: auto;
@@ -2546,7 +2549,7 @@ footer{
 	transition: all 500ms;
 }
 .breadcrumbs a:hover{
-	color: #832945;
+	color: #850037;
 }
 .site-main .breadcrumbs{
 	width: 100%;
@@ -2777,43 +2780,3 @@ footer{
 		table-layout: auto;
 	}
 }
-/*
-@media screen and (min-width:1600px){
-	html{
-		font-size: 1.2rem;
-	}
-}
-@media screen and (min-width:1920px){
-	html{
-		font-size: 1.2rem;
-	}
-	.mec-calendar .mec-calendar-events-side{
-		min-height: 28.8rem;
-	}
-}
-@media screen and (min-width:2250px){
-	html{
-		font-size: 1.6rem;
-	}
-}
-@media screen and (min-width:2560px){
-	html{
-		font-size: 1.9rem;
-	}
-	.mec-calendar .mec-calendar-events-side{
-		min-height: 28.2rem;
-	}
-}
-@media screen and (min-width:3840px){
-	html{
-		font-size: 2.8rem;
-	}
-	.mec-calendar .mec-calendar-events-side{
-		min-height: 27.5rem;
-	}
-}
-@media screen and (min-width:7680px){
-	html{
-		font-size: 5.6rem;
-	}
-}*/

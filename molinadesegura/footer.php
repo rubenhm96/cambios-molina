@@ -27,8 +27,8 @@
 			<!--Enlaces parte derecha-->
 			<div class="col-lg-4 col-md-4 col-sm-12 col-12 site-footer">
 				<div class="col-lg-6 col-md-6 col-sm-6 col-6 site-footer-left-links">
-					<a href="http://172.28.0.120">Inicio</a>
-					<a href="http://172.28.0.120">Ayuntamiento</a>
+					<a href="http://172.28.0.120/">Inicio</a>
+					<a href="http://172.28.0.120/">Ayuntamiento</a>
 					<a href="">Servicios</a>
 					<a href="http://172.28.0.120/turismo/">Turismo</a>
 					<a href="">Participación</a>

@@ -27,7 +27,7 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'sedeelectronica' ); ?></a>
 
-	<header id="masthead" class="site-header">
+	<header id="masthead" class="site-header max-width">
 		<div class="row site-date">
 			<p class="col-lg-6 col-md-6 col-sm-6 col-12 fecha-acceso" title="Fecha y Hora Actual"><i class="bi bi-clock"></i> <?php date_default_timezone_set("Europe/Madrid"); echo date("d/m/Y"); ?> <span id="reloj"></span></p>
 			<form role='search' method='get' class='search-form col-lg-6 col-md-6 col-sm-6 col-12' action='http://172.28.0.120/sedeelectronica'>
@@ -35,12 +35,12 @@
 				<label><span class='screen-reader-text'>Buscar:</span><input type='search'name='s' class='search-field' id='buscador' placeholder='Buscador' value></label>
 			</form>	
 		</div>
-		<div class="site-branding">
+		<div class="site-branding ">
 			<?php
 			/*Logo Sede*/
 			the_custom_logo();
 			?>
-			<h1><a href="">Sede Electrónica</a></h1>
+			<div class="site-branding-in"><a href=""><img src="http://172.28.0.120/sedeelectronica/wp-content/uploads/sites/9/2021/05/SedeLogo.png" alt="Logo Sede Electrónica"></a></div>
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
