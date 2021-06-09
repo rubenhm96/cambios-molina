@@ -39,7 +39,7 @@
 			/*Logo Sede*/
 			the_custom_logo();
 			?>
-			<div class="site-branding-in"><a href=""><img src="http://pruebasacceso.molinadesegura.es/sedeelectro…a/wp-content/uploads/sites/9/2021/05/SedeLogo.png" alt="Logo Sede Electrónica"></a></div>
+			<div class="site-branding-in"><a href=""><img src="http://pruebasacceso.molinadesegura.es/sedeelectronica/wp-content/uploads/sites/9/2021/05/SedeLogo.png" alt="Logo Sede Electrónica"></a></div>
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
