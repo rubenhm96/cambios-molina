@@ -1,0 +1,107 @@
+<?php
+/**
+ * The template for displaying the footer
+ *
+ * Contains the closing of the #content div and all content after.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package transparencia
+ */
+
+?>
+	<footer id="colophon" class="site-footer text-center text-lg-start bg-light text-muted">
+		<!-- Section: Social media -->
+		<section class="d-flex justify-content-center p-4 border-bottom">
+			
+  		</section>
+  		<!-- Section: Social media -->
+
+		<!-- Section: Links  -->
+		<section class="">
+			<div class="container text-center text-md-start mt-5">
+				<!-- Grid row -->
+				<div class="row mt-3">
+					<!-- Grid column -->
+					<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+						
+					</div>
+					<!-- Grid column -->
+
+					<!-- Grid column -->
+					<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+						<!-- Links -->
+						<h6 class="text-uppercase fw-bold mb-4">
+							Otras Sedes
+						</h6>
+						<p>
+							<a href="http://pruebasacceso.molinadesegura.es/" class="text-reset">Ayuntamiento</a>
+						</p>
+						<p>
+							<a href="http://pruebasacceso.molinadesegura.es/sedeelectronica" class="text-reset">Sede Electronica</a>
+						</p>
+						<p>
+							<a href="http://pruebasacceso.molinadesegura.es/turismo" class="text-reset">Turismo</a>
+						</p>
+						<p>
+							<a href="http://pruebasacceso.molinadesegura.es/juventud" class="text-reset">Juventud</a>
+						</p>
+					</div>
+					<!-- Grid column -->
+
+					<!-- Grid column -->
+					<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+						<!-- Links -->
+						<h6 class="text-uppercase fw-bold mb-4">
+							Enlaces de Interés
+						</h6>
+						<p>
+							<a href="#!" class="text-reset">Normativa sobre Transparencia</a>
+						</p>
+						<p>
+							<a href="#!" class="text-reset">Informes sobre Transparencia</a>
+						</p>
+						<p>
+							<a href="http://pruebasacceso.molinadesegura.es/transparencia/mapaweb/" class="text-reset">Mapa Web</a>
+						</p>
+					</div>
+					<!-- Grid column -->
+
+					<!-- Grid column -->
+					<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+						<!-- Content -->
+						
+						<p class="row">
+							<span class="col-5">
+							<img src="/juventud/wp-content/uploads/sites/11/2021/05/logos-molina-footer-blanco-2.png" alt="">
+							</span>
+							<span class="col-7">
+							<img src="/juventud/wp-content/uploads/sites/11/2021/05/logo-dereca.png" alt="">
+							</span>
+						</p>
+						<p class="row text-end">
+							<span class="col-5">
+								<img src="http://pruebasacceso.molinadesegura.es/juventud/wp-content/uploads/sites/11/2021/05/logo-feder-ue-footer-2.png" alt="">
+							</span>
+						</p>
+					</div>
+					<!-- Grid column -->
+				</div>
+				<!-- Grid row -->
+			</div>
+		</section>
+		<!-- Section: Links  -->
+
+		<!-- Copyright -->
+		<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+			© 2021 Copyright
+			<a class="text-reset fw-bold" href="http://192.168.3.216/wordpress/juventud">Molina de Segura</a>
+		</div>
+		<!-- Copyright -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<?php wp_footer(); ?>
+
+</body>
+</html>
