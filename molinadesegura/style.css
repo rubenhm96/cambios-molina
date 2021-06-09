@@ -1718,6 +1718,8 @@ header{
 	color: #fff;
 	margin-top: 1.25rem;
 	margin-bottom: 1.25rem;
+	display: flex;
+	align-items: center;
 }
 .div-destacados-title h4{
 	padding: 1.25rem 0rem 1.25rem;
