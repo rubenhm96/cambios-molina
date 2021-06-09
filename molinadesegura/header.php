@@ -57,6 +57,9 @@
 		<nav id="site-navigation" class="main-navigation">
 			<!--Menu de navegacion-->
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'molinadesegura' ); ?></button>
+			<div class="buscador-ajax">
+				<?php echo do_shortcode("[wd_asp elements='search' ratio='50%' id=1]"); ?>
+			</div>
 			<?php
 			wp_nav_menu(
 				array(

@@ -16,7 +16,7 @@ get_header();
 
 	<main id="primary" class="site-main max-width">
 		<div class="video-promo"><!--Video promocion-->
-			<?php echo do_shortcode('[evp_embed_video url="http://172.28.0.120/wp-content/uploads/2021/03/PromoWeb3-1-1.mp4" autoplay="true" loop="true" muted="true"]');?>
+			<?php echo do_shortcode('[evp_embed_video url="http://pruebasacceso.molinadesegura.es/wp-content/uploads/2021/03/PromoWeb3-1-1.mp4" autoplay="true" loop="true" muted="true"]');?>
 		</div>
 		<!--Enlaces Alcalde y otros-->
 		<div class="row div-other-links">
@@ -24,7 +24,7 @@ get_header();
 				<!--Enlace Alcalde-->
 				<div class="col-lg-4 col-md-6 col-sm-6 col-12 div-link-alcalde">
 					<a href="##">
-						<img src="http://172.28.0.120/wp-content/uploads/2021/03/Alcalde-a-un-click-movimiento.gif" alt="">
+						<img src="http://pruebasacceso.molinadesegura.es/wp-content/uploads/2021/03/Alcalde-a-un-click-movimiento.gif" alt="">
 					</a>
 				</div>
 				<!--Otros Enlaces-->
@@ -44,14 +44,13 @@ get_header();
 		</div>
 		<!--Calendario-->
 		<div class="row div-eventos max-width-content">
-		<?php echo do_shortcode("[wd_asp elements='search' ratio='100%' id=1]"); ?>
 			<h4 class="title-calendar"><i class="bi bi-calendar prox-eventos"></i> CALENDARIO DE EVENTOS</h4>
 			<div class="div-calendar col-lg-4 col-md-4 col-sm-12 col-12">
 				<?php echo do_shortcode('[MEC id="107"]')?>
 			</div>
 			<div class="div-prox-eventos col-lg-8 col-md-8 col-sm-12 col-12">
 				<?php echo do_shortcode('[MEC id="111"]')?>
-				<a class="btn btn-secundary" href="http://172.28.0.120/blog/category/eventos/">Ver Más Eventos</a>
+				<a class="btn btn-secundary" href="http://pruebasacceso.molinadesegura.es/blog/category/eventos/">Ver Más Eventos</a>
 			</div>
 		</div>
 		<div class="row div-noticias max-width-content">
@@ -76,7 +75,7 @@ get_header();
 				<h4><i class="bi bi-newspaper ultima-hora"></i> NOTICIAS</h4>
 				<?php echo do_shortcode('[frontpage_news widget="122" name="Noticias"]')?>
 				<div class="morenews-link">
-					<a href="http://172.28.0.120/blog/category/noticias/" class="btn btn-primary btn-sm" role="button">MÁS NOTICIAS</a>
+					<a href="http://pruebasacceso.molinadesegura.es/blog/category/noticias/" class="btn btn-primary btn-sm" role="button">MÁS NOTICIAS</a>
 				</div>
 			</div>
 		</div>

@@ -100,20 +100,9 @@
 	for(let i = 0; i < submenu.length; i++){
 		submenu[i].firstElementChild.innerHTML+= " <i class='bi-chevron-down' style='font-size: 0.75rem; color: #fff;'></i>";
 	}
-	/*const buscador = document.getElementById("primary-menu");*()
-	/*buscador.innerHTML+="<form role='search' method='get' class='search-form' action='http://192.168.3.216/wordpress/'>"+
-	"<button type='submit' class='search-submit'><i class='bi-search'></i></button>"+
-	"<label><span class='screen-reader-text'>Buscar:</span><input type='search'name='s' class='search-field' id='buscador' placeholder='Buscador' value></label></form>";*/
 	//Icono de Inicio
 	document.getElementById("menu-item-22").firstChild.textContent="";
 	document.getElementById("menu-item-22").firstChild.innerHTML="<i class='bi-house-door-fill' style='font-size:1rem'></i>";
-	//Buscador Navegador
-	/*document.getElementById("buscador").addEventListener("focus",function(){
-		this.className+=" on-focus";
-	});
-	document.getElementById("buscador").addEventListener("focusout",function(){
-		this.className="search-field";
-	});*/
 	//Boton Menu Responsive
 	const menubutton = document.getElementsByClassName("menu-toggle");
 	for(let i=0; i<menubutton.length; i++){
@@ -127,28 +116,6 @@
 	for(let i = 0; i < parentrrss.length; i++){
 		parentrrss[i].appendChild(divrrss_responsive_clon);
 	}
-	//menu responsive logo portal
-	const divlogo_responsive = document.createElement("div");
-	divlogo_responsive.className="logo-menu-responsive"
-	divlogo_responsive.innerHTML="<img src='http://172.28.0.120/wp-content/uploads/2021/03/logo-molina-responsive.jpg' alt=''>";
-	for(let i = 0; i < parentrrss.length; i++){
-		//insertar logo portal
-		document.getElementById("site-navigation").insertBefore(divlogo_responsive,parentrrss[i]);
-		const buscador_responsive = document.createElement("div");
-		//insertar buscador en menu responsive
-		buscador_responsive.className="div-form-responsive";
-		buscador_responsive.innerHTML = "<form role='search' method='get' class='search-form search-form-responsive' action='http://172.28.0.120'>"+
-		"<button type='submit' class='search-submit'><i class='bi-search'></i></button>"+
-		"<label><span class='screen-reader-text'>Buscar:</span><input type='search'name='s' class='search-field' id='buscador_responsive' placeholder='Buscador' value></label></form>";
-		document.getElementById("site-navigation").insertBefore(buscador_responsive,parentrrss[i]);
-	}
-	//eventos buscador responsive
-	document.getElementById("buscador_responsive").addEventListener("focus",function(){
-		this.className+=" on-focus";
-	});
-	document.getElementById("buscador_responsive").addEventListener("focusout",function(){
-		this.className="search-field";
-	});
 	//Cambiar texto botones paginacion galeria de videos
 	const pag = document.getElementsByClassName("pagination");
 	for(i=0;i<pag.length;i++){

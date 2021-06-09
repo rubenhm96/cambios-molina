@@ -598,7 +598,7 @@ textarea {
 /* Navigation
 --------------------------------------------- */
 .main-navigation {
-	display: block;
+	display: flex;
 	position: relative;
 	top: 1.4rem;
 	width: 90%;
@@ -662,45 +662,45 @@ textarea {
 .main-navigation a:hover{
 	background: #531127;
 }
-.search-form{
+.buscador-ajax{
+	text-align: right;
 	position: absolute;
-	right: 2%;
-	padding: 0.3rem;
+	right: 10px;
+	margin-top: 6px;
+	min-width: 200px;
 }
-.div-form-responsive{
-	display: none;
-	position: absolute;
-	right: 0%;
-	padding: 0.3rem;
+@media screen and (max-width:768px){
+	.main-navigation{
+		display: block;
+	}
+	.buscador-ajax{
+		position: absolute;
+		right: 10px;
+		margin-top: -46px;
+	}
 }
-.search-submit{
-	padding: 0.3rem;
+#ajaxsearchprores1_1.vertical, #ajaxsearchprores1_2.vertical, div.asp_r.asp_r_1.vertical{
+	width: 50%!important;
+	margin-top: 15px!important;
+	right: 5%!important;
+	left: unset!important;
 }
-.search-field{
-	right: 0rem;
-	width: 6rem;
-	background: #850037;
-	border: inherit;
-	color: #fff;
-	transition: all 1s;
+@media screen and (max-width:768px){
+	#ajaxsearchprores1_1.vertical, #ajaxsearchprores1_2.vertical, div.asp_r.asp_r_1.vertical{
+		width: 98%!important;
+		margin-top: 15px!important;
+		right: 1%!important;
+	}
 }
-#buscador::placeholder{
-	color: #fff;
+div.asp_s.asp_s_1.searchsettings, div.asp_s.asp_s_1.searchsettings, div.asp_s.asp_s_1.searchsettings{
+	margin-top: 15px!important;
+	left: unset!important;
+	right: 5%!important;
 }
-#buscador_responsive::placeholder{
-	color: #fff;
-}
-#buscador:focus::placeholder{
-	color: #000;
-}
-#buscador_responsive:focus::placeholder{
-	color: #000;
-}
-.on-focus{
-	width: 12rem;
-	background: #fff;
-	color:#000;
-	outline: none;
+@media screen and (max-width:768px){
+	div.asp_s.asp_s_1.searchsettings, div.asp_s.asp_s_1.searchsettings, div.asp_s.asp_s_1.searchsettings{
+		right: 1%!important;
+	}
 }
 /* Small menu. */
 .menu-toggle,
@@ -2501,6 +2501,9 @@ footer{
 .img-noticias img:hover{
 	transform: scale(1.3);
 	filter: blur(0.1);
+}
+.noticias-generales span.img_cropper{
+	max-height: 10rem;
 }
 /*ELEMENTOS NOTICIAS
 -------------------------------------------*/
