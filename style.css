@@ -646,7 +646,9 @@ textarea {
 .main-navigation ul ul li:hover > ul,
 .main-navigation ul ul li.focus > ul {
 	display: block;
-	left: auto;
+	left: 0px;
+	top: 44.6px;
+	background: #b10f52;
 }
 .main-navigation ul ul a {
 	border-bottom: 0.0625rem solid #fff;
