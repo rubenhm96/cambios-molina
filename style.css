@@ -2623,12 +2623,22 @@ footer{
 	padding-bottom: 0.625rem;
 }
 .rest-map-canvas .btn-primary{
-	background: #03c6a8;
-	border: #03c6a8;
+	background: linear-gradient(to right, #feb500 50%, #03c6a8 50%);
+	background-size: 202% 100%;
+	background-position:right bottom;
 	color: #fff!important;
+	transition: all 400ms linear;
+	border-color: #03c6a8;
 }
 .btn-primary .bi{
 	color: #feb500;
+	transition: all 500ms linear;
+}
+.rest-map-canvas .btn-primary:hover{
+	background-position: left bottom;
+}
+.rest-map-canvas .btn-primary:hover .bi{
+	color: #03c6a8;
 }
 body.single-restaurant_listings article.type-restaurant_listings .restaurant-listings-tabs .restaurant-listings-Tabs-panel{
 	padding-left: 0.625rem;
