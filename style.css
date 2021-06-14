@@ -751,6 +751,13 @@ textarea {
 .post-navigation {
 	margin: 0 0 1.5em;
 }
+.site-main-2 .comment-navigation,
+.site-main-2
+.posts-navigation,
+.site-main-2
+.post-navigation {
+	margin: 0 0 1.5em;
+}
 
 .comment-navigation .nav-links,
 .posts-navigation .nav-links,
@@ -832,11 +839,14 @@ textarea {
 }
 
 /* Make sure logo link wraps around logo image. */
-header{
+.site-header{
 	position: absolute;
 	width: 90%;
 	margin-right: 5%;
 	margin-left: 5%;
+}
+#page .site-header{
+	position: relative;
 }
 .custom-logo{
 	width: 100%;
@@ -2336,7 +2346,7 @@ footer{
 /*RESPONSIVE TAMAÑO/PANTALLA
 -----------------------------------*/
 @media screen and (max-width:768px){
-	header{
+	.site-header{
 		position: relative;
 		width: 100%;
 		margin-right: 0;
@@ -2595,4 +2605,32 @@ footer{
 	.sitemap-parent{
 		column-count: 1;
 	}
+}
+/*Plugin Restaurante 
+----------------------------*/
+.restaurant_listings{
+	width: 100%;
+}
+.restaurant_listings footer{
+	display: none;
+}
+.rest-map-canvas{
+	margin-top: 0.625rem;
+}
+.rest-map-canvas a{
+	font-size: 1.875rem;
+	padding-top: 0.625rem;
+	padding-bottom: 0.625rem;
+}
+.rest-map-canvas .btn-primary{
+	background: #03c6a8;
+	border: #03c6a8;
+	color: #fff!important;
+}
+.btn-primary .bi{
+	color: #feb500;
+}
+body.single-restaurant_listings article.type-restaurant_listings .restaurant-listings-tabs .restaurant-listings-Tabs-panel{
+	padding-left: 0.625rem;
+	padding-right: 0.625rem;
 }
