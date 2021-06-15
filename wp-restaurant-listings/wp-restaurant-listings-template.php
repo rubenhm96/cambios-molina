@@ -1012,7 +1012,7 @@ function the_restaurant_opening_hours() {
 
             </span>
         </p>
-        <a href="#" class="business-hours-drop-btn"><?php _e('See more', 'wp-restaurant-listings') ?></a>
+        <a href="#" class="business-hours-drop-btn"><?php _e('Ver Horario', 'wp-restaurant-listings') ?></a>
     </div>
     <?php
 }

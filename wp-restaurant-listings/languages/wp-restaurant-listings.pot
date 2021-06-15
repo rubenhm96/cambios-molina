@@ -19,45 +19,45 @@ msgstr ""
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:451
 #: wp-restaurant-listings-template.php:999
 #: wp-restaurant-listings-template.php:1000
-msgid "Closed"
+msgid "Cerrado"
 msgstr ""
 
 #: includes/admin/class-wp-restaurant-listings-admin.php:107
-msgid "Settings"
+msgid "Ajustes"
 msgstr ""
 
 #: includes/admin/class-wp-restaurant-listings-cpt.php:71
-msgid "Approve %s"
+msgid "Aprobar %s"
 msgstr ""
 
 #: includes/admin/class-wp-restaurant-listings-cpt.php:72
-msgid "%s approved"
+msgid "%s aprobado"
 msgstr ""
 
 #: includes/admin/class-wp-restaurant-listings-cpt.php:231
-msgid "Select category"
+msgid "Seleccionar Categoría"
 msgstr ""
 
 #: includes/admin/class-wp-restaurant-listings-cpt.php:247
 #: includes/admin/class-wp-restaurant-listings-cpt.php:292
 #: templates/single-restaurant_listings-reviews.php:77
-msgid "Name"
+msgid "Nombre"
 msgstr ""
 
 #: includes/admin/class-wp-restaurant-listings-cpt.php:262
-msgid "%s updated. <a href=\"%s\">View</a>"
+msgid "%s actualizado. <a href=\"%s\">View</a>"
 msgstr ""
 
 #: includes/admin/class-wp-restaurant-listings-cpt.php:263
-msgid "Custom field updated."
+msgid "Campo personalizado actualizado."
 msgstr ""
 
 #: includes/admin/class-wp-restaurant-listings-cpt.php:264
-msgid "Custom field deleted."
+msgid "Campo personalizado eliminado."
 msgstr ""
 
 #: includes/admin/class-wp-restaurant-listings-cpt.php:265
-msgid "%s updated."
+msgid "%s actualizado."
 msgstr ""
 
 #: includes/admin/class-wp-restaurant-listings-cpt.php:266
@@ -150,14 +150,14 @@ msgstr ""
 #: includes/admin/class-wp-restaurant-listings-cpt.php:399
 #: includes/class-wp-restaurant-listings-post-types.php:214
 #: templates/restaurant-dashboard.php:50 templates/restaurant-dashboard.php:57
-msgid "Edit"
+msgid "Editar"
 msgstr ""
 
 #: includes/admin/class-wp-restaurant-listings-cpt.php:406
 #: includes/admin/class-wp-restaurant-listings-meta-box-gallery.php:50
 #: includes/admin/class-wp-restaurant-listings-meta-box-gallery.php:70
 #: templates/restaurant-dashboard.php:62
-msgid "Delete"
+msgid "Eliminar"
 msgstr ""
 
 #: includes/admin/class-wp-restaurant-listings-meta-box-gallery.php:50
@@ -818,136 +818,136 @@ msgid "Enter the ID of the user, or leave blank if submitted by a guest."
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-ajax.php:170
-msgid "Search completed. Found %d matching record."
-msgid_plural "Search completed. Found %d matching records."
+msgid "Búsqueda completada. Encontrada %d coincidencias."
+msgid_plural "Búsqueda completada. Encontradas %d coincidencias."
 msgstr[0] ""
 msgstr[1] ""
 
 #: includes/class-wp-restaurant-listings-ajax.php:270
-msgid "You must be logged in to upload files using this method."
+msgid "Debe iniciar sesión para cargar archivos con este método."
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-geocode.php:226
-msgid "Geocoding error"
+msgid "Error Geolocalización"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-install.php:61
-msgid "Owner"
+msgid "Dueño"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-post-types.php:90
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:170
-msgid "Restaurant category"
+msgid "Categoría del Restaurante"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-post-types.php:91
-msgid "Restaurant categories"
+msgid "Categorías del Restaurante"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-post-types.php:115
 #: includes/class-wp-restaurant-listings-post-types.php:163
 #: includes/class-wp-restaurant-listings-post-types.php:219
-msgid "Search %s"
+msgid "Buscar %s"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-post-types.php:116
 #: includes/class-wp-restaurant-listings-post-types.php:164
 #: includes/class-wp-restaurant-listings-post-types.php:211
-msgid "All %s"
+msgid "Todos %s"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-post-types.php:117
 #: includes/class-wp-restaurant-listings-post-types.php:165
 #: includes/class-wp-restaurant-listings-post-types.php:222
-msgid "Parent %s"
+msgid "Padre %s"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-post-types.php:118
 #: includes/class-wp-restaurant-listings-post-types.php:166
-msgid "Parent %s:"
+msgid "Padre %s:"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-post-types.php:119
 #: includes/class-wp-restaurant-listings-post-types.php:167
 #: includes/class-wp-restaurant-listings-post-types.php:215
-msgid "Edit %s"
+msgid "Editar %s"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-post-types.php:120
 #: includes/class-wp-restaurant-listings-post-types.php:168
-msgid "Update %s"
+msgid "Actualizar %s"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-post-types.php:121
 #: includes/class-wp-restaurant-listings-post-types.php:169
-msgid "Add New %s"
+msgid "Añadir Nuevo %s"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-post-types.php:122
 #: includes/class-wp-restaurant-listings-post-types.php:170
-msgid "New %s Name"
+msgid "Nuevo %s Nombre"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-post-types.php:139
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:161
-msgid "Restaurant type"
+msgid "Tipo de Restaurante"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-post-types.php:140
-msgid "Restaurant types"
+msgid "Tipos de Restaurante"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-post-types.php:189
-msgid "Restaurant"
+msgid "Restaurante"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-post-types.php:190
-msgid "Restaurants"
+msgid "Restaurantes"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-post-types.php:212
-msgid "Add New"
+msgid "Añadir Nuevo"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-post-types.php:213
-msgid "Add %s"
+msgid "Añadir %s"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-post-types.php:216
-msgid "New %s"
+msgid "Nuevo %s"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-post-types.php:217
 #: includes/class-wp-restaurant-listings-post-types.php:218
-msgid "View %s"
+msgid "Ver %s"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-post-types.php:220
-msgid "No %s found"
+msgid "No %s encontrado"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-post-types.php:221
-msgid "No %s found in trash"
+msgid "No %s encontrado en la papelera"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-post-types.php:223
-msgid "Restaurant Logo"
+msgid "Logo del Restaurante"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-post-types.php:224
-msgid "Set restaurant logo"
+msgid "Establecer logo del restaurante"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-post-types.php:225
-msgid "Remove restaurant logo"
+msgid "Eliminar logo del restaurante"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-post-types.php:226
-msgid "Use as restaurant logo"
+msgid "Usar como logo"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-post-types.php:228
-msgid "This is where you can create and manage %s."
+msgid "Aquí es donde puedes crear y administrar %s."
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-post-types.php:258
@@ -957,69 +957,69 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: includes/class-wp-restaurant-listings-shortcodes.php:98
-msgid "Invalid ID"
+msgid "ID no válido"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-shortcodes.php:107
-msgid "%s has been deleted"
+msgid "%s fué eliminado"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-shortcodes.php:112
 #: includes/class-wp-restaurant-listings-shortcodes.php:125
-msgid "Missing submission page."
+msgid "Falta la página de envío."
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-shortcodes.php:221
 #: includes/widgets/class-wp-restaurant-listings-widget-featured-restaurants.php:28
 #: includes/widgets/class-wp-restaurant-listings-widget-recent-restaurants.php:28
-msgid "Title"
+msgid "Título"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-shortcodes.php:222
-msgid "Date Posted"
+msgid "Fecha de publicación"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings-shortcodes.php:325
 #: includes/class-wp-restaurant-listings-shortcodes.php:362
-msgid "Load more listings"
+msgid "Cargar más listados"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings.php:207
-msgid "Load previous listings"
+msgid "Cargar listado anterior"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings.php:258
-msgid "Invalid file type. Accepted types:"
+msgid "Tipo de archivo no válido. Tipos aceptados:"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings.php:294
-msgid "Are you sure you want to delete this listings?"
+msgid "¿Estás seguro de que deseas eliminar estos listados?"
 msgstr ""
 
 #: includes/class-wp-restaurant-listings.php:305
 #: templates/form-fields/business-hours-field.php:34
-msgid "Close"
+msgid "Cerrar"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-edit-restaurant.php:67
-msgid "Invalid listings"
+msgid "Listados no válidos"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-edit-restaurant.php:115
-msgid "Save changes"
+msgid "Guardar cambios"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-edit-restaurant.php:144
 #: includes/forms/class-wp-restaurant-listings-form-edit-restaurant.php:147
-msgid "Your changes have been saved."
+msgid "Tus cambios han sido guardados."
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-edit-restaurant.php:144
-msgid "View &rarr;"
+msgid "Ver &rarr;"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:63
-msgid "Submit Details"
+msgid "Enviar Detalles"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:69
@@ -1029,39 +1029,39 @@ msgid "Preview"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:75
-msgid "Done"
+msgid "Hecho"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:146
-msgid "Restaurant name"
+msgid "Nombre del Restaurante"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:149
-msgid "Enter the name of the restaurant"
+msgid "Ingrese el nombre del restaurante"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:154
-msgid "Leave this blank if the location is not important"
+msgid "Deje esto en blanco si la ubicación no es importante"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:164
-msgid "Choose restaurant type&hellip;"
+msgid "Elige restaurante type&hellip;"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:193
-msgid "Description"
+msgid "Descripción"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:200
-msgid "Restaurant email"
+msgid "Email del restaurante"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:204
-msgid "Enter an email address or website URL"
+msgid "Ingrese una dirección de correo electrónico o la URL del sitio web"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:210
-msgid "Phone"
+msgid "Teléfono"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:213
@@ -1070,7 +1070,7 @@ msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:217
 #: templates/content-single-restaurant_listings-restaurant.php:30
-msgid "Website"
+msgid "Sitio Web"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:221
@@ -1078,7 +1078,7 @@ msgid "http://"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:225
-msgid "Tagline"
+msgid "Lema"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:232
@@ -1086,11 +1086,11 @@ msgid "Video"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:236
-msgid "A link to a video about your restaurant"
+msgid "Un enlace a un video sobre su restaurante."
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:240
-msgid "Twitter username"
+msgid "Usuario de Twitter"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:243
@@ -1102,7 +1102,7 @@ msgid "Logo"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:262
-msgid "Gallery Images"
+msgid "Galería de Imagenes"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:277
@@ -1111,11 +1111,11 @@ msgid "Menu"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:321
-msgid "%s is a required field"
+msgid "%s es un campo obligatorio"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:331
-msgid "%s is invalid"
+msgid "%s no es válido"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:347
@@ -1124,49 +1124,49 @@ msgid "\"%s\" (filetype %s) needs to be one of the following file types: %s"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:365
-msgid "Please enter a valid application email address or URL"
+msgid "Ingrese una dirección de correo electrónico o URL de aplicación válida"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:493
-msgid "Please enter a username."
+msgid "Por favor, ingrese un nombre de usuario."
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:497
-msgid "Please enter a password."
+msgid "Por favor, ingrese una contraseña."
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:501
-msgid "Please enter your email address."
+msgid "Por favor, introduzca su dirección de correo electrónico."
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:507
-msgid "Passwords must match."
+msgid "Las contraseñas deben coincidir."
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:512
-msgid "Invalid Password: %s"
+msgid "Contraseña no válida: %s"
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:514
-msgid "Password is not valid."
+msgid "La contraseña no es válida."
 msgstr ""
 
 #: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:535
-msgid "You must be signed in to post a new listings."
+msgid "Debes iniciar sesión para publicar nuevos anuncios."
 msgstr ""
 
 #: includes/widgets/class-wp-restaurant-listings-widget-featured-restaurants.php:21
-msgid "Display a list of featured listings on your site."
+msgid "Muestre una lista de listados destacados en su sitio."
 msgstr ""
 
 #: includes/widgets/class-wp-restaurant-listings-widget-featured-restaurants.php:23
 #: includes/widgets/class-wp-restaurant-listings-widget-featured-restaurants.php:27
-msgid "Featured %s"
+msgid "Presentado %s"
 msgstr ""
 
 #: includes/widgets/class-wp-restaurant-listings-widget-featured-restaurants.php:36
 #: includes/widgets/class-wp-restaurant-listings-widget-recent-restaurants.php:46
-msgid "Number of listings to show"
+msgid "Número de listados para mostrar"
 msgstr ""
 
 #: includes/widgets/class-wp-restaurant-listings-widget-recent-restaurants.php:21
@@ -1177,283 +1177,283 @@ msgstr ""
 
 #: includes/widgets/class-wp-restaurant-listings-widget-recent-restaurants.php:23
 #: includes/widgets/class-wp-restaurant-listings-widget-recent-restaurants.php:27
-msgid "Recent %s"
+msgid "Reciente %s"
 msgstr ""
 
 #: includes/widgets/class-wp-restaurant-listings-widget-recent-restaurants.php:33
-msgid "Keyword"
+msgid "Palabra clave"
 msgstr ""
 
 #: includes/widgets/class-wp-restaurant-listings-widget-restaurant-gallery.php:15
-msgid "Display the restaurant photo gallery."
+msgid "Muestra la galería de fotos del restaurante."
 msgstr ""
 
 #: includes/widgets/class-wp-restaurant-listings-widget-restaurant-gallery.php:17
-msgid "Restaurant Photo Gallery"
+msgid "Galería de fotos del restaurante"
 msgstr ""
 
 #: includes/widgets/class-wp-restaurant-listings-widget-restaurant-gallery.php:22
 #: includes/widgets/class-wp-restaurant-listings-widget-restaurant-hours.php:23
-msgid "Title:"
+msgid "Título:"
 msgstr ""
 
 #: includes/widgets/class-wp-restaurant-listings-widget-restaurant-gallery.php:52
-msgid "No images found."
+msgid "No se encontraron imágenes."
 msgstr ""
 
 #: includes/widgets/class-wp-restaurant-listings-widget-restaurant-hours.php:16
-msgid "Display the restaurant hours of the listings."
+msgid "Muestra el horario del restaurante de los listados."
 msgstr ""
 
 #: includes/widgets/class-wp-restaurant-listings-widget-restaurant-hours.php:18
 #: includes/widgets/class-wp-restaurant-listings-widget-restaurant-hours.php:22
-msgid "Restaurant Hours"
+msgid "Horas del restaurante"
 msgstr ""
 
 #: includes/widgets/class-wp-restaurant-listings-widget-restaurant-map.php:16
-msgid "Display the listings location and contact details."
+msgid "Muestra la ubicación de los listados y los detalles de contacto."
 msgstr ""
 
 #: includes/widgets/class-wp-restaurant-listings-widget-restaurant-map.php:18
-msgid "Restaurant Map & Contact Details"
+msgid "Mapa del restaurante y datos de contacto"
 msgstr ""
 
 #: includes/widgets/class-wp-restaurant-listings-widget-restaurant-map.php:23
-msgid "Display Map"
+msgid "Mostrar mapa"
 msgstr ""
 
 #: includes/widgets/class-wp-restaurant-listings-widget-restaurant-map.php:28
-msgid "Display Address"
+msgid "Mostrar Localización"
 msgstr ""
 
 #: includes/widgets/class-wp-restaurant-listings-widget-restaurant-map.php:33
-msgid "Display Phone Number"
+msgid "Mostrar Número de Teléfono"
 msgstr ""
 
 #: includes/widgets/class-wp-restaurant-listings-widget-restaurant-map.php:38
-msgid "Display Email"
+msgid "Mostrar Email"
 msgstr ""
 
 #: includes/widgets/class-wp-restaurant-listings-widget-restaurant-map.php:43
-msgid "Display Website"
+msgid "Mostrar Sitio Web"
 msgstr ""
 
 #: includes/widgets/class-wp-restaurant-listings-widget-restaurant-map.php:48
-msgid "Display \"Get Directions\""
+msgid "Mostrar \"Get Directions\""
 msgstr ""
 
 #: templates/account-signin.php:21
-msgid "Your account"
+msgid "Tu cuenta"
 msgstr ""
 
 #: templates/account-signin.php:25
-msgid "You are currently signed in as <strong>%s</strong>."
+msgid "Actualmente estas registrado como <strong>%s</strong>."
 msgstr ""
 
 #: templates/account-signin.php:28
-msgid "Sign out"
+msgid "Cerrar Sesión"
 msgstr ""
 
 #: templates/account-signin.php:39
-msgid "Have an account?"
+msgid "¿Tienes una cuenta?"
 msgstr ""
 
 #: templates/account-signin.php:41 templates/restaurant-dashboard-login.php:20
-msgid "Sign in"
+msgid "Registrarse"
 msgstr ""
 
 #: templates/account-signin.php:45
 msgid ""
-"If you don&rsquo;t have an account you can %screate one below by entering "
-"your email address/username."
+"Si no tienes cuenta, puedes %screar una abajo ingresando "
+"Tu Email/Nombre de Usuario."
 msgstr ""
 
 #: templates/account-signin.php:45
-msgid "optionally"
+msgid "opcional"
 msgstr ""
 
 #: templates/account-signin.php:47
-msgid "Your account details will be confirmed via email."
+msgid "Los detalles de su cuenta se confirmarán por correo electrónico."
 msgstr ""
 
 #: templates/account-signin.php:52
-msgid "You must sign in to create a new listings."
+msgid "Debes iniciar sesión para crear nuevos anuncios."
 msgstr ""
 
 #: templates/account-signin.php:63 templates/restaurant-submit.php:43
 #: templates/restaurant-submit.php:60
-msgid "(optional)"
+msgid "(opcional)"
 msgstr ""
 
 #: templates/content-no-restaurants-found.php:19
 #: templates/content-widget-no-restaurants-found.php:19
-msgid "There are no listings matching your search."
+msgid "No hay listados que coincidan con su búsqueda."
 msgstr ""
 
 #: templates/content-no-restaurants-found.php:21
 #: templates/content-widget-no-restaurants-found.php:21
-msgid "There are currently no restaurants."
+msgid "Actualmente no hay restaurantes."
 msgstr ""
 
 #: templates/form-fields/business-hours-field.php:33
-msgid "Open"
+msgid "Abrir"
 msgstr ""
 
 #: templates/form-fields/file-field.php:45
-msgid "Maximum file size: %s."
+msgid "Tamaño máximo de archivo: %s."
 msgstr ""
 
 #: templates/form-fields/multiselect-field.php:20
 #: wp-restaurant-listings-functions.php:799
-msgid "No results match"
+msgid "No se encontraron resultados"
 msgstr ""
 
 #: templates/form-fields/multiselect-field.php:20
 #: wp-restaurant-listings-functions.php:800
-msgid "Select Some Options"
+msgid "Seleccione algunas opciones"
 msgstr ""
 
 #: templates/form-fields/uploaded-file-html.php:29
 #: templates/form-fields/uploaded-file-html.php:31
-msgid "remove"
+msgid "eliminar"
 msgstr ""
 
 #: templates/restaurant-dashboard-login.php:20
-msgid "You need to be signed in to manage your listings."
+msgid "Debes iniciar sesión para administrar tus anuncios."
 msgstr ""
 
 #: templates/restaurant-dashboard.php:19
-msgid "Your listings are shown in the table below."
+msgid "Sus listados se muestran en la siguiente tabla."
 msgstr ""
 
 #: templates/restaurant-dashboard.php:31
-msgid "You do not have any active listings."
+msgid "No tienes ningún listado activo."
 msgstr ""
 
 #: templates/restaurant-dashboard.php:52
-msgid "Duplicate"
+msgid "Duplicado"
 msgstr ""
 
 #: templates/restaurant-filters.php:30
-msgid "Keywords"
+msgid "Palabras clave"
 msgstr ""
 
 #: templates/restaurant-filters.php:31
-msgid "Search for restaurants or cuisines..."
+msgid "Busque restaurantes o cocinas ..."
 msgstr ""
 
 #: templates/restaurant-filters.php:45
-msgid "Category"
+msgid "Categoría"
 msgstr ""
 
 #: templates/restaurant-filters.php:49
-msgid "Any category"
+msgid "Cualquier categoría"
 msgstr ""
 
 #: templates/restaurant-filters.php:72
 msgid ""
-"Your browser does not support JavaScript, or it is disabled. JavaScript "
-"must be enabled in order to view listings."
+"Su navegador no es compatible con JavaScript o está deshabilitado. JavaScript "
+"debe estar habilitado para ver listados."
 msgstr ""
 
 #: templates/restaurant-gallery-photoswipe.php:46
-msgid "Close (Esc)"
+msgid "Cerrar (Esc)"
 msgstr ""
 
 #: templates/restaurant-gallery-photoswipe.php:48
-msgid "Share"
+msgid "Compartir"
 msgstr ""
 
 #: templates/restaurant-gallery-photoswipe.php:50
-msgid "Toggle fullscreen"
+msgid "Alternar Pantalla Completa"
 msgstr ""
 
 #: templates/restaurant-gallery-photoswipe.php:52
-msgid "Zoom in/out"
+msgid "Acercar / alejar"
 msgstr ""
 
 #: templates/restaurant-gallery-photoswipe.php:69
-msgid "Previous (arrow left)"
+msgid "Anterior (arrow left)"
 msgstr ""
 
 #: templates/restaurant-gallery-photoswipe.php:71
-msgid "Next (arrow right)"
+msgid "Siguiente (arrow right)"
 msgstr ""
 
 #: templates/restaurant-preview.php:20
-msgid "Submit Listings"
+msgid "Enviar listados"
 msgstr ""
 
 #: templates/restaurant-preview.php:21
-msgid "Edit listings"
+msgid "Editar listados"
 msgstr ""
 
 #: templates/restaurant-submit.php:24
-msgid "You are editing an existing restaurant. %s"
+msgid "Estás editando un restaurante existente. %s"
 msgstr ""
 
 #: templates/restaurant-submit.php:24
-msgid "Create A New Restaurant"
+msgid "Crear un nuevo restaurante"
 msgstr ""
 
 #: templates/restaurant-submit.php:54
-msgid "Restaurant Details"
+msgid "Detalles del restaurante"
 msgstr ""
 
 #: templates/restaurant-submitted.php:22
-msgid "%s listed successfully. To view your listings <a href=\"%s\">click here</a>."
+msgid "%s enumerado con éxito. Para ver tus listados <a href=\"%s\">click aquí</a>."
 msgstr ""
 
 #: templates/restaurant-submitted.php:25
-msgid "%s submitted successfully. Your listings will be visible once approved."
+msgid "%s Enviado satisfactoriamente. Tus listados serán visibles una vez aprobados."
 msgstr ""
 
 #: templates/single-restaurant_listings/review-meta.php:14
 #: templates/single-restaurants_listings/review-meta.php:14
-msgid "Your review is awaiting approval"
+msgid "Tu revisión está pendiente de aprobación"
 msgstr ""
 
 #: templates/single-restaurant_listings/tabs/overview.php:15
 #: templates/single-restaurants_listings/tabs/overview.php:15
-msgid "Phone Number"
+msgid "Número de teléfono"
 msgstr ""
 
 #: templates/single-restaurant_listings/tabs/overview.php:19
 #: templates/single-restaurants_listings/tabs/overview.php:19
-msgid "Cuisines"
+msgid "Cocinas"
 msgstr ""
 
 #: templates/single-restaurant_listings/tabs/overview.php:30
 #: templates/single-restaurants_listings/tabs/overview.php:30
-msgid "Opening Hours"
+msgid "Horario de apertura"
 msgstr ""
 
 #: templates/single-restaurant_listings/tabs/overview.php:41
 #: templates/single-restaurants_listings/tabs/overview.php:41
-msgid "Get Direction"
+msgid "Obtener dirección"
 msgstr ""
 
 #: templates/single-restaurant_listings-reviews.php:36
 #. translators: 1: reviews count 2: name
-msgid "%1$s review for %2$s"
-msgid_plural "%1$s reviews for %2$s"
+msgid "%1$s opinión para %2$s"
+msgid_plural "%1$s opiniones para %2$s"
 msgstr[0] ""
 msgstr[1] ""
 
 #: templates/single-restaurant_listings-reviews.php:58
-msgid "There are no reviews yet."
+msgid "No hay opiniones todavía."
 msgstr ""
 
 #: templates/single-restaurant_listings-reviews.php:71
-msgid "Add a review"
+msgid "Añadir una opinión."
 msgstr ""
 
 #: templates/single-restaurant_listings-reviews.php:71
-msgid "Be the first to review &ldquo;%s&rdquo;"
+msgid "Se el primero en opinar &ldquo;%s&rdquo;"
 msgstr ""
 
 #: templates/single-restaurant_listings-reviews.php:72
-msgid "Leave a Reply to %s"
+msgid "Dejar una respuesta a %s"
 msgstr ""
 
 #: templates/single-restaurant_listings-reviews.php:79
@@ -1461,43 +1461,43 @@ msgid "Email"
 msgstr ""
 
 #: templates/single-restaurant_listings-reviews.php:82
-msgid "Submit"
+msgid "Enviar"
 msgstr ""
 
 #: templates/single-restaurant_listings-reviews.php:89
-msgid "Your rating"
+msgid "Tu clasificación"
 msgstr ""
 
 #: templates/single-restaurant_listings-reviews.php:90
-msgid "Rate&hellip;"
+msgid "Ratio&hellip;"
 msgstr ""
 
 #: templates/single-restaurant_listings-reviews.php:91
-msgid "Perfect"
+msgid "Perfecto"
 msgstr ""
 
 #: templates/single-restaurant_listings-reviews.php:92
-msgid "Good"
+msgid "Bueno"
 msgstr ""
 
 #: templates/single-restaurant_listings-reviews.php:93
-msgid "Average"
+msgid "Promedio"
 msgstr ""
 
 #: templates/single-restaurant_listings-reviews.php:94
-msgid "Not that bad"
+msgid "No esta mal"
 msgstr ""
 
 #: templates/single-restaurant_listings-reviews.php:95
-msgid "Very poor"
+msgid "Muy pobre"
 msgstr ""
 
 #: templates/single-restaurant_listings-reviews.php:99
-msgid "Your review"
+msgid "Tu opinión"
 msgstr ""
 
 #: wp-restaurant-listings-functions.php:418
-msgid "Reset"
+msgid "Reiniciar"
 msgstr ""
 
 #: wp-restaurant-listings-functions.php:422
@@ -1505,104 +1505,104 @@ msgid "RSS"
 msgstr ""
 
 #: wp-restaurant-listings-functions.php:517
-msgid "Invalid email address."
+msgid "Dirección de correo electrónico inválida."
 msgstr ""
 
 #: wp-restaurant-listings-functions.php:525
-msgid "Your email address isn&#8217;t correct."
+msgid "Tu dirección de correo electrónico no es correcto."
 msgstr ""
 
 #: wp-restaurant-listings-functions.php:529
-msgid "This email is already registered, please choose another one."
+msgid "Este correo electrónico ya está registrado, elija otro."
 msgstr ""
 
 #: wp-restaurant-listings-functions.php:716
-msgid "Passwords must be at least 8 characters long."
+msgid "Las contraseñas deben tener al menos 8 caracteres."
 msgstr ""
 
 #: wp-restaurant-listings-functions.php:798
-msgid "Choose a category&hellip;"
+msgid "Elige una categoría&hellip;"
 msgstr ""
 
 #: wp-restaurant-listings-functions.php:984
-msgid "Uploaded files need to be one of the following file types: %s"
+msgid "Los archivos cargados deben ser uno de los siguientes tipos de archivo: %s"
 msgstr ""
 
 #: wp-restaurant-listings-functions.php:1171
-msgid "Overview"
+msgid "Descripción general"
 msgstr ""
 
 #: wp-restaurant-listings-functions.php:1187
-msgid "Reviews (%d)"
+msgid "Reseñas (%d)"
 msgstr ""
 
 #: wp-restaurant-listings-template.php:146
-msgid "Inactive"
+msgid "Inactivo"
 msgstr ""
 
 #: wp-restaurant-listings-template.php:329
-msgid "Username"
+msgid "Nombre de Usuario"
 msgstr ""
 
 #: wp-restaurant-listings-template.php:337
-msgid "Password"
+msgid "Contraseña"
 msgstr ""
 
 #: wp-restaurant-listings-template.php:347
-msgid "Verify Password"
+msgid "Verificar Contraseña"
 msgstr ""
 
 #: wp-restaurant-listings-template.php:354
-msgid "Your email"
+msgid "Tu Correo electrónico"
 msgstr ""
 
 #: wp-restaurant-listings-template.php:355
-msgid "you@yourdomain.com"
+msgid "tu@tudominio.com"
 msgstr ""
 
 #: wp-restaurant-listings-template.php:381
-msgid "Posted on "
+msgid "Publicado en "
 msgstr ""
 
 #: wp-restaurant-listings-template.php:383
 #: wp-restaurant-listings-template.php:403
-msgid "Posted %s ago"
+msgid "Posted hace %s"
 msgstr ""
 
 #: wp-restaurant-listings-template.php:426
-msgid "Anywhere"
+msgid "En cualquier lugar"
 msgstr ""
 
 #: wp-restaurant-listings-template.php:933
-msgid "%s customer review"
-msgid_plural "%s customer reviews"
+msgid "%s opinión del cliente"
+msgid_plural "%s opiniones de los clientes"
 msgstr[0] ""
 msgstr[1] ""
 
 #: wp-restaurant-listings-template.php:944
 #: wp-restaurant-listings-template.php:1322
 #. translators: 1: rating 2: rating count
-msgid "Rated %1$s out of 5 based on %2$s customer rating"
-msgid_plural "Rated %1$s out of 5 based on %2$s customer ratings"
+msgid "Se calificó como %1$s de 5 según la calificación de los clientes %2$s"
+msgid_plural "Calificado %1$s de 5 según %2$s calificaciones de clientes"
 msgstr[0] ""
 msgstr[1] ""
 
 #: wp-restaurant-listings-template.php:947
 #: wp-restaurant-listings-template.php:1325
 #. translators: %s: rating
-msgid "Rated %s out of 5"
+msgid "Calificado con %s de 5"
 msgstr ""
 
 #: wp-restaurant-listings-template.php:1010
-msgid "Today"
+msgid "Hoy"
 msgstr ""
 
 #: wp-restaurant-listings-template.php:1015
-msgid "See more"
+msgid "Ver Horario"
 msgstr ""
 
 #: wp-restaurant-listings-template.php:1036
-msgid "Get Directions"
+msgid "Obtener las direcciones"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
