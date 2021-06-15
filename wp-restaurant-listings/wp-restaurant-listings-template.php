@@ -997,7 +997,7 @@ function the_restaurant_opening_hours() {
                 <span class="day"><?php echo $day ?></span>
                 <span class="business-hour-time">
                 <?php if ( __( 'Closed', 'wp-restaurant-listings' ) == $hours[0] ) : ?>
-                    <?php _e( 'Closed', 'wp-restaurant-listings' ); ?>
+                    <?php _e( 'Cerrado', 'wp-restaurant-listings' ); ?>
                 <?php else : ?>
                     <span class="start"><?php echo $hours[0]; ?></span> &ndash; <span class="end"><?php echo $hours[1]; ?></span>
                 <?php endif; ?>
@@ -1006,13 +1006,6 @@ function the_restaurant_opening_hours() {
         <?php endforeach; ?>
             </div>
         </div>
-        <p class="today business-hours">
-            <span class="day"><?php _e('Today', 'wp-restaurant-listings' ) ?></span>
-            <span class="business-hour-time">
-
-            </span>
-        </p>
-        <a href="#" class="business-hours-drop-btn"><?php _e('Ver Horario', 'wp-restaurant-listings') ?></a>
     </div>
     <?php
 }

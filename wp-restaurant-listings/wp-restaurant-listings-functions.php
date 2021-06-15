@@ -514,7 +514,7 @@ function wp_restaurant_listings_create_account( $args, $deprecated = '' ) {
 	$email    = apply_filters( 'user_registration_email', sanitize_email( $email ) );
 
 	if ( empty( $email ) ) {
-		return new WP_Error( 'validation-error', __( 'Invalid email address.', 'wp-restaurant-listings' ) );
+		return new WP_Error( 'validation-error', __( 'Correo electrónico no valido.', 'wp-restaurant-listings' ) );
 	}
 
 	if ( empty( $username ) ) {
@@ -522,11 +522,11 @@ function wp_restaurant_listings_create_account( $args, $deprecated = '' ) {
 	}
 
 	if ( ! is_email( $email ) ) {
-		return new WP_Error( 'validation-error', __( 'Your email address isn&#8217;t correct.', 'wp-restaurant-listings' ) );
+		return new WP_Error( 'validation-error', __( 'Tu correo electrónico no es correcto', 'wp-restaurant-listings' ) );
 	}
 
 	if ( email_exists( $email ) ) {
-		return new WP_Error( 'validation-error', __( 'This email is already registered, please choose another one.', 'wp-restaurant-listings' ) );
+		return new WP_Error( 'validation-error', __( 'Este correo ya está registrado, por favor, elige otro.', 'wp-restaurant-listings' ) );
 	}
 
 	// Ensure username is unique
@@ -1174,7 +1174,7 @@ if ( ! function_exists( 'restaurant_listings_default_tabs' ) ) {
 		);
 
 		$tabs['menu'] = array(
-			'title'    => sprintf( __( 'Menu', 'wp-restaurant-listings' ) ),
+			'title'    => sprintf( __( 'Menú', 'wp-restaurant-listings' ) ),
 			'priority' => 30,
 			'callback' => 'restaurant_listings_menu_tab',
 		);
@@ -1184,7 +1184,7 @@ if ( ! function_exists( 'restaurant_listings_default_tabs' ) ) {
 		if ( comments_open() ) {
 
 			$tabs['reviews'] = array(
-				'title'    => sprintf( __( 'Reviews (%d)', 'wp-restaurant-listings' ), restaurant_listings_get_review_count( $post->ID ) ),
+				'title'    => sprintf( __( 'Reseñas (%d)', 'wp-restaurant-listings' ), restaurant_listings_get_review_count( $post->ID ) ),
 				'priority' => 30,
 				'callback' => 'comments_template',
 			);

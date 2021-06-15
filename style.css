@@ -2644,3 +2644,6 @@ body.single-restaurant_listings article.type-restaurant_listings .restaurant-lis
 	padding-left: 0.625rem;
 	padding-right: 0.625rem;
 }
+.business-hours-drop-content-inner{
+	padding: 0px;
+}
