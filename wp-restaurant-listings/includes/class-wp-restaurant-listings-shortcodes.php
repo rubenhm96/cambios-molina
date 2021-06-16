@@ -103,7 +103,7 @@ class WP_Restaurant_Listings_Shortcodes {
 						wp_trash_post( $restaurant_id );
 
 						// Message
-						$this->restaurant_dashboard_message = '<div class="restaurant-listings-message">' . sprintf( __( '%s has been deleted', 'wp-restaurant-listings' ), get_the_restaurant_title( $restaurant ) ) . '</div>';
+						$this->restaurant_dashboard_message = '<div class="restaurant-listings-message">' . sprintf( __( '%s fueron eliminadas', 'wp-restaurant-listings' ), get_the_restaurant_title( $restaurant ) ) . '</div>';
 
 						break;
 					case 'duplicate' :

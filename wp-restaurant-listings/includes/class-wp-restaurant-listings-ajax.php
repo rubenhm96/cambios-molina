@@ -167,7 +167,7 @@ class WP_Restaurant_Listings_Ajax {
 		);
 
 		if ( $restaurants->post_count && ( $search_location || $search_keywords || $search_categories || $search_price_range ) ) {
-			$message = sprintf( _n( 'Search completed. Found %d matching record.', 'Search completed. Found %d matching records.', $restaurants->found_posts, 'wp-restaurant-listings' ), $restaurants->found_posts );
+			$message = sprintf( _n( 'Búsqueda completada. Se encontró %d coincidencia.', 'Búsqueda completada. Se encontraron %d coincidencias.', $restaurants->found_posts, 'wp-restaurant-listings' ), $restaurants->found_posts );
 			$result['showing_all'] = true;
 		} else {
 			$message = '';
