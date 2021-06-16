@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
 <?php if ( defined( 'DOING_AJAX' ) ) : ?>
-	<li class="no_restaurant_listings_found"><?php _e( 'No hay listados que coincidan con su búsqueda.', 'wp-restaurant-listings' ); ?></li>
+	<li class="no_restaurant_listings_found"><?php _e( 'No hay restaurantes que coincidan con su búsqueda.', 'wp-restaurant-listings' ); ?></li>
 <?php else : ?>
 	<p class="no_restaurant_listings_found"><?php _e( 'Actualmente no hay restaurantes.', 'wp-restaurant-listings' ); ?></p>
 <?php endif; ?>
