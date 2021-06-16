@@ -378,9 +378,9 @@ function the_restaurant_publish_date( $post = null ) {
 	$date_format = get_option( 'restaurant_listings_date_format' );
 
 	if ( 'default' === $date_format ) {
-		$display_date = __( 'Posted on ', 'wp-restaurant-listings' ) . date_i18n( get_option( 'date_format' ), get_post_time( 'U' ) );
+		$display_date = __( 'Publicado el', 'wp-restaurant-listings' ) . date_i18n( get_option( 'date_format' ), get_post_time( 'U' ) );
 	} else {
-		$display_date = sprintf( __( 'Posted %s ago', 'wp-restaurant-listings' ), human_time_diff( get_post_time( 'U' ), current_time( 'timestamp' ) ) );
+		$display_date = sprintf( __( 'Publicado hace %s', 'wp-restaurant-listings' ), human_time_diff( get_post_time( 'U' ), current_time( 'timestamp' ) ) );
 	}
 
 	echo '<time datetime="' . get_post_time( 'Y-m-d' ) . '">' . $display_date . '</time>';
@@ -400,7 +400,7 @@ function get_the_restaurant_publish_date( $post = null ) {
 	if ( $date_format === 'default' ) {
 		return get_post_time( get_option( 'date_format' ) );
 	} else {
-		return sprintf( __( 'Posted %s ago', 'wp-restaurant-listings' ), human_time_diff( get_post_time( 'U' ), current_time( 'timestamp' ) ) );
+		return sprintf( __( 'Publicado hace %s', 'wp-restaurant-listings' ), human_time_diff( get_post_time( 'U' ), current_time( 'timestamp' ) ) );
 	}
 }
 
@@ -930,7 +930,7 @@ function the_restaurant_rating( $post = null ) {
             <div class="star-rating">
                 <?php echo get_restaurant_star_rating_html( $average, $rating_count ); ?>
             </div>
-            <?php if ( comments_open() ) : ?><a href="#reviews" class="restaurant-listings-review-link" rel="nofollow">(<?php printf( _n( '%s customer review', '%s customer reviews', $review_count, 'wp-restaurant-listings' ), '<span class="count">' . esc_html( $review_count ) . '</span>' ); ?>)</a><?php endif ?>
+            <?php if ( comments_open() ) : ?><a href="#reviews" class="restaurant-listings-review-link" rel="nofollow">(<?php printf( _n( '%s reseña de cliente', '%s reseñas de clientes', $review_count, 'wp-restaurant-listings' ), '<span class="count">' . esc_html( $review_count ) . '</span>' ); ?>)</a><?php endif ?>
         </div>
 
     <?php endif;
@@ -941,10 +941,10 @@ function get_restaurant_star_rating_html( $rating, $count = 0 ) {
 
     if ( 0 < $count ) {
         /* translators: 1: rating 2: rating count */
-        $html .= sprintf( _n( 'Rated %1$s out of 5 based on %2$s customer rating', 'Rated %1$s out of 5 based on %2$s customer ratings', $count, 'wp-restaurant-listings' ), '<strong class="rating">' . esc_html( $rating ) . '</strong>', '<span class="rating">' . esc_html( $count ) . '</span>' );
+        $html .= sprintf( _n( 'Calificado con %1$s de 5 basado en %2$s valoración de cliente', 'Calificado con %1$s de 5 basado en %2$s valoración de los clientes', $count, 'wp-restaurant-listings' ), '<strong class="rating">' . esc_html( $rating ) . '</strong>', '<span class="rating">' . esc_html( $count ) . '</span>' );
     } else {
         /* translators: %s: rating */
-        $html .= sprintf( esc_html__( 'Rated %s out of 5', 'wp-restaurant-listings' ), '<strong class="rating">' . esc_html( $rating ) . '</strong>' );
+        $html .= sprintf( esc_html__( 'Calificado con %s de 5', 'wp-restaurant-listings' ), '<strong class="rating">' . esc_html( $rating ) . '</strong>' );
     }
 
     $html .= '</span>';
@@ -1026,7 +1026,7 @@ function the_restaurant_directions() {
     ?>
 
     <div class="restaurant_listings-directions">
-        <a href="<?php echo esc_url( google_maps_url() ); ?>" rel="nofollow" target="_blank" class="js-toggle-directions" id="get-directions"><?php _e( 'Get Directions', 'wp-restaurant-listings' ); ?></a>
+        <a href="<?php echo esc_url( google_maps_url() ); ?>" rel="nofollow" target="_blank" class="js-toggle-directions" id="get-directions"><?php _e( 'Obtener las direcciones', 'wp-restaurant-listings' ); ?></a>
     </div>
 
     <?php
@@ -1312,10 +1312,10 @@ function restaurant_listings_get_star_rating_html( $rating, $count = 0 ) {
 
 	if ( 0 < $count ) {
 		/* translators: 1: rating 2: rating count */
-		$html .= sprintf( _n( 'Rated %1$s out of 5 based on %2$s customer rating', 'Rated %1$s out of 5 based on %2$s customer ratings', $count, 'wp-restaurant-listings' ), '<strong class="rating">' . esc_html( $rating ) . '</strong>', '<span class="rating">' . esc_html( $count ) . '</span>' );
+		$html .= sprintf( _n( 'Calificado con %1$s de 5 basado en %2$s valoración de cliente', 'Calificado con %1$s de 5 basado en %2$s valoración de los clientes', $count, 'wp-restaurant-listings' ), '<strong class="rating">' . esc_html( $rating ) . '</strong>', '<span class="rating">' . esc_html( $count ) . '</span>' );
 	} else {
 		/* translators: %s: rating */
-		$html .= sprintf( esc_html__( 'Rated %s out of 5', 'wp-restaurant-listings' ), '<strong class="rating">' . esc_html( $rating ) . '</strong>' );
+		$html .= sprintf( esc_html__( 'Calificado con %s de 5', 'wp-restaurant-listings' ), '<strong class="rating">' . esc_html( $rating ) . '</strong>' );
 	}
 
 	$html .= '</span>';

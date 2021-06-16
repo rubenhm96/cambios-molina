@@ -27,13 +27,13 @@ do_action( 'restaurant_listings_restaurant_filters_before', $atts );
 		<?php do_action( 'restaurant_listings_restaurant_filters_search_restaurants_start', $atts ); ?>
 
 		<div class="search_keywords">
-			<label for="search_keywords"><?php _e( 'Keywords', 'wp-restaurant-listings' ); ?></label>
-			<input type="text" name="search_keywords" id="search_keywords" placeholder="<?php esc_attr_e( 'Search for restaurants or cuisines...', 'wp-restaurant-listings' ); ?>" value="<?php echo esc_attr( $keywords ); ?>" />
+			<label for="search_keywords"><?php _e( 'Palabras Clave', 'wp-restaurant-listings' ); ?></label>
+			<input type="text" name="search_keywords" id="search_keywords" placeholder="<?php esc_attr_e( 'Buscar Restaurante...', 'wp-restaurant-listings' ); ?>" value="<?php echo esc_attr( $keywords ); ?>" />
 		</div>
 
 		<div class="search_location">
-			<label for="search_location"><?php _e( 'Location', 'wp-restaurant-listings' ); ?></label>
-			<input type="text" name="search_location" id="search_location" placeholder="<?php esc_attr_e( 'Location', 'wp-restaurant-listings' ); ?>" value="<?php echo esc_attr( $location ); ?>" />
+			<label for="search_location"><?php _e( 'Localización', 'wp-restaurant-listings' ); ?></label>
+			<input type="text" name="search_location" id="search_location" placeholder="<?php esc_attr_e( 'Localización', 'wp-restaurant-listings' ); ?>" value="<?php echo esc_attr( $location ); ?>" />
 		</div>
 
 		<?php if ( $categories ) : ?>
@@ -42,7 +42,7 @@ do_action( 'restaurant_listings_restaurant_filters_before', $atts );
 			<?php endforeach; ?>
 		<?php elseif ( $show_categories && ! is_tax( 'restaurant_listings_category' ) && get_terms( 'restaurant_listings_category' ) ) : ?>
 			<div class="search_categories">
-				<label for="search_categories"><?php _e( 'Category', 'wp-restaurant-listings' ); ?></label>
+				<label for="search_categories"><?php _e( 'Categoría', 'wp-restaurant-listings' ); ?></label>
 				<?php if ( $show_category_multiselect ) : ?>
 					<?php restaurant_listings_dropdown_categories( array( 'taxonomy' => 'restaurant_listings_category', 'hierarchical' => 1, 'name' => 'search_categories', 'orderby' => 'name', 'selected' => $selected_category, 'hide_empty' => false ) ); ?>
 				<?php else : ?>
@@ -52,7 +52,7 @@ do_action( 'restaurant_listings_restaurant_filters_before', $atts );
 		<?php endif; ?>
 
         <div class="price_range_filter">
-            <h4><?php _e('Price Range', 'wp-restaurant-listings' ) ?></h4>
+            <h4><?php _e('Rango de Precio', 'wp-restaurant-listings' ) ?></h4>
             <ul class="price_range_list">
                <?php for ( $i = 1; $i < 6; $i++): ?>
                 <li data-price_range="<?php echo $i; ?>"><label class="radio-check"><span class="filter-label"><?php echo str_repeat( $currency, $i) ?></span></label></li>
@@ -69,4 +69,4 @@ do_action( 'restaurant_listings_restaurant_filters_before', $atts );
 
 <?php do_action( 'restaurant_listings_restaurant_filters_after', $atts ); ?>
 
-<noscript><?php _e( 'Your browser does not support JavaScript, or it is disabled. JavaScript must be enabled in order to view listings.', 'wp-restaurant-listings' ); ?></noscript>
+<noscript><?php _e( 'Tu navegador no soporta JavaScript, o está desactivado. JavaScript debe estar habilitado para ver listados.', 'wp-restaurant-listings' ); ?></noscript>

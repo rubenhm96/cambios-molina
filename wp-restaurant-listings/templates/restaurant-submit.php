@@ -21,7 +21,7 @@ global $restaurant_listings;
 
 	<?php
 	if ( isset( $resume_edit ) && $resume_edit ) {
-		printf( '<p><strong>' . __( "You are editing an existing restaurant. %s", 'wp-restaurant-listings' ) . '</strong></p>', '<a href="?new=1&key=' . $resume_edit . '">' . __( 'Create A New Restaurant', 'wp-restaurant-listings' ) . '</a>' );
+		printf( '<p><strong>' . __( "Estás editando un restaurante existente. %s", 'wp-restaurant-listings' ) . '</strong></p>', '<a href="?new=1&key=' . $resume_edit . '">' . __( 'Create A New Restaurant', 'wp-restaurant-listings' ) . '</a>' );
 	}
 	?>
 
@@ -51,7 +51,7 @@ global $restaurant_listings;
 
 		<!-- Restaurant Information Fields -->
 		<?php if ( $extra_fields ) : ?>
-			<h2><?php _e( 'Restaurant Details', 'wp-restaurant-listings' ); ?></h2>
+			<h2><?php _e( 'Detalles del Restaurante', 'wp-restaurant-listings' ); ?></h2>
 
 			<?php do_action( 'submit_restaurant_form_restaurant_fields_start' ); ?>
 

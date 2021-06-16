@@ -30,8 +30,8 @@ $days = restaurant_listings_get_days_of_week();
 <table>
 	<tr>
 		<th width="40%">&nbsp;</th>
-		<th align="left"><?php _e( 'Open', 'wp-restaurant-listings' ); ?></th>
-		<th align="left"><?php _e( 'Close', 'wp-restaurant-listings' ); ?></th>
+		<th align="left"><?php _e( 'Abrir', 'wp-restaurant-listings' ); ?></th>
+		<th align="left"><?php _e( 'Cerrar', 'wp-restaurant-listings' ); ?></th>
 	</tr>
 
 	<?php foreach ( $days as $key => $i ) : ?>

@@ -42,6 +42,6 @@ if ( ! empty( $field['ajax'] ) && restaurant_listings_user_can_upload_file_via_a
 	<?php if ( ! empty( $field['description'] ) ) : ?>
 		<?php echo $field['description']; ?>
 	<?php else : ?>
-		<?php printf( __( 'Maximum file size: %s.', 'wp-restaurant-listings' ), size_format( wp_max_upload_size() ) ); ?>
+		<?php printf( __( 'Tamaño máximo de archivo: %s.', 'wp-restaurant-listings' ), size_format( wp_max_upload_size() ) ); ?>
 	<?php endif; ?>
 </small>

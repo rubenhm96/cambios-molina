@@ -43,13 +43,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 				<div class="pswp__counter"></div>
 
-				<button class="pswp__button pswp__button--close" aria-label="<?php esc_attr_e( 'Close (Esc)', 'wp-restaurant-listings' ); ?>"></button>
+				<button class="pswp__button pswp__button--close" aria-label="<?php esc_attr_e( 'Cerrar (Esc)', 'wp-restaurant-listings' ); ?>"></button>
 
-				<button class="pswp__button pswp__button--share" aria-label="<?php esc_attr_e( 'Share', 'wp-restaurant-listings' ); ?>"></button>
+				<button class="pswp__button pswp__button--share" aria-label="<?php esc_attr_e( 'Compartir', 'wp-restaurant-listings' ); ?>"></button>
 
-				<button class="pswp__button pswp__button--fs" aria-label="<?php esc_attr_e( 'Toggle fullscreen', 'wp-restaurant-listings' ); ?>"></button>
+				<button class="pswp__button pswp__button--fs" aria-label="<?php esc_attr_e( 'Pantalla Completa', 'wp-restaurant-listings' ); ?>"></button>
 
-				<button class="pswp__button pswp__button--zoom" aria-label="<?php esc_attr_e( 'Zoom in/out', 'wp-restaurant-listings' ); ?>"></button>
+				<button class="pswp__button pswp__button--zoom" aria-label="<?php esc_attr_e( 'Acercar / Alejar', 'wp-restaurant-listings' ); ?>"></button>
 
 				<!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
 				<!-- element will get class pswp__preloader--active when preloader is running -->
@@ -66,9 +66,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<div class="pswp__share-tooltip"></div>
 			</div>
 
-			<button class="pswp__button pswp__button--arrow--left" aria-label="<?php esc_attr_e( 'Anterior (arrow left)', 'wp-restaurant-listings' ); ?>"></button>
+			<button class="pswp__button pswp__button--arrow--left" aria-label="<?php esc_attr_e( 'Anterior (flecha izquierda)', 'wp-restaurant-listings' ); ?>"></button>
 
-			<button class="pswp__button pswp__button--arrow--right" aria-label="<?php esc_attr_e( 'Siguiente (arrow right)', 'wp-restaurant-listings' ); ?>"></button>
+			<button class="pswp__button pswp__button--arrow--right" aria-label="<?php esc_attr_e( 'Siguiente (flecha derecha)', 'wp-restaurant-listings' ); ?>"></button>
 
 			<div class="pswp__caption">
 				<div class="pswp__caption__center"></div>

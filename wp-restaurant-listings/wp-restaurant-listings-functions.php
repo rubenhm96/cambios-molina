@@ -979,9 +979,9 @@ function restaurant_listings_upload_file( $file, $args = array() ) {
 
 	if ( ! in_array( $file['type'], $allowed_mime_types ) ) {
 		if ( $args['file_label'] ) {
-			return new WP_Error( 'upload', sprintf( __( '"%s" (filetype %s) needs to be one of the following file types: %s', 'wp-restaurant-listings' ), $args['file_label'], $file['type'], implode( ', ', array_keys( $allowed_mime_types ) ) ) );
+			return new WP_Error( 'upload', sprintf( __( '"%s" (filetype %s) debe ser uno de los siguientes tipos de archivo: %s', 'wp-restaurant-listings' ), $args['file_label'], $file['type'], implode( ', ', array_keys( $allowed_mime_types ) ) ) );
 		} else {
-			return new WP_Error( 'upload', sprintf( __( 'Uploaded files need to be one of the following file types: %s', 'wp-restaurant-listings' ), implode( ', ', array_keys( $allowed_mime_types ) ) ) );
+			return new WP_Error( 'upload', sprintf( __( 'Los archivos cargados deben ser uno de los siguientes tipos de archivo: %s', 'wp-restaurant-listings' ), implode( ', ', array_keys( $allowed_mime_types ) ) ) );
 		}
 	} else {
 		$upload = wp_handle_upload( $file, apply_filters( 'submit_restaurant_wp_handle_upload_overrides', array( 'test_form' => false ) ) );
@@ -1168,7 +1168,7 @@ if ( ! function_exists( 'restaurant_listings_default_tabs' ) ) {
 		global  $post;
 
 		$tabs['overview'] = array(
-			'title'    => sprintf( __( 'Overview', 'wp-restaurant-listings' ) ),
+			'title'    => sprintf( __( 'Descripción general', 'wp-restaurant-listings' ) ),
 			'priority' => 20,
 			'callback' => 'restaurant_listings_overview_tab',
 		);

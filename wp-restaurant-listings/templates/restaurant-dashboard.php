@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
 <div id="restaurant-listings-restaurant-dashboard">
-	<p><?php _e( 'Your listings are shown in the table below.', 'wp-restaurant-listings' ); ?></p>
+	<p><?php _e( 'Sus listados se muestran en la siguiente tabla.', 'wp-restaurant-listings' ); ?></p>
 	<table class="restaurant-listings-restaurants">
 		<thead>
 			<tr>
@@ -28,7 +28,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<tbody>
 			<?php if ( ! $restaurants ) : ?>
 				<tr>
-					<td colspan="6"><?php _e( 'You do not have any active listings.', 'wp-restaurant-listings' ); ?></td>
+					<td colspan="6"><?php _e( 'No tienes ningún listado activo.', 'wp-restaurant-listings' ); ?></td>
 				</tr>
 			<?php else : ?>
 				<?php foreach ( $restaurants as $restaurant ) : ?>

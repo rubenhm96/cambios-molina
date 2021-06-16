@@ -19,10 +19,10 @@ global $wp_post_types;
 
 switch ( $restaurant->post_status ) :
 	case 'publish' :
-		printf( __( '%s listed successfully. To view your listings <a href="%s">click here</a>.', 'wp-restaurant-listings' ), $wp_post_types['restaurant_listings']->labels->singular_name, get_permalink( $restaurant->ID ) );
+		printf( __( '%s listado satisfactoriamente. Para ver tus listas haz <a href="%s">click aquí</a>.', 'wp-restaurant-listings' ), $wp_post_types['restaurant_listings']->labels->singular_name, get_permalink( $restaurant->ID ) );
 	break;
 	case 'pending' :
-		printf( __( '%s submitted successfully. Your listings will be visible once approved.', 'wp-restaurant-listings' ), $wp_post_types['restaurant_listings']->labels->singular_name, get_permalink( $restaurant->ID ) );
+		printf( __( '%s enviado satisfactoriamente. Tus listados serán visibles una vez aprobados.', 'wp-restaurant-listings' ), $wp_post_types['restaurant_listings']->labels->singular_name, get_permalink( $restaurant->ID ) );
 	break;
 	default :
 		do_action( 'restaurant_listings_restaurant_submitted_content_' . str_replace( '-', '_', sanitize_title( $restaurant->post_status ) ), $restaurant );

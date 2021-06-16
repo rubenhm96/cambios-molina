@@ -18,14 +18,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 <?php if ( is_user_logged_in() ) : ?>
 
 	<fieldset>
-		<label><?php _e( 'Your account', 'wp-restaurant-listings' ); ?></label>
+		<label><?php _e( 'Su cuenta', 'wp-restaurant-listings' ); ?></label>
 		<div class="field account-sign-in">
 			<?php
 				$user = wp_get_current_user();
-				printf( __( 'You are currently signed in as <strong>%s</strong>.', 'wp-restaurant-listings' ), $user->user_login );
+				printf( __( 'actualmente estas registrado como <strong>%s</strong>.', 'wp-restaurant-listings' ), $user->user_login );
 			?>
 
-			<a class="button" href="<?php echo apply_filters( 'submit_restaurant_form_logout_url', wp_logout_url( get_permalink() ) ); ?>"><?php _e( 'Sign out', 'wp-restaurant-listings' ); ?></a>
+			<a class="button" href="<?php echo apply_filters( 'submit_restaurant_form_logout_url', wp_logout_url( get_permalink() ) ); ?>"><?php _e( 'Desconectar', 'wp-restaurant-listings' ); ?></a>
 		</div>
 	</fieldset>
 
@@ -38,13 +38,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<fieldset>
 		<label><?php _e( 'Have an account?', 'wp-restaurant-listings' ); ?></label>
 		<div class="field account-sign-in">
-			<a class="button" href="<?php echo apply_filters( 'submit_restaurant_form_login_url', wp_login_url( get_permalink() ) ); ?>"><?php _e( 'Sign in', 'wp-restaurant-listings' ); ?></a>
+			<a class="button" href="<?php echo apply_filters( 'submit_restaurant_form_login_url', wp_login_url( get_permalink() ) ); ?>"><?php _e( 'Registrarse', 'wp-restaurant-listings' ); ?></a>
 
 			<?php if ( $registration_enabled ) : ?>
 
-				<?php printf( __( 'If you don&rsquo;t have an account you can %screate one below by entering your email address/username.', 'wp-restaurant-listings' ), $account_required ? '' : __( 'optionally', 'wp-restaurant-listings' ) . ' ' ); ?>
+				<?php printf( __( 'Si no tiene una cuenta, puede crear una a continuación ingresando su dirección de correo electrónico / nombre de usuario.', 'wp-restaurant-listings' ), $account_required ? '' : __( 'optionally', 'wp-restaurant-listings' ) . ' ' ); ?>
 				<?php if ( $use_standard_password_email ) : ?>
-					<?php printf( __( 'Your account details will be confirmed via email.', 'wp-restaurant-listings' ) ); ?>
+					<?php printf( __( 'Los detalles de su cuenta se confirmarán por correo electrónico.', 'wp-restaurant-listings' ) ); ?>
 				<?php endif; ?>
 
 			<?php elseif ( $account_required ) : ?>

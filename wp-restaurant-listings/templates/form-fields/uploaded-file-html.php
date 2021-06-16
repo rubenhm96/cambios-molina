@@ -26,9 +26,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	$extension = ! empty( $extension ) ? $extension : substr( strrchr( $image_src, '.' ), 1 );
 
 	if ( 3 !== strlen( $extension ) || in_array( $extension, array( 'jpg', 'gif', 'png', 'jpeg', 'jpe' ) ) ) : ?>
-		<span class="restaurant-listings-uploaded-file-preview"><img src="<?php echo esc_url( $image_src ); ?>" /> <a class="restaurant-listings-remove-uploaded-file" href="#">[<?php _e( 'remove', 'wp-restaurant-listings' ); ?>]</a></span>
+		<span class="restaurant-listings-uploaded-file-preview"><img src="<?php echo esc_url( $image_src ); ?>" /> <a class="restaurant-listings-remove-uploaded-file" href="#">[<?php _e( 'eliminar', 'wp-restaurant-listings' ); ?>]</a></span>
 	<?php else : ?>
-		<span class="restaurant-listings-uploaded-file-name"><code><?php echo esc_html( basename( $image_src ) ); ?></code> <a class="restaurant-listings-remove-uploaded-file" href="#">[<?php _e( 'remove', 'wp-restaurant-listings' ); ?>]</a></span>
+		<span class="restaurant-listings-uploaded-file-name"><code><?php echo esc_html( basename( $image_src ) ); ?></code> <a class="restaurant-listings-remove-uploaded-file" href="#">[<?php _e( 'eliminar', 'wp-restaurant-listings' ); ?>]</a></span>
 	<?php endif; ?>
 
 	<input type="hidden" class="input-text" name="<?php echo esc_attr( $name ); ?>" value="<?php echo esc_attr( $value ); ?>" />
