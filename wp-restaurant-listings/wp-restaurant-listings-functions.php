@@ -415,7 +415,7 @@ function restaurant_listings_get_filtered_links( $args = array() ) {
 
 	$links = apply_filters( 'restaurant_listings_restaurant_filters_showing_restaurants_links', array(
 		'reset' => array(
-			'name' => __( 'Reset', 'wp-restaurant-listings' ),
+			'name' => __( 'Reiniciar filtros', 'wp-restaurant-listings' ),
 			'url'  => '#'
 		),
 		'rss_link' => array(
