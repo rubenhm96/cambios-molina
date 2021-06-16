@@ -16,13 +16,9 @@ global $post;
             <?php the_restaurant_phone() ?>
         </div>
         <div class="rest-overview-group">
-            <h2><?php _e('Tipo de Cocina', 'wp-restaurant-listings' ) ?></h2>
+            <h2><?php _e('Estilo de Cocina', 'wp-restaurant-listings' ) ?></h2>
             <?php the_restaurant_category() ?>
 
-        </div>
-        <div class="rest-overview-group">
-            <h2><?php _e('Rango de Precio', 'wp-restaurant-listings' ) ?></h2>
-            <?php the_restaurant_price_range() ?>
         </div>
     </div>
     <div class="overview-content-col">
