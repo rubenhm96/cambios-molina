@@ -1,0 +1,16 @@
+v 1.0.4 - 15 November - 2020
+- Added: An option to sync taxonomies content
+- Fixed: Duplicate attachments
+- Fixed: Some minor issues
+
+v 1.0.3 - 22 September - 2020
+- Fixed: An issue regarding Sync with subsites created with other emails
+
+v 1.0.2 - 06 September - 2020
+- Fixed: An issue regarding taxonomies synchronization
+
+v 1.0.1 - 30 January 2020
+- Fixed: Display all events on sync page
+
+v 1.0.0 - 25 October 2019
+- Initial Release
