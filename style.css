@@ -1173,8 +1173,27 @@ header nav{
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0;
-	margin-top: 1rem!important;
 	padding-right: 0rem;
+}
+.div-calendar .btn-primary{
+	background: linear-gradient(to right, #feb500 50%, #03c6a8 50%);
+	background-size: 202% 100%;
+	background-position:right bottom;
+	color: #fff!important;
+	transition: all 400ms linear;
+	border-color: #03c6a8;
+	font-weight: 600;
+	width: 352px;
+	max-height: 40px;
+}
+.div-calendar .btn-primary:hover{
+	background-position: left bottom;
+}
+@media screen and (max-width:768px){
+	.div-calendar .btn-primary{
+		width: 100%;
+		margin-bottom: 2rem;
+	}
 }
 /*PROXIMOS EVENTOS
 ----------------*/
@@ -1216,6 +1235,12 @@ header nav{
 }
 .mec-calendar{
 	margin-bottom: 1.25rem;
+	min-height: 25.6rem;
+}
+@media screen and (max-width:1340px){
+	.mec-calendar{
+		min-height: 0rem;
+	}
 }
 .div-calendar .mec-calendar .mec-selected-day, .mec-calendar .mec-selected-day:hover{
 	background: #03c6a8;
@@ -1310,6 +1335,12 @@ header nav{
 .site-main-2 .mec-calendar dl{
 	width: 100%;
 }
+/*.mec-calendar-table-head{
+	width: 100%;
+}
+.mec-calendar-row{
+	width: 100%;
+}*/
 @media only screen and (min-width: 961px){
 	.mec-wrap.mec-sm959 .mec-calendar.mec-event-calendar-classic dl dt {
     	height: 2.1875rem;
@@ -1451,6 +1482,11 @@ header nav{
 	width: 3.125rem;
 	height: 3.125rem;
 	line-height: 3.125rem;
+}
+@media screen and (max-width:415px){
+	.mec-wrap.mec-sm959 .mec-calendar:not(.mec-event-calendar-classic):not(.mec-calendar-weekly) dt{
+		width: auto;
+	}
 }
 .mec-calendar .mec-calendar-table-head dt{
 	font-size: 0.9375rem;
@@ -1682,10 +1718,13 @@ header nav{
 	justify-content: center;
 }
 .title-qep-out{
-	display: none;
-}
-.title-qep-in{
 	display: block;
+	margin-bottom: 2rem;
+	margin-top: 1.25rem;
+}
+.title-qep-out i{
+	color: #feb500;
+	font-size: 2rem;
 }
 @media screen and (max-width:768px){
 	.title-qep-out{
@@ -1698,20 +1737,15 @@ header nav{
 /* TWITTER
 ------------------------------------------*/
 .div-twitter{
-	margin-bottom: 1.25rem;
-	height: 100%;
-}
-@media screen and (max-width:768px){
-	.div-twitter{
-		margin-top: 3rem;
-	}
+	margin-top: 0rem;
+	margin-bottom: 3rem;
 }
 #ctf{
 	border-radius: 0.5rem;
 	box-shadow: 0rem 0rem 0.125rem 0.125rem rgba(153, 153, 153, 0.247);
 }
 .ctf-tweets{
-	max-height: 25rem;
+	max-height: 20.1rem;
 	overflow: scroll;
 	overflow-x: hidden;
 }
@@ -1733,8 +1767,9 @@ header nav{
 	min-height: 22.375rem;
 	box-shadow: 0rem 0rem 0.125rem 0.125rem rgba(153, 153, 153, 0.247);
 }
-.popular-posts-parent{
-	padding: 0.625rem;
+.popular-post-parent{
+	padding: 0rem 0.625rem 0rem;
+	margin-bottom: 3rem;
 }
 .popular-posts h2{
 	font-size: 1.2rem;
@@ -1767,6 +1802,11 @@ header nav{
 }
 .wpp-post-title:hover{
 	color: #03c6a8;
+}
+@media screen and (max-width:767px){
+	.popular-posts{
+		min-height: 15rem;
+	}
 }
 /*BANNERS
 --------------------------------------------------------*/
@@ -1822,6 +1862,7 @@ header nav{
 .banner-turismo-parent{
 	padding: 0rem 0.75rem 0rem;
 	margin-bottom: 3rem;
+	
 }
 .banner-turismo{
 	box-shadow: 0rem 0rem 0.125rem 0.125rem rgba(153, 153, 153, 0.247);
@@ -1836,13 +1877,13 @@ header nav{
 	background-repeat: no-repeat;
 	background-size: cover;
 	box-shadow: inset 0 0 0 2000px #00000021;
-	border-bottom-left-radius: 0.4rem;
-	border-top-left-radius: 0.4rem;
+	border-radius: 0.4rem;
 	padding: 1.25rem;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
+	min-height: 22.375rem;
 }
 .banner-turismo-cabecera h3{
 	color: #03c6a8;
@@ -1927,8 +1968,7 @@ header nav{
 }
 @media screen and (max-width:767px){
 	.banner-turismo-cabecera{
-		border-bottom-left-radius: 0rem;
-		border-top-right-radius: 0.4rem;
+		min-height: 15rem;
 	}
 	.banner-turismo-parent{
 		margin-top: 3rem;
