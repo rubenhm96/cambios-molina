@@ -16,7 +16,7 @@ get_header();
 
 	<main id="primary" class="site-main max-width">
 		<div class="video-promo"><!--Video promocion-->
-			<?php echo do_shortcode('[smartslider3 slider="2"]');?>
+			<?php echo do_shortcode('[smartslider3 slider="3"]');?>
 		</div>
 		<!--Enlaces Alcalde y otros-->
 		<div class="row div-other-links">
