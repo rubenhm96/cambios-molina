@@ -1235,38 +1235,38 @@ header nav{
 }
 .mec-calendar{
 	margin-bottom: 1.25rem;
-	min-height: 28.4rem;
+	min-height: 25.6rem;
 }
 @media screen and (max-width:1340px){
 	.mec-calendar{
 		min-height: 0rem;
 	}
 }
-.div-calendar .mec-calendar .mec-selected-day, .mec-calendar .mec-selected-day:hover{
+.mec-calendar .mec-selected-day, .mec-calendar .mec-selected-day:hover{
 	background: #03c6a8;
 }
 
-.div-calendar .mec-calendar .mec-has-event:after{
+.mec-calendar .mec-has-event:after{
 	background-color: #03c6a8;
 	margin: -0.25rem 0 0 -0.25rem;
 }
 
-.div-calendar .mec-calendar .mec-calendar-row dt.mec-has-event:hover{
+.mec-calendar .mec-calendar-row dt.mec-has-event:hover{
 	background: #03c6a8;
 }
 
-.div-calendar .mec-calendar .mec-calendar-side .mec-next-month i, .mec-calendar .mec-calendar-side .mec-previous-month i {
+.mec-calendar .mec-calendar-side .mec-next-month i, .mec-calendar .mec-calendar-side .mec-previous-month i {
 	color: #0a0a0a!important;
 	font-size: 0.75rem;
 }
-.div-calendar .mec-calendar .mec-calendar-side .mec-next-month:hover, .mec-calendar .mec-calendar-side .mec-previous-month:hover{
+.mec-calendar .mec-calendar-side .mec-next-month:hover, .mec-calendar .mec-calendar-side .mec-previous-month:hover{
 	color: #03c6a8 !important;
 }
 
-.div-calendar .mec-color, .mec-color-before :before, .mec-color-hover:hover, .mec-wrap .mec-color, .mec-wrap .mec-color-before :before, .mec-wrap .mec-color-hover:hover {
+.mec-color, .mec-color-before :before, .mec-color-hover:hover, .mec-wrap .mec-color, .mec-wrap .mec-color-before :before, .mec-wrap .mec-color-hover:hover {
 	color: #03c6a8 !important;
 }
-.div-calendar .mec-calendar .mec-calendar-events-side .mec-table-side-day{
+.mec-calendar .mec-calendar-events-side .mec-table-side-day{
 	border: 0.0625 solid #03c6a8 !important;
 	border-radius: 0;
 	width: 2.875rem;
@@ -1275,7 +1275,7 @@ header nav{
 	line-height: 2.875rem;
 	font-size: 0.75rem;
 }
-.div-calendar .mec-event-footer{
+.mec-event-footer{
 	display: none;
 }
 .prox-eventos{
@@ -1521,17 +1521,39 @@ header nav{
 }
 /*--CALENDARIO PAGINA EVENTOS
 ---------------------------*/
-.calendario-de-eventos .mec-wrap.mec-sm959 .mec-calendar:not(.mec-event-calendar-classic):not(.mec-calendar-weekly) .mec-calendar-side{
+.mec-calendar .mec-calendar-events-side .mec-table-side-day{
+	border:1px solid #03c6a8;
+}
+.mec-calendar .mec-has-event:after{
+	background-color: #03c6a8;
+}
+.mec-calendar .mec-selected-day, .mec-calendar .mec-selected-day:hover{
+	background: #03c6a8;
+}
+.mec-calendar .mec-calendar-row dt.mec-has-event:hover{
+	background: #feb500;
+}
+.mec-calendar .mec-calendar-side .mec-next-month i, .mec-calendar .mec-calendar-side .mec-previous-month i{
+	color: #03c6a8;
+}
+.mec-calendar .mec-calendar-side .mec-next-month:hover, .mec-calendar .mec-calendar-side .mec-previous-month:hover{
+	color: #03c6a8;
+}
+.mec-wrap .mec-totalcal-box .mec-totalcal-view span.mec-totalcalview-selected{
+	background: #03c6a8;
+	border-color: #03c6a8;
+}
+.site-main-2 .mec-wrap.mec-sm959 .mec-calendar:not(.mec-event-calendar-classic):not(.mec-calendar-weekly) .mec-calendar-side{
 	width: 50%;
 }
-.calendario-de-eventos .mec-calendar .mec-calendar-events-side {
+.site-main-2 .mec-calendar .mec-calendar-events-side {
 	width: 50%;
 }
 @media screen and (max-width:700px){
-	.calendario-de-eventos .mec-wrap.mec-sm959 .mec-calendar:not(.mec-event-calendar-classic):not(.mec-calendar-weekly) .mec-calendar-side{
+	.site-main-2 .mec-wrap.mec-sm959 .mec-calendar:not(.mec-event-calendar-classic):not(.mec-calendar-weekly) .mec-calendar-side{
 		width: 100%;
 	}
-	.calendario-de-eventos .mec-calendar .mec-calendar-events-side {
+	.site-main-2 .mec-calendar .mec-calendar-events-side {
 		width: 100%;
 	}
 }
@@ -1872,7 +1894,7 @@ header nav{
 	flex-flow: row wrap;
 }
 .banner-turismo-cabecera{
-	background: url("http://pruebasacceso.molinadesegura.es/turismo/wp-content/uploads/sites/10/2021/04/index-turismo-3.jpg");
+	background: url("/turismo/wp-content/uploads/sites/10/2021/04/index-turismo-3.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;

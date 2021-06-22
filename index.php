@@ -35,7 +35,7 @@ get_header();
 				<h4 class="title-qep-out"><i class="bi bi-calendar"></i> QUÉ ESTÁ PASANDO</h4>
 				<div class="div-calendar col-lg-4 col-md-5 col-sm-12 col-12">
 					<?php echo do_shortcode('[MEC id="9"]') ?>
-					<a href="" class="btn btn-primary">Ver todos los Eventos</a>
+					<a href="/turismo/calendario-de-eventos/" class="btn btn-primary">Ver todos los Eventos</a>
 				</div>
 				<div class="div-eventos-grid col-lg-8 col-md-7 col-sm-12 col-12">
 					<?php echo do_shortcode('[MEC id="16"]') ?>
@@ -54,7 +54,7 @@ get_header();
 					<div class="banner-turismo col-12">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-12 banner-turismo-cabecera">
 							<a class="banner-turismo-cabecera-child" href="#" target="_blank">
-								<div class="logo-turismo"><img src="http://pruebasacceso.molinadesegura.es/turismo/wp-content/uploads/sites/10/2021/05/output-onlinepngtools.png" alt="Oficina de Turismo"></div>
+								<div class="logo-turismo"><img src="/turismo/wp-content/uploads/sites/10/2021/05/output-onlinepngtools.png" alt="Oficina de Turismo"></div>
 								<h3>Oficina De Turismo</h3>
 								<h3>Molina de Segura</h3>
 							</a>
