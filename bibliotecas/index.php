@@ -44,7 +44,7 @@ get_header();
 			</div>
 			<div class="div-prox-eventos col-lg-8 col-md-8 col-sm-12 col-12">
 				<?php echo do_shortcode('[MEC id="15"]')?>
-				<a class="btn btn-secundary" href="/wordpress/bibliotecas/calendario-de-eventos/">Ver Más Eventos</a>
+				<a class="btn btn-secundary" href="/bibliotecas/calendario-de-eventos/">Ver Más Eventos</a>
 			</div>
 		</div>
 		<div class="row div-noticias max-width-content">
@@ -58,7 +58,7 @@ get_header();
 				<h4><i class="bi bi-newspaper ultima-hora"></i> NOTICIAS</h4>
 				<?php echo do_shortcode('[frontpage_news widget="41" name="Noticias"]')?>
 				<div class="morenews-link">
-					<a href="/wordpress/bibliotecas/category/noticias/" class="btn btn-primary btn-sm" role="button">MÁS NOTICIAS</a>
+					<a href="/bibliotecas/category/noticias/" class="btn btn-primary btn-sm" role="button">MÁS NOTICIAS</a>
 				</div>
 			</div>
 		</div>
