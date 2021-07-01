@@ -1,0 +1,63 @@
+<?php
+/**
+ * The template for displaying the footer
+ *
+ * Contains the closing of the #content div and all content after.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package deportes
+ */
+
+?>
+
+	<footer id="colophon">
+	<div class="row max-width-content">
+			<div class="col-lg-8 col-md-8 col-sm-12 col-12 div-mapa-img">
+				<div class="col-lg-8 col-md-7 col-sm-12 col-12">
+	
+				</div>
+				<div class="col-lg-4 col-md-5 col-sm-12 col-12">
+						<!-- Content -->
+						
+						<p class="row">
+							<span class="col-5">
+							<img src="http://192.168.3.216/wordpress/juventud/wp-content/uploads/sites/6/2021/05/logos-molina-footer-blanco-2.png" alt="">
+							</span>
+							<span class="col-7">
+							<img src="http://192.168.3.216/wordpress/juventud/wp-content/uploads/sites/6/2021/05/logo-dereca.png" alt="">
+							</span>
+						</p>
+						<p class="row text-end">
+							<span class="col-5">
+								<img src="http://192.168.3.216/wordpress/juventud/wp-content/uploads/sites/6/2021/05/logo-feder-ue-footer-2.png" alt="">
+							</span>
+						</p>
+					</div>
+			</div>
+			<!--Enlaces parte derecha-->
+			<div class="col-lg-4 col-md-4 col-sm-12 col-12 site-footer">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-6 site-footer-left-links">
+					<a href="/deportes/">Inicio</a>
+					<a href="/">Ayuntamiento</a>
+					<a href="">Servicios</a>
+					<a href="/juventud/">Juventud</a>
+					<a href="">Participación</a>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-6 site-footer-right-links">
+					<a href="">Contacto</a>
+					<a href="/deportes/mapaweb/">Mapa del Sitio</a>
+					<a href="/sedeelectronica/">Sede Electrónica</a>
+					<a href="">Política de Privacidad</a>
+				</div>
+			</div>
+			<div class="footer-molina col-12">
+				<p class="text-center"></p>
+			</div>
+		</div>
+	</footer><!-- #colophon -->
+
+<?php wp_footer(); ?>
+
+</body>
+</html>
