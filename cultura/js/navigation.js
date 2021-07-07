@@ -6,6 +6,7 @@
  */
 ( function() {
 	const siteNavigation = document.getElementById( 'site-navigation' );
+
 	// Return early if the navigation don't exist.
 	if ( ! siteNavigation ) {
 		return;
@@ -95,85 +96,27 @@
 			menuItem.classList.toggle( 'focus' );
 		}
 	}
-	//icono apartado que contiene submenu
-	const submenu = document.getElementsByClassName("menu-item-has-children");
-	for(let i = 0; i < submenu.length; i++){
-		submenu[i].firstElementChild.innerHTML+= " <i class='bi-chevron-down' style='font-size: 0.75rem; color: #fff;'></i>";
-	}
-	/*const buscador = document.getElementById("primary-menu");*()
-	/*buscador.innerHTML+="<form role='search' method='get' class='search-form' action='http://192.168.3.216/wordpress/'>"+
-	"<button type='submit' class='search-submit'><i class='bi-search'></i></button>"+
-	"<label><span class='screen-reader-text'>Buscar:</span><input type='search'name='s' class='search-field' id='buscador' placeholder='Buscador' value></label></form>";*/
-	//Icono de Inicio
-	document.getElementById("menu-item-6").firstChild.textContent="";
-	document.getElementById("menu-item-6").firstChild.innerHTML="<i class='bi-house-door-fill' style='font-size:1rem'></i>";
-	//Buscador Navegador
-	/*document.getElementById("buscador").addEventListener("focus",function(){
-		this.className+=" on-focus";
-	});
-	document.getElementById("buscador").addEventListener("focusout",function(){
-		this.className="search-field";
-	});*/
-	//Boton Menu Responsive
-	const menubutton = document.getElementsByClassName("menu-toggle");
-	for(let i=0; i<menubutton.length; i++){
-		menubutton[i].innerHTML="<i class='bi-list' style='font-size: 1.8rem'></i>"
-	}
-	//menu responsive links rrss
-	const divrrss_responsive = document.getElementById("clon-responsive");
-	const divrrss_responsive_clon = divrrss_responsive.cloneNode(true);
-	divrrss_responsive_clon.className="social-media social-media-responsive";
-	const parentrrss = document.getElementsByClassName("menu-menu-cultura-container");
-	for(let i = 0; i < parentrrss.length; i++){
-		parentrrss[i].appendChild(divrrss_responsive_clon);
-	}
-	//menu responsive logo portal
-	/*const divlogo_responsive = document.createElement("div");
-	divlogo_responsive.className="logo-menu-responsive"
-	divlogo_responsive.innerHTML="<img src='http://192.168.3.216/wordpress/sedeelectronica/wp-content/uploads/sites/4/2021/04/logo-molina-responsive.jpg' alt=''>";
-	for(let i = 0; i < parentrrss.length; i++){
-		//insertar logo portal
-		document.getElementById("site-navigation").insertBefore(divlogo_responsive,parentrrss[i]);
-		const buscador_responsive = document.createElement("div");
-		//insertar buscador en menu responsive
-		buscador_responsive.className="div-form-responsive";
-		buscador_responsive.innerHTML = "<form role='search' method='get' class='search-form search-form-responsive' action='http://192.168.3.216/wordpress/'>"+
-		"<button type='submit' class='search-submit'><i class='bi-search'></i></button>"+
-		"<label><span class='screen-reader-text'>Buscar:</span><input type='search'name='s' class='search-field' id='buscador_responsive' placeholder='Buscador' value></label></form>";
-		document.getElementById("site-navigation").insertBefore(buscador_responsive,parentrrss[i]);
-	}*/
-	//Cambiar texto botones paginacion galeria de videos
-	const pag = document.getElementsByClassName("pagination");
-	for(i=0;i<pag.length;i++){
-		for(z=0;z<pag[i].children.length;z++){
-			pag[i].children[z].firstElementChild.style.setProperty("background-color", "#850037", "important");
-			pag[i].children[z].firstElementChild.style.setProperty("border-color", "#850037", "important");
-			pag[i].children[z].firstElementChild.style.setProperty("color", "#fff", "important");
-			pag[i].children[z].firstElementChild.addEventListener("mouseover",function(event){
-				event.target.style.setProperty("background-color","#fff","important");
-				event.target.style.setProperty("border-color", "#fff", "important");
-				event.target.style.setProperty("color","#850037","important");
-			});
-			pag[i].children[z].firstElementChild.addEventListener("mouseout",function(event){
-				event.target.style.setProperty("background-color", "#850037", "important");
-				event.target.style.setProperty("border-color", "#850037", "important");
-				event.target.style.setProperty("color", "#fff", "important");
-			});
+	function rutaWeb(){
+		var rutaAbsoluta = self.location.href;   
+		var posicionFinalRuta = rutaAbsoluta.lastIndexOf("/cultura");
+		var rutaRelativa = rutaAbsoluta.substring( posicionFinalRuta + "/".length , rutaAbsoluta.length );
+		if (rutaRelativa==="cultura/") {
+			return true;
+		} else {
+			return false;
 		}
-		pag[i].firstElementChild.firstElementChild.textContent="<";
-		pag[i].firstElementChild.firstElementChild.style.setProperty("border-radius", "0.5rem", "important");
-		pag[i].lastElementChild.firstElementChild.textContent=">";
-		pag[i].lastElementChild.firstElementChild.style.setProperty("border-top-right-radius", "0.5rem", "important");
-		pag[i].lastElementChild.firstElementChild.style.setProperty("border-bottom-right-radius", "0.5rem", "important");
 	}
+	//Añadir Evento Finalizado
 	var aux = document.getElementsByClassName("mec-holding-status-expired");
 	for(i=0;i<aux.length;i++){
 		aux[i].textContent="Evento Finalizado"
 	}
+	//Cambiar texto boton ver mas grid calendar
 	aux = document.getElementsByClassName("mec-booking-button");
 	for(i=0;i<aux.length;i++){
 		aux[i].textContent="Ver";
 	}
+	//limite de caracteres a mostrar titulo grid calendar
 	function limiteGridCalendar(){
 		aux = document.getElementsByClassName("mec-color-hover")
 		for(i=0; i<aux.length;i++){
@@ -184,20 +127,33 @@
 		}
 	}
 	if(document.readyState=="loading"){
-		limiteGridCalendar();
+		if (rutaWeb()) {
+			limiteGridCalendar();
+		}
 	}
+	//Buscador Navegador
 	/*Contenedor seleccion categorias newsletter*/
-	/*function modalNewsletter(){
+	function modalNewsletter(){
 		setTimeout(function(){
 			document.getElementById("mc4wp-form-1").innerHTML+='<div class="seleccion-categorias-newsletter-parent modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="exampleModalLabel">Selección de Categorías</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="cerrar"></button></div><div class="seleccion-categorias-newsletter modal-body" id="seleccion-categorias-newsletter-id"></div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button><button type="button" class="btn btn-success" data-bs-dismiss="modal">Aceptar</button></div></div></div></div>';
 			var categorias_newsletter = document.getElementById("categorias-newsletter-id").cloneNode(true);
 			document.getElementById("seleccion-categorias-newsletter-id").appendChild(categorias_newsletter);
 		})
 	}
-	modalNewsletter();*/
+	if (rutaWeb()) {
+		modalNewsletter();
+	}
 
-	function cambiarUrlTiempo() {
+	/*function cambiarUrlTiempo() {
 		setTimeout(function(){ document.getElementById("tiempo-widget-enlace").firstChild.href="http://www.aemet.es/es/eltiempo/prediccion/municipios/molina-de-segura-id30027"; }, 5000);
 	}
-	cambiarUrlTiempo();
+	if (rutaWeb()) {
+		cambiarUrlTiempo();	
+	}*/
 }() );
+function StartJS(){
+	$(function () {
+		$('[data-toggle="tooltip"]').tooltip()
+	});
+}
+window.onload=StartJS();

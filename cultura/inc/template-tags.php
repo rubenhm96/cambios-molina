@@ -27,7 +27,7 @@ if ( ! function_exists( 'cultura_posted_on' ) ) :
 
 		$posted_on = sprintf(
 			/* translators: %s: post date. */
-			esc_html_x( 'Publicado el %s', 'post date', 'cultura' ),
+			esc_html_x( 'Posted on %s', 'post date', 'cultura' ),
 			'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
 		);
 
@@ -43,7 +43,7 @@ if ( ! function_exists( 'cultura_posted_by' ) ) :
 	function cultura_posted_by() {
 		$byline = sprintf(
 			/* translators: %s: post author. */
-			esc_html_x( 'por %s', 'post author', 'cultura' ),
+			esc_html_x( 'by %s', 'post author', 'cultura' ),
 			'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
 		);
 
@@ -63,7 +63,7 @@ if ( ! function_exists( 'cultura_entry_footer' ) ) :
 			$categories_list = get_the_category_list( esc_html__( ', ', 'cultura' ) );
 			if ( $categories_list ) {
 				/* translators: 1: list of categories. */
-				printf( '<span class="cat-links">' . esc_html__( 'Categorías %1$s', 'cultura' ) . '</span>', $categories_list ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+				printf( '<span class="cat-links">' . esc_html__( 'Posted in %1$s', 'cultura' ) . '</span>', $categories_list ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 			}
 
 			/* translators: used between list items, there is a space after the comma */
@@ -128,13 +128,13 @@ if ( ! function_exists( 'cultura_post_thumbnail' ) ) :
 			?>
 
 			<div class="post-thumbnail">
-				<?php /*the_post_thumbnail(); */?>
+				<?php the_post_thumbnail(); ?>
 			</div><!-- .post-thumbnail -->
 
 		<?php else : ?>
 
 			<a class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1">
-				<?php/*
+				<?php
 					the_post_thumbnail(
 						'post-thumbnail',
 						array(
@@ -145,7 +145,7 @@ if ( ! function_exists( 'cultura_post_thumbnail' ) ) :
 							),
 						)
 					);
-				*/?>
+				?>
 			</a>
 
 			<?php

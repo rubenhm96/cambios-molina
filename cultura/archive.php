@@ -10,8 +10,8 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main row">
-	<?php if ( function_exists('yoast_breadcrumb') ) {yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );} ?>
+	<main id="primary" class="site-main">
+
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">

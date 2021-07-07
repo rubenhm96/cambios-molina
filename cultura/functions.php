@@ -140,10 +140,14 @@ add_action( 'widgets_init', 'cultura_widgets_init' );
  * Enqueue scripts and styles.
  */
 function cultura_scripts() {
+	wp_deregister_script( 'jquery' );
+	$jquery_cdn = 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js';
+	wp_enqueue_script( 'jquery', $jquery_cdn, array(), '3.4.1', true );
 	wp_enqueue_style( 'cultura-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'cultura-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'cultura-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
@@ -177,28 +181,3 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
-function excerpt($limit) {
-	$excerpt = explode(' ', get_the_excerpt(), $limit);
-	if (count($excerpt)>=$limit) {
-	  array_pop($excerpt);
-	  $excerpt = implode(" ",$excerpt).'...';
-	} else {
-	  $excerpt = implode(" ",$excerpt);
-	}	
-	$excerpt = preg_replace('`[[^]]*]`','',$excerpt);
-	return $excerpt;
-  }
-   
-  function content($limit) {
-	$content = explode(' ', get_the_content(), $limit);
-	if (count($content)>=$limit) {
-	  array_pop($content);
-	  $content = implode(" ",$content).'...';
-	} else {
-	  $content = implode(" ",$content);
-	}	
-	$content = preg_replace('/[.+]/','', $content);
-	$content = apply_filters('the_content', $content); 
-	$content = str_replace(']]>', ']]>', $content);
-	return $content;
-  }

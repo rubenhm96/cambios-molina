@@ -4,8 +4,8 @@ Template Name: Sitemap
 */
 get_header();
 ?>
-<?php if ( function_exists('yoast_breadcrumb') ) {yoast_breadcrumb( '<p class="breadcrumbs">','</p>' );} ?>
 <main id="primary" class="site-main-2 row max-width-content">
+<?php if ( function_exists('yoast_breadcrumb') ) {yoast_breadcrumb( '<p class="breadcrumbs">','</p>' );} ?>
     <h1 class="entry-title-sitemap"><i class="bi bi-diagram-3-fill"></i> Mapa Web</h1>
     <div class="row sitemap-parent">
     <?php 

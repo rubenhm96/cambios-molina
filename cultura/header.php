@@ -19,7 +19,10 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-
+	<script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
 
@@ -27,46 +30,29 @@
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'cultura' ); ?></a>
-	<header id="masthead" class="site-header max-width">
+
+	<header id="masthead" class="site-header">
 		<div class="site-branding">
-			<?php
-			/*Logo Portal*/
-			the_custom_logo();
-			?>
-			<div class="other-actions">
-				<!--Plugin El tiempo-->
-				<div class="div-weather">
-					<section id="tiempo_widget-2" class="widget tiempo_widget">
-						<div id="tiempo-widget-enlace" class="tiempo-widget weather_widget_wrap tight" data-background="#ffff" data-text-color="#000"  data-width="tight" data-days="0" data-sunrise="false" data-wind="false" data-current="on" data-language="spanish" data-city="Murcia" data-country="Spain">
-                		<div class="weather_widget_placeholder"></div>
-            			</div>
-					</section>
+		<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-12">
+					<?php
+					the_custom_logo();
+					?>
 				</div>
-				<!--Contenedor enlaces de contacto-->
-				<div class="div-contact">
-					<div class="contact">
-						<a href="##"><i class='bi-envelope' style='font-size: 1.4rem; color: #fff;'></i><span>Contacta con nosotros</span></a>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-12 div-cont-header">
+					<div class="search-form col-lg-12 col-md-12 col-sm-12 col-6">
+						<?php echo do_shortcode('[wd_asp id=7]'); ?>
 					</div>
-					<div id="clon-responsive" class="social-media">
-						<!--Plugin redes sociales-->
-						<?php echo do_shortcode('[cn-social-icon]') ?>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-6 div-iconos-header">
+						<a href="https://es-la.facebook.com/ConcejaliaCulturaMolina/"><i class="bi bi-facebook" data-toggle="tooltip" data-placement="top" title="Facebook"></i></a>
+						<a href="https://twitter.com/Cultura_Molina"><i class="bi bi-twitter" data-toggle="tooltip" data-placement="top" title="Twitter"></i></a>
+						<a href="https://www.instagram.com/concejalia_cultura/"><i class="bi bi-instagram" data-toggle="tooltip" data-placement="top" title="Instagram"></i></a>
+						<a href="https://www.youtube.com/playlist?list=PL1jpuS3F8qF04qFO5o5bVRnMelpglNZHq"><i class="bi bi-youtube" data-toggle="tooltip" data-placement="top" title="Youtube"></i></a>
 					</div>
-				</div>
+				</div>	
 			</div>
 		</div><!-- .site-branding -->
 		<nav id="site-navigation" class="main-navigation">
-			<!--Menu de navegacion-->
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'cultura' ); ?></button>
-			<div class="buscador-ajax">
-				<?php echo do_shortcode("[wd_asp elements='search' ratio='50%' id=1]"); ?>
-			</div>
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
-			?>
+			<?php echo do_shortcode('[maxmegamenu location=menu-1]')?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->

@@ -14,8 +14,13 @@
 
 get_header();
 ?>
-	<?php if ( function_exists('yoast_breadcrumb') ) {yoast_breadcrumb( '<p class="breadcrumbs">','</p>' );} ?>
-	<main id="primary" class="site-main-2 row max-width-content-2">
+
+	<main id="primary" class="site-main-2">
+	<?php
+		if ( function_exists('yoast_breadcrumb') ) {
+			yoast_breadcrumb( '<p id="breadcrumbs" class="max-width-content breadcrumbs">','</p>' );
+		}
+	?>
 
 		<?php
 		while ( have_posts() ) :
