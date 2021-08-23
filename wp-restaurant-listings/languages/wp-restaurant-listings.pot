@@ -1,0 +1,1704 @@
+# Copyright (C) 2018 WPdrift
+# This file is distributed under the same license as the WP Restaurant Listings package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Restaurant Listings 1.0.1\n"
+"Report-Msgid-Bugs-To: "
+"https://github.com/wpdrift/WP-Restaurant-Listings/issues\n"
+"POT-Creation-Date: 2018-08-13 13:28:27+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: includes/admin/class-wp-restaurant-listings-admin.php:96
+#: includes/forms/class-wp-restaurant-listings-form-edit-restaurant.php:105
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:451
+#: wp-restaurant-listings-template.php:999
+#: wp-restaurant-listings-template.php:1000
+msgid "Cerrado"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-admin.php:107
+msgid "Ajustes"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:71
+msgid "Aprobar %s"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:72
+msgid "%s aprobado"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:231
+msgid "Seleccionar Categoría"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:247
+#: includes/admin/class-wp-restaurant-listings-cpt.php:292
+#: templates/single-restaurant_listings-reviews.php:77
+msgid "Nombre"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:262
+msgid "%s actualizado. <a href=\"%s\">View</a>"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:263
+msgid "Campo personalizado actualizado."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:264
+msgid "Campo personalizado eliminado."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:265
+msgid "%s actualizado."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:266
+msgid "%s restored to revision from %s"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:267
+msgid "%s published. <a href=\"%s\">View</a>"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:268
+msgid "%s saved."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:269
+msgid "%s submitted. <a target=\"_blank\" href=\"%s\">Preview</a>"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:270
+msgid ""
+"%s scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" "
+"href=\"%2$s\">Preview</a>"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:271
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:272
+msgid "%s draft updated. <a target=\"_blank\" href=\"%s\">Preview</a>"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:293
+msgid "Type"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:294
+#: includes/widgets/class-wp-restaurant-listings-widget-recent-restaurants.php:38
+#: templates/restaurant-filters.php:35 templates/restaurant-filters.php:36
+msgid "Location"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:295
+msgid "Status"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:296
+msgid "Posted"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:297
+#: includes/admin/class-wp-restaurant-listings-settings.php:95
+msgid "Categories"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:298
+msgid "Featured?"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:299
+msgid "Actions"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:371
+msgid "M j, Y"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:372
+msgid "by a guest"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:372
+msgid "by %s"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:384
+msgid "Approve"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:392
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:275
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:278
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:281
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:318
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:321
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:324
+msgid "View"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:399
+#: includes/class-wp-restaurant-listings-post-types.php:214
+#: templates/restaurant-dashboard.php:50 templates/restaurant-dashboard.php:57
+msgid "Editar"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-cpt.php:406
+#: includes/admin/class-wp-restaurant-listings-meta-box-gallery.php:50
+#: includes/admin/class-wp-restaurant-listings-meta-box-gallery.php:70
+#: templates/restaurant-dashboard.php:62
+msgid "Eliminar"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-meta-box-gallery.php:50
+#: includes/admin/class-wp-restaurant-listings-meta-box-gallery.php:70
+msgid "Delete image"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-meta-box-gallery.php:70
+msgid "Add images to restaurant gallery"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-meta-box-gallery.php:70
+msgid "Add to gallery"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-meta-box-gallery.php:70
+msgid "Add restaurant gallery images"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-permalink-settings.php:55
+msgid "Restaurant base"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-permalink-settings.php:62
+msgid "Restaurant category base"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-permalink-settings.php:69
+msgid "Restaurant type base"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:82
+#: includes/class-wp-restaurant-listings-post-types.php:277
+msgid "Restaurant Listings"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:88
+msgid "Listings Per Page"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:89
+msgid "Number of restaurant listings to display per page."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:96
+msgid "Enable listings categories"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:97
+msgid ""
+"This lets users select from a list of categories when submitting a "
+"restaurant. Note: an admin has to create categories before site users can "
+"select them."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:104
+msgid "Multi-select Categories"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:105
+msgid "Default to category multiselect"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:106
+msgid ""
+"The category selection box will default to allowing multiple selections on "
+"the [restaurants] shortcode. Without this, users will only be able to "
+"select a single category when submitting restaurants."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:113
+msgid "Category Filter Type"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:114
+msgid ""
+"Determines the logic used to display restaurants when selecting multiple "
+"categories."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:117
+msgid "Restaurants will be shown if within ANY selected category"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:118
+msgid "Restaurants will be shown if within ALL selected categories"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:124
+msgid "Types"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:125
+msgid "Enable listings types"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:126
+msgid ""
+"This lets users select from a list of types when submitting a restaurant. "
+"Note: an admin has to create types before site users can select them."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:133
+msgid "Multi-select Listings Types"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:134
+msgid "Allow multiple types for listings"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:135
+msgid ""
+"This allows users to select more than one type when submitting a "
+"restaurant. The metabox on the post editor and the selection box on the "
+"front-end restaurant submission form will both reflect this."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:142
+msgid "Currency"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:144
+msgid "This control what currency symbol is displayed in the price range."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:150
+msgid "Date Format"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:151
+msgid ""
+"Choose how you want the published date for restaurants to be displayed on "
+"the front-end."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:154
+msgid "Relative to the current date (e.g., 1 day, 1 week, 1 month ago)"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:155
+msgid "Default date format as defined in Settings"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:161
+msgid "Mapbox Access Token"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:162
+msgid ""
+"Mapbox requires an aceess token to retrieve location information for "
+"restaurant listings. Acquire an access token from the <a href=\"%s\" "
+"target=\"_blank\">Mapbox site</a>."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:168
+msgid "Search Radius"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:169
+msgid ""
+"This control the radius of the search to find restaurant farther or closer "
+"to the address user enter."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:176
+msgid "Restaurant Submission"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:181
+msgid "Account Required"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:182
+msgid "Require an account to submit listings"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:183
+msgid "Limits restaurant listings submissions to registered, logged-in users."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:190
+msgid "Account Creation"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:191
+msgid "Enable account creation during submission"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:192
+msgid ""
+"Includes account creation on the listings submission form, to allow "
+"non-registered users to create an account and submit a restaurant listings "
+"simultaneously."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:199
+msgid "Account Username"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:200
+msgid "Generate usernames from email addresses"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:201
+msgid ""
+"Automatically generates usernames for new accounts from the registrant's "
+"email address. If this is not enabled, a \"username\" field will display "
+"instead."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:208
+msgid "Account Password"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:209
+msgid "Email new users a link to set a password"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:210
+msgid ""
+"Sends an email to the user with their username and a link to set their "
+"password. If this is not enabled, a \"password\" field will display "
+"instead, and their email address won't be verified."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:217
+msgid "Account Role"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:218
+msgid ""
+"Any new accounts created during submission will have this role. If you "
+"haven't enabled account creation during submission in the options above, "
+"your own method of assigning roles will apply."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:225
+msgid "Moderate New Listings"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:226
+msgid "Require admin approval of all new listings submissions"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:227
+msgid ""
+"Sets all new submissions to \"pending.\" They will not appear on your site "
+"until an admin approves them."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:234
+msgid "Allow Pending Edits"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:235
+msgid "Allow editing of pending listings"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:236
+msgid ""
+"Users can continue to edit pending listings until they are approved by an "
+"admin."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:243
+msgid "Pages"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:248
+msgid "Submit Restaurant Form Page"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:249
+msgid ""
+"Select the page where you've used the [submit_restaurant_form] shortcode. "
+"This lets the plugin know the location of the form."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:255
+msgid "Restaurant Dashboard Page"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:256
+msgid ""
+"Select the page where you've used the [restaurant_dashboard] shortcode. "
+"This lets the plugin know the location of the dashboard."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:262
+msgid "Restaurant Listings Page"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:263
+msgid ""
+"Select the page where you've used the [restaurants] shortcode. This lets "
+"the plugin know the location of the restaurant listings page."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:269
+msgid "Restaurant Locator Page"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:270
+msgid ""
+"Select the page where you've used the [restaurants_locator] shortcode. This "
+"lets the plugin know the location of the restaurant listings page."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:316
+msgid "Settings successfully saved"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:392
+msgid "--no page--"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:397
+msgid "Select a page&hellip;"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-settings.php:443
+msgid "Save Changes"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:51
+msgid "Setup"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:149
+msgid "WP Restaurant Listings Setup"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:152
+msgid "1. Introduction"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:153
+msgid "2. Page Setup"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:154
+msgid "3. Done"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:159
+msgid "Welcome to the Setup Wizard!"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:161
+msgid ""
+"Thanks for installing <em>WP Restaurant Listings</em>! Let's get your site "
+"ready to accept restaurant listings."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:162
+msgid ""
+"This setup wizard will walk you through the process of creating the pages "
+"for restaurant submissions, management, and listings."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:163
+msgid ""
+"If you'd prefer to skip this and set up your pages manually, our "
+"%sdocumentation%s will walk you through each step."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:166
+msgid "Start setup"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:167
+msgid "Skip setup. I will set up the plugin manually."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:173
+msgid "Page Setup"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:175
+msgid ""
+"WP Restaurant Listings, users can post, manage, and browse restaurant "
+"listings right on your website. Tell us which of these common pages you'd "
+"like your site to have and we'll create and configure them for you."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:176
+msgid ""
+"(These pages are created using %1$sshortcodes%2$s, which we take care of in "
+"this step. If you'd like to build these pages yourself or want to add one "
+"of these options to an existing page on your site, you can skip this step "
+"and take a look at %4$sshortcode documentation%2$s for detailed "
+"instructions.)"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:184
+msgid "Page Title"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:185
+msgid "Page Description"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:186
+msgid "Content Shortcode"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:194
+msgid ""
+"Creates a page that allows users to post new restaurants directly from a "
+"page on your website, instead of requiring them to log in to an admin area. "
+"If you'd rather not allow this -- for example, if you want users to use the "
+"admin dashboard only -- you can uncheck this setting."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:202
+msgid ""
+"Creates a page that allows users to manage their restaurant listings "
+"directly from a page on your website, instead of requiring them to log in "
+"to an admin area. If you want to manage all restaurant listings from the "
+"admin dashboard only, you can uncheck this setting."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:209
+msgid ""
+"Creates a page where visitors can browse, search, and filter restaurant "
+"listings."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:215
+msgid ""
+"This page allows users to locate near by restaurants on the front-end of "
+"your site."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:223
+msgid "Skip this step"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:233
+msgid "You're ready to start using WP Restaurant Listings!"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:235
+msgid "Wondering what to do now? Here are some of the most common next steps:"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:238
+msgid "Tweak your settings"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:239
+msgid "Add a restaurant using the admin dashboard"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:242
+msgid "View submitted restaurant listings"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:244
+msgid "Add restaurant listings to a page using the [restaurants] shortcode"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:248
+msgid "Add a restaurant via the front-end"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:250
+msgid "Learn to use the front-end restaurant submission board"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:254
+msgid "View the restaurant dashboard"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:256
+msgid "Learn to use the front-end restaurant dashboard"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:260
+msgid ""
+"If you need help, you can find more detail in our %1$ssupport "
+"documentation%2$s or post your question on the %3$sWP Restaurant Listings "
+"support forums%2$s."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:263
+msgid "Support WP Restaurant Listings's Ongoing Development"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:264
+msgid ""
+"There are lots of ways you can support open source software projects like "
+"this one: contributing code, fixing a bug, assisting with non-English "
+"translation, or just telling your friends about WP Restaurant Listings to "
+"help spread the word. We appreciate your support!"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:266
+msgid "Leave a positive review"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:267
+msgid "Contribute a localization"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:268
+msgid "Contribute code or report a bug"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:269
+msgid "Help other users on the forums"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:61
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:153
+#: templates/single-restaurant_listings/tabs/overview.php:36
+#: templates/single-restaurants_listings/tabs/overview.php:36
+msgid "Address"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:62
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:157
+msgid "e.g. \"44-46 Morningside Road, Edinburgh, Scotland, EH10 4BF\""
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:63
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:75
+msgid "Leave this blank if the location is not important."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:67
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:179
+#: templates/restaurant-filters.php:55
+#: templates/single-restaurant_listings/tabs/overview.php:24
+#: templates/single-restaurants_listings/tabs/overview.php:24
+msgid "Price Range"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:79
+msgid "Restaurant Email"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:80
+msgid "URL or email which applicants use to apply"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:81
+msgid ""
+"This field is required for the \"application\" area to appear beneath the "
+"listings."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:86
+msgid "Restaurant Name"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:91
+msgid "Restaurant Phone"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:96
+msgid "Restaurant Website"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:101
+msgid "Restaurant Tagline"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:102
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:228
+msgid "Brief description about the restaurant"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:106
+msgid "Restaurant Twitter"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:111
+msgid "Restaurant Menu"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:112
+msgid "URL to the restaurant menu"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:118
+msgid "Restaurant Video"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:119
+msgid "URL to the restaurant video"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:126
+msgid "Featured Listings"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:128
+msgid ""
+"Featured listings will be sticky during searches, and can be styled "
+"differently."
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:134
+msgid "Posted by"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:175
+msgid "%s Data"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:176
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:292
+msgid "Hours of Operation"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:177
+msgid "Photo gallery"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:218
+msgid "Most Used"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:275
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:278
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:281
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:318
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:321
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:324
+msgid "Use file"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:275
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:278
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:281
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:318
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:321
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:324
+msgid "Upload"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:281
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:324
+msgid "Add file"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:551
+msgid "Guest User"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:553
+msgid "Change"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-writepanels.php:557
+msgid "Enter the ID of the user, or leave blank if submitted by a guest."
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-ajax.php:170
+msgid "Búsqueda completada. Encontrada %d coincidencias."
+msgid_plural "Búsqueda completada. Encontradas %d coincidencias."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-wp-restaurant-listings-ajax.php:270
+msgid "Debe iniciar sesión para cargar archivos con este método."
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-geocode.php:226
+msgid "Error Geolocalización"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-install.php:61
+msgid "Dueño"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:90
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:170
+msgid "Categoría del Restaurante"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:91
+msgid "Categorías del Restaurante"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:115
+#: includes/class-wp-restaurant-listings-post-types.php:163
+#: includes/class-wp-restaurant-listings-post-types.php:219
+msgid "Buscar %s"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:116
+#: includes/class-wp-restaurant-listings-post-types.php:164
+#: includes/class-wp-restaurant-listings-post-types.php:211
+msgid "Todos %s"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:117
+#: includes/class-wp-restaurant-listings-post-types.php:165
+#: includes/class-wp-restaurant-listings-post-types.php:222
+msgid "Padre %s"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:118
+#: includes/class-wp-restaurant-listings-post-types.php:166
+msgid "Padre %s:"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:119
+#: includes/class-wp-restaurant-listings-post-types.php:167
+#: includes/class-wp-restaurant-listings-post-types.php:215
+msgid "Editar %s"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:120
+#: includes/class-wp-restaurant-listings-post-types.php:168
+msgid "Actualizar %s"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:121
+#: includes/class-wp-restaurant-listings-post-types.php:169
+msgid "Añadir Nuevo %s"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:122
+#: includes/class-wp-restaurant-listings-post-types.php:170
+msgid "Nuevo %s Nombre"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:139
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:161
+msgid "Tipo de Restaurante"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:140
+msgid "Tipos de Restaurante"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:189
+msgid "Restaurante"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:190
+msgid "Restaurantes"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:212
+msgid "Añadir Nuevo"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:213
+msgid "Añadir %s"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:216
+msgid "Nuevo %s"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:217
+#: includes/class-wp-restaurant-listings-post-types.php:218
+msgid "Ver %s"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:220
+msgid "No %s encontrado"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:221
+msgid "No %s encontrado en la papelera"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:223
+msgid "Logo del Restaurante"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:224
+msgid "Establecer logo del restaurante"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:225
+msgid "Eliminar logo del restaurante"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:226
+msgid "Usar como logo"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:228
+msgid "Aquí es donde puedes crear y administrar %s."
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:258
+msgid "Preview <span class=\"count\">(%s)</span>"
+msgid_plural "Preview <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-wp-restaurant-listings-shortcodes.php:98
+msgid "ID no válido"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-shortcodes.php:107
+msgid "%s fué eliminado"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-shortcodes.php:112
+#: includes/class-wp-restaurant-listings-shortcodes.php:125
+msgid "Falta la página de envío."
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-shortcodes.php:221
+#: includes/widgets/class-wp-restaurant-listings-widget-featured-restaurants.php:28
+#: includes/widgets/class-wp-restaurant-listings-widget-recent-restaurants.php:28
+msgid "Título"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-shortcodes.php:222
+msgid "Fecha de publicación"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-shortcodes.php:325
+#: includes/class-wp-restaurant-listings-shortcodes.php:362
+msgid "Cargar más listados"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings.php:207
+msgid "Cargar listado anterior"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings.php:258
+msgid "Tipo de archivo no válido. Tipos aceptados:"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings.php:294
+msgid "¿Estás seguro de que deseas eliminar estos listados?"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings.php:305
+#: templates/form-fields/business-hours-field.php:34
+msgid "Cerrar"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-edit-restaurant.php:67
+msgid "Listados no válidos"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-edit-restaurant.php:115
+msgid "Guardar cambios"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-edit-restaurant.php:144
+#: includes/forms/class-wp-restaurant-listings-form-edit-restaurant.php:147
+msgid "Tus cambios han sido guardados."
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-edit-restaurant.php:144
+msgid "Ver &rarr;"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:63
+msgid "Enviar Detalles"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:69
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:462
+#: templates/restaurant-preview.php:22
+msgid "Preview"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:75
+msgid "Hecho"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:146
+msgid "Nombre del Restaurante"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:149
+msgid "Ingrese el nombre del restaurante"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:154
+msgid "Deje esto en blanco si la ubicación no es importante"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:164
+msgid "Elige restaurante type&hellip;"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:193
+msgid "Descripción"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:200
+msgid "Email del restaurante"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:204
+msgid "Ingrese una dirección de correo electrónico o la URL del sitio web"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:210
+msgid "Teléfono"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:213
+msgid "(877) 273-3049"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:217
+#: templates/content-single-restaurant_listings-restaurant.php:30
+msgid "Sitio Web"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:221
+msgid "http://"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:225
+msgid "Lema"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:232
+msgid "Video"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:236
+msgid "Un enlace a un video sobre su restaurante."
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:240
+msgid "Usuario de Twitter"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:243
+msgid "@yourcompany"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:247
+msgid "Logo"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:262
+msgid "Galería de Imagenes"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:277
+#: wp-restaurant-listings-functions.php:1177
+msgid "Menu"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:321
+msgid "%s es un campo obligatorio"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:331
+msgid "%s no es válido"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:347
+#: wp-restaurant-listings-functions.php:982
+msgid "\"%s\" (filetype %s) needs to be one of the following file types: %s"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:365
+msgid "Ingrese una dirección de correo electrónico o URL de aplicación válida"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:493
+msgid "Por favor, ingrese un nombre de usuario."
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:497
+msgid "Por favor, ingrese una contraseña."
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:501
+msgid "Por favor, introduzca su dirección de correo electrónico."
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:507
+msgid "Las contraseñas deben coincidir."
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:512
+msgid "Contraseña no válida: %s"
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:514
+msgid "La contraseña no es válida."
+msgstr ""
+
+#: includes/forms/class-wp-restaurant-listings-form-submit-restaurant.php:535
+msgid "Debes iniciar sesión para publicar nuevos anuncios."
+msgstr ""
+
+#: includes/widgets/class-wp-restaurant-listings-widget-featured-restaurants.php:21
+msgid "Muestre una lista de listados destacados en su sitio."
+msgstr ""
+
+#: includes/widgets/class-wp-restaurant-listings-widget-featured-restaurants.php:23
+#: includes/widgets/class-wp-restaurant-listings-widget-featured-restaurants.php:27
+msgid "Presentado %s"
+msgstr ""
+
+#: includes/widgets/class-wp-restaurant-listings-widget-featured-restaurants.php:36
+#: includes/widgets/class-wp-restaurant-listings-widget-recent-restaurants.php:46
+msgid "Número de listados para mostrar"
+msgstr ""
+
+#: includes/widgets/class-wp-restaurant-listings-widget-recent-restaurants.php:21
+msgid ""
+"Display a list of recent listings on your site, optionally matching a "
+"keyword and location."
+msgstr ""
+
+#: includes/widgets/class-wp-restaurant-listings-widget-recent-restaurants.php:23
+#: includes/widgets/class-wp-restaurant-listings-widget-recent-restaurants.php:27
+msgid "Reciente %s"
+msgstr ""
+
+#: includes/widgets/class-wp-restaurant-listings-widget-recent-restaurants.php:33
+msgid "Palabra clave"
+msgstr ""
+
+#: includes/widgets/class-wp-restaurant-listings-widget-restaurant-gallery.php:15
+msgid "Muestra la galería de fotos del restaurante."
+msgstr ""
+
+#: includes/widgets/class-wp-restaurant-listings-widget-restaurant-gallery.php:17
+msgid "Galería de fotos del restaurante"
+msgstr ""
+
+#: includes/widgets/class-wp-restaurant-listings-widget-restaurant-gallery.php:22
+#: includes/widgets/class-wp-restaurant-listings-widget-restaurant-hours.php:23
+msgid "Título:"
+msgstr ""
+
+#: includes/widgets/class-wp-restaurant-listings-widget-restaurant-gallery.php:52
+msgid "No se encontraron imágenes."
+msgstr ""
+
+#: includes/widgets/class-wp-restaurant-listings-widget-restaurant-hours.php:16
+msgid "Muestra el horario del restaurante de los listados."
+msgstr ""
+
+#: includes/widgets/class-wp-restaurant-listings-widget-restaurant-hours.php:18
+#: includes/widgets/class-wp-restaurant-listings-widget-restaurant-hours.php:22
+msgid "Horas del restaurante"
+msgstr ""
+
+#: includes/widgets/class-wp-restaurant-listings-widget-restaurant-map.php:16
+msgid "Muestra la ubicación de los listados y los detalles de contacto."
+msgstr ""
+
+#: includes/widgets/class-wp-restaurant-listings-widget-restaurant-map.php:18
+msgid "Mapa del restaurante y datos de contacto"
+msgstr ""
+
+#: includes/widgets/class-wp-restaurant-listings-widget-restaurant-map.php:23
+msgid "Mostrar mapa"
+msgstr ""
+
+#: includes/widgets/class-wp-restaurant-listings-widget-restaurant-map.php:28
+msgid "Mostrar Localización"
+msgstr ""
+
+#: includes/widgets/class-wp-restaurant-listings-widget-restaurant-map.php:33
+msgid "Mostrar Número de Teléfono"
+msgstr ""
+
+#: includes/widgets/class-wp-restaurant-listings-widget-restaurant-map.php:38
+msgid "Mostrar Email"
+msgstr ""
+
+#: includes/widgets/class-wp-restaurant-listings-widget-restaurant-map.php:43
+msgid "Mostrar Sitio Web"
+msgstr ""
+
+#: includes/widgets/class-wp-restaurant-listings-widget-restaurant-map.php:48
+msgid "Mostrar \"Get Directions\""
+msgstr ""
+
+#: templates/account-signin.php:21
+msgid "Tu cuenta"
+msgstr ""
+
+#: templates/account-signin.php:25
+msgid "Actualmente estas registrado como <strong>%s</strong>."
+msgstr ""
+
+#: templates/account-signin.php:28
+msgid "Cerrar Sesión"
+msgstr ""
+
+#: templates/account-signin.php:39
+msgid "¿Tienes una cuenta?"
+msgstr ""
+
+#: templates/account-signin.php:41 templates/restaurant-dashboard-login.php:20
+msgid "Registrarse"
+msgstr ""
+
+#: templates/account-signin.php:45
+msgid ""
+"Si no tienes cuenta, puedes %screar una abajo ingresando "
+"Tu Email/Nombre de Usuario."
+msgstr ""
+
+#: templates/account-signin.php:45
+msgid "opcional"
+msgstr ""
+
+#: templates/account-signin.php:47
+msgid "Los detalles de su cuenta se confirmarán por correo electrónico."
+msgstr ""
+
+#: templates/account-signin.php:52
+msgid "Debes iniciar sesión para crear nuevos anuncios."
+msgstr ""
+
+#: templates/account-signin.php:63 templates/restaurant-submit.php:43
+#: templates/restaurant-submit.php:60
+msgid "(opcional)"
+msgstr ""
+
+#: templates/content-no-restaurants-found.php:19
+#: templates/content-widget-no-restaurants-found.php:19
+msgid "No hay listados que coincidan con su búsqueda."
+msgstr ""
+
+#: templates/content-no-restaurants-found.php:21
+#: templates/content-widget-no-restaurants-found.php:21
+msgid "Actualmente no hay restaurantes."
+msgstr ""
+
+#: templates/form-fields/business-hours-field.php:33
+msgid "Abrir"
+msgstr ""
+
+#: templates/form-fields/file-field.php:45
+msgid "Tamaño máximo de archivo: %s."
+msgstr ""
+
+#: templates/form-fields/multiselect-field.php:20
+#: wp-restaurant-listings-functions.php:799
+msgid "No se encontraron resultados"
+msgstr ""
+
+#: templates/form-fields/multiselect-field.php:20
+#: wp-restaurant-listings-functions.php:800
+msgid "Seleccione algunas opciones"
+msgstr ""
+
+#: templates/form-fields/uploaded-file-html.php:29
+#: templates/form-fields/uploaded-file-html.php:31
+msgid "eliminar"
+msgstr ""
+
+#: templates/restaurant-dashboard-login.php:20
+msgid "Debes iniciar sesión para administrar tus anuncios."
+msgstr ""
+
+#: templates/restaurant-dashboard.php:19
+msgid "Sus listados se muestran en la siguiente tabla."
+msgstr ""
+
+#: templates/restaurant-dashboard.php:31
+msgid "No tienes ningún listado activo."
+msgstr ""
+
+#: templates/restaurant-dashboard.php:52
+msgid "Duplicado"
+msgstr ""
+
+#: templates/restaurant-filters.php:30
+msgid "Palabras clave"
+msgstr ""
+
+#: templates/restaurant-filters.php:31
+msgid "Busque restaurantes o cocinas ..."
+msgstr ""
+
+#: templates/restaurant-filters.php:45
+msgid "Categoría"
+msgstr ""
+
+#: templates/restaurant-filters.php:49
+msgid "Cualquier categoría"
+msgstr ""
+
+#: templates/restaurant-filters.php:72
+msgid ""
+"Su navegador no es compatible con JavaScript o está deshabilitado. JavaScript "
+"debe estar habilitado para ver listados."
+msgstr ""
+
+#: templates/restaurant-gallery-photoswipe.php:46
+msgid "Cerrar (Esc)"
+msgstr ""
+
+#: templates/restaurant-gallery-photoswipe.php:48
+msgid "Compartir"
+msgstr ""
+
+#: templates/restaurant-gallery-photoswipe.php:50
+msgid "Alternar Pantalla Completa"
+msgstr ""
+
+#: templates/restaurant-gallery-photoswipe.php:52
+msgid "Acercar / alejar"
+msgstr ""
+
+#: templates/restaurant-gallery-photoswipe.php:69
+msgid "Anterior (arrow left)"
+msgstr ""
+
+#: templates/restaurant-gallery-photoswipe.php:71
+msgid "Siguiente (arrow right)"
+msgstr ""
+
+#: templates/restaurant-preview.php:20
+msgid "Enviar listados"
+msgstr ""
+
+#: templates/restaurant-preview.php:21
+msgid "Editar listados"
+msgstr ""
+
+#: templates/restaurant-submit.php:24
+msgid "Estás editando un restaurante existente. %s"
+msgstr ""
+
+#: templates/restaurant-submit.php:24
+msgid "Crear un nuevo restaurante"
+msgstr ""
+
+#: templates/restaurant-submit.php:54
+msgid "Detalles del restaurante"
+msgstr ""
+
+#: templates/restaurant-submitted.php:22
+msgid "%s enumerado con éxito. Para ver tus listados <a href=\"%s\">click aquí</a>."
+msgstr ""
+
+#: templates/restaurant-submitted.php:25
+msgid "%s Enviado satisfactoriamente. Tus listados serán visibles una vez aprobados."
+msgstr ""
+
+#: templates/single-restaurant_listings/review-meta.php:14
+#: templates/single-restaurants_listings/review-meta.php:14
+msgid "Tu revisión está pendiente de aprobación"
+msgstr ""
+
+#: templates/single-restaurant_listings/tabs/overview.php:15
+#: templates/single-restaurants_listings/tabs/overview.php:15
+msgid "Número de teléfono"
+msgstr ""
+
+#: templates/single-restaurant_listings/tabs/overview.php:19
+#: templates/single-restaurants_listings/tabs/overview.php:19
+msgid "Cocinas"
+msgstr ""
+
+#: templates/single-restaurant_listings/tabs/overview.php:30
+#: templates/single-restaurants_listings/tabs/overview.php:30
+msgid "Horario de apertura"
+msgstr ""
+
+#: templates/single-restaurant_listings/tabs/overview.php:41
+#: templates/single-restaurants_listings/tabs/overview.php:41
+msgid "Obtener dirección"
+msgstr ""
+
+#: templates/single-restaurant_listings-reviews.php:36
+#. translators: 1: reviews count 2: name
+msgid "%1$s opinión para %2$s"
+msgid_plural "%1$s opiniones para %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/single-restaurant_listings-reviews.php:58
+msgid "No hay opiniones todavía."
+msgstr ""
+
+#: templates/single-restaurant_listings-reviews.php:71
+msgid "Añadir una opinión."
+msgstr ""
+
+#: templates/single-restaurant_listings-reviews.php:71
+msgid "Se el primero en opinar &ldquo;%s&rdquo;"
+msgstr ""
+
+#: templates/single-restaurant_listings-reviews.php:72
+msgid "Dejar una respuesta a %s"
+msgstr ""
+
+#: templates/single-restaurant_listings-reviews.php:79
+msgid "Email"
+msgstr ""
+
+#: templates/single-restaurant_listings-reviews.php:82
+msgid "Enviar"
+msgstr ""
+
+#: templates/single-restaurant_listings-reviews.php:89
+msgid "Tu clasificación"
+msgstr ""
+
+#: templates/single-restaurant_listings-reviews.php:90
+msgid "Ratio&hellip;"
+msgstr ""
+
+#: templates/single-restaurant_listings-reviews.php:91
+msgid "Perfecto"
+msgstr ""
+
+#: templates/single-restaurant_listings-reviews.php:92
+msgid "Bueno"
+msgstr ""
+
+#: templates/single-restaurant_listings-reviews.php:93
+msgid "Promedio"
+msgstr ""
+
+#: templates/single-restaurant_listings-reviews.php:94
+msgid "No esta mal"
+msgstr ""
+
+#: templates/single-restaurant_listings-reviews.php:95
+msgid "Muy pobre"
+msgstr ""
+
+#: templates/single-restaurant_listings-reviews.php:99
+msgid "Tu opinión"
+msgstr ""
+
+#: wp-restaurant-listings-functions.php:418
+msgid "Reiniciar"
+msgstr ""
+
+#: wp-restaurant-listings-functions.php:422
+msgid "RSS"
+msgstr ""
+
+#: wp-restaurant-listings-functions.php:517
+msgid "Dirección de correo electrónico inválida."
+msgstr ""
+
+#: wp-restaurant-listings-functions.php:525
+msgid "Tu dirección de correo electrónico no es correcto."
+msgstr ""
+
+#: wp-restaurant-listings-functions.php:529
+msgid "Este correo electrónico ya está registrado, elija otro."
+msgstr ""
+
+#: wp-restaurant-listings-functions.php:716
+msgid "Las contraseñas deben tener al menos 8 caracteres."
+msgstr ""
+
+#: wp-restaurant-listings-functions.php:798
+msgid "Elige una categoría&hellip;"
+msgstr ""
+
+#: wp-restaurant-listings-functions.php:984
+msgid "Los archivos cargados deben ser uno de los siguientes tipos de archivo: %s"
+msgstr ""
+
+#: wp-restaurant-listings-functions.php:1171
+msgid "Descripción general"
+msgstr ""
+
+#: wp-restaurant-listings-functions.php:1187
+msgid "Reseñas (%d)"
+msgstr ""
+
+#: wp-restaurant-listings-template.php:146
+msgid "Inactivo"
+msgstr ""
+
+#: wp-restaurant-listings-template.php:329
+msgid "Nombre de Usuario"
+msgstr ""
+
+#: wp-restaurant-listings-template.php:337
+msgid "Contraseña"
+msgstr ""
+
+#: wp-restaurant-listings-template.php:347
+msgid "Verificar Contraseña"
+msgstr ""
+
+#: wp-restaurant-listings-template.php:354
+msgid "Tu Correo electrónico"
+msgstr ""
+
+#: wp-restaurant-listings-template.php:355
+msgid "tu@tudominio.com"
+msgstr ""
+
+#: wp-restaurant-listings-template.php:381
+msgid "Publicado en "
+msgstr ""
+
+#: wp-restaurant-listings-template.php:383
+#: wp-restaurant-listings-template.php:403
+msgid "Posted hace %s"
+msgstr ""
+
+#: wp-restaurant-listings-template.php:426
+msgid "En cualquier lugar"
+msgstr ""
+
+#: wp-restaurant-listings-template.php:933
+msgid "%s opinión del cliente"
+msgid_plural "%s opiniones de los clientes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-restaurant-listings-template.php:944
+#: wp-restaurant-listings-template.php:1322
+#. translators: 1: rating 2: rating count
+msgid "Se calificó como %1$s de 5 según la calificación de los clientes %2$s"
+msgid_plural "Calificado %1$s de 5 según %2$s calificaciones de clientes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-restaurant-listings-template.php:947
+#: wp-restaurant-listings-template.php:1325
+#. translators: %s: rating
+msgid "Calificado con %s de 5"
+msgstr ""
+
+#: wp-restaurant-listings-template.php:1010
+msgid "Hoy"
+msgstr ""
+
+#: wp-restaurant-listings-template.php:1015
+msgid "Ver Horario"
+msgstr ""
+
+#: wp-restaurant-listings-template.php:1036
+msgid "Obtener las direcciones"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Restaurant Listings"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://restaurants.wpdrift.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Manage restaurant listings from the WordPress admin panel, and allow users "
+"to post restaurants directly to your site."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WPdrift"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wpdrift.com/"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-admin.php:94
+#. translators: jQuery date format, see
+#. http:api.jqueryui.com/datepicker/#utility-formatDate
+msgctxt "Date format for jQuery datepicker."
+msgid "yy-mm-dd"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-permalink-settings.php:81
+#: includes/class-wp-restaurant-listings-post-types.php:532
+msgctxt "Restaurant permalink - resave permalinks after changing this"
+msgid "restaurant"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-permalink-settings.php:90
+#: includes/class-wp-restaurant-listings-post-types.php:533
+msgctxt "Restaurant category slug - resave permalinks after changing this"
+msgid "restaurant-category"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-permalink-settings.php:99
+#: includes/class-wp-restaurant-listings-post-types.php:534
+msgctxt "Restaurant type slug - resave permalinks after changing this"
+msgid "restaurant-type"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:192
+msgctxt "Default page title (wizard)"
+msgid "Post a Restaurant"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:200
+msgctxt "Default page title (wizard)"
+msgid "Restaurant Dashboard"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:208
+msgctxt "Default page title (wizard)"
+msgid "Restaurants"
+msgstr ""
+
+#: includes/admin/class-wp-restaurant-listings-setup.php:214
+msgctxt "Default page title (wizard)"
+msgid "Restaurants Locator"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:193
+msgctxt "Post type archive slug - resave permalinks after changing this"
+msgid "restaurants"
+msgstr ""
+
+#: includes/class-wp-restaurant-listings-post-types.php:253
+#: wp-restaurant-listings-functions.php:314
+msgctxt "post status"
+msgid "Preview"
+msgstr ""
+
+#: wp-restaurant-listings-functions.php:313
+msgctxt "post status"
+msgid "Draft"
+msgstr ""
+
+#: wp-restaurant-listings-functions.php:315
+msgctxt "post status"
+msgid "Pending approval"
+msgstr ""
+
+#: wp-restaurant-listings-functions.php:316
+msgctxt "post status"
+msgid "Pending payment"
+msgstr ""
+
+#: wp-restaurant-listings-functions.php:317
+msgctxt "post status"
+msgid "Active"
+msgstr ""
