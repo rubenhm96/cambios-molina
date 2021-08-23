@@ -51,7 +51,7 @@ get_header();
 			<!--Noticias de Ultima Hora-->
 			<div class="col-lg-4 col-md-4 col-sm-12 col-12 noticias-ultima-hora">
 				<h4><i class="bi bi-alarm ultima-hora"></i> ÚLTIMA HORA</h4>
-				<?php echo do_shortcode('[frontpage_news widget="40" name="Ultima Hora"]')?>
+				<?php echo do_shortcode('[recent_post_carousel category="4" show_author="false" limit="8" show_read_more="false" show_category_name="false" slides_to_show="1" content_words_limit="10"]') ?>
 			</div>
 			<!--Noticias Generales-->
 			<div class="col-lg-8 col-md-8 col-sm-12 col-12 noticias-generales">

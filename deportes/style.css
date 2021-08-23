@@ -53,7 +53,34 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /*--------------------------------------------------------------
 # Generic
 --------------------------------------------------------------*/
-
+@font-face {
+	font-family: NexaBlack;
+	src: url("fuentes/Nexa-Black.otf") format("opentype");
+}
+@font-face {
+	font-family: NexaBold;
+	src: url("fuentes/Nexa-Bold.otf") format("opentype");
+}
+@font-face {
+	font-family: NexaLight;
+	src: url("fuentes/Nexa-Light.otf") format("opentype");
+}
+@font-face {
+	font-family: NexaRegular;
+	src: url("fuentes/Nexa-Regular.otf") format("opentype");
+}
+@font-face {
+	font-family: NexaThin;
+	src: url("fuentes/Nexa-Thin.otf") format("opentype");
+}
+@font-face {
+	font-family: NexaTextRegular;
+	src: url("fuentes/NexaText-Regular.otf") format("opentype");
+}
+@font-face {
+	font-family: NexaTextRegularItalic;
+	src: url("fuentes/NexaText-RegularItalic.otf") format("opentype");
+}
 /* Normalize
 --------------------------------------------- */
 
@@ -405,7 +432,7 @@ select,
 optgroup,
 textarea {
 	color: #2D2926;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-family:NexaLight;
 	font-size: 1rem;
 	line-height: 1.5;
 }
@@ -417,6 +444,7 @@ h4,
 h5,
 h6 {
 	clear: both;
+	font-family: NexaBold;
 }
 
 p {
@@ -1119,6 +1147,12 @@ header nav{
 }
 /*Calendar
 --------------------------------------------*/
+.mec-box-calendar.mec-calendar .mec-calendar-side .mec-previous-month{
+	left:1px!important;
+}
+.mec-box-calendar.mec-calendar .mec-calendar-side .mec-next-month{
+	right:1px!important;
+}
 .div-eventos{
 	margin-top: 1.25rem;
 	margin-bottom: 1.25rem;
@@ -1345,6 +1379,9 @@ header nav{
 }
 .mec-wrap p{
 	margin: 0 0 1.25rem 0;
+}
+.mec-event-carousel-content p{
+	display:none;
 }
 .mec-event-grid-classic .mec-event-title{
 	font-size: 0.9rem;
@@ -1582,6 +1619,9 @@ header nav{
 .event-carousel-type1-head .mec-event-date-carousel:after{
 	border-color: transparent transparent #d3301b transparent;
 }
+.mec-owl-theme .owl-nav.disabled + .owl-dots{
+	display:none;
+}
 /*Slider
 ---------------------------------------*/
 .slider-videos{
@@ -1596,7 +1636,7 @@ header nav{
 -------------------------------------*/
 .div-weather-parent{
 	width: 100%;
-	background:#d3301b;
+	background:#891809;
 	display: flex;
 	flex-flow: row wrap;
 	align-items: center;
@@ -1852,7 +1892,7 @@ header nav{
 	flex-flow: row wrap;
 }
 .banner-deportes-cabecera{
-	background: url("/wordpress/deportes/wp-content/uploads/sites/9/2021/07/fondo-buzon-quejas.jpg");
+	background: url("/deportes/wp-content/uploads/sites/15/2021/07/fondo-buzon-quejas.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -2027,9 +2067,6 @@ footer{
 }
 .breadcrumbs a:hover{
 	color: #d3301b;
-}
-.breadcrumb_last{
-	font-weight: 500;
 }
 /*CATEGORIAS
 -------------------------------------*/
@@ -2684,3 +2721,300 @@ body.single-restaurant_listings article.type-restaurant_listings .restaurant-lis
 .TotalSoft_GV_SG_Item_674 .TotalSoft_GV_SG_VideoTitle_674{
 	font-family: 'Courier New', Courier, monospace;
 }
+/*ICONOS ENCABEZADO ELEMENTOR 
+--------------------------------------------*/
+.icono-encabezado-elementor{
+	font-size:2.3rem;
+	color:#d3301b;
+}
+/* Carousel Posts 
+-------------------------------------------*/
+.wppsac-post-carousel .slick-dots{
+	display: none!important;
+}
+.list-group-item{
+	background:transparent;
+	border:none;
+	padding: 0.9rem;
+	color: #444752!important;
+	font-size: 1.2rem;
+	transition: all .5s linear;
+}
+.list-group-item.active{
+	background-color: #d3301b;
+	border-color: #d3301b;
+	color:#fff!important;
+}
+.list-group{
+	border-radius:0;
+}
+.list-group-item:hover{
+	background: #9a0000;
+	color:#fff!important;
+}
+.bpdf_wrapper a{
+	display: none!important;
+}
+.map-instalaciones{
+	width:100%;
+	height:350px;
+	margin-top:20px!important;
+}
+/* Contenedor Actividades Pagina Propia 
+----------------------------------------*/
+.contenedor-actividades{
+	box-shadow: 0rem 0rem 0.125rem 0.125rem rgb(153 153 153 / 25%);
+    	border-radius: 5px;
+    	background: linear-gradient(to right, #D3301B 50%, #fff 50%);
+    	background-size: 200% 100%;
+	background-position: right bottom;
+	transition: all 500ms linear;
+}
+.contenedor-actividades:hover{
+	background-position: left bottom;
+}
+.contenedor-actividades:hover .elementor-image-box-title{
+	color: #fff!important;
+}
+.contenedor-actividades .elementor-image-box-title{
+	transition: all 500ms linear;
+}
+.contenedor-actividades img{
+	transition: all 250ms linear!important;
+}
+/* Error Page */
+.error{
+	width: 100%;
+	margin-top: 5%;
+	margin-bottom: 20%;
+}
+.error .clip .shadow
+{
+	height: 180px;  /*Contrall*/
+}
+.error .clip:nth-of-type(2) .shadow
+{
+	width: 130px;   /*Contrall play with javascript*/ 
+}
+.error .clip:nth-of-type(1) .shadow, .error .clip:nth-of-type(3) .shadow
+{
+	width: 250px; /*Contrall*/
+}
+.error .digit
+{
+	width: 150px;   /*Contrall*/
+	height: 150px;  /*Contrall*/
+	line-height: 150px; /*Contrall*/
+	font-size: 120px;
+	font-weight: bold;
+}
+.error h2   /*Contrall*/
+{
+	font-size: 32px;
+}
+.error .msg /*Contrall*/
+{
+	top: -190px;
+	left: 30%;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 32px;
+}
+.error span.triangle    /*Contrall*/
+{
+	top: 70%;
+	right: 0%;
+	border-left: 20px solid #A2A2A2;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+}
+.btn-404{
+	padding: 10px 20px 10px;
+    background: #891809;
+    color: #FFF!important;
+    border-radius: 20px;
+    font-style: italic;
+	border:2px solid #891809;
+	transition: all 500ms linear;
+}
+.btn-404:hover{
+	background: #d3301b;
+	color: #FFF!important;
+}
+.error .container-error-404
+{
+  margin-top: 5%;
+	position: relative;
+	height: 250px;
+	padding-top: 40px;
+}
+.error .container-error-404 .clip
+{
+	display: inline-block;
+	transform: skew(-45deg);
+}
+.error .clip .shadow
+{
+	
+	overflow: hidden;
+}
+.error .clip:nth-of-type(2) .shadow
+{
+	overflow: hidden;
+	position: relative;
+	box-shadow: inset 20px 0px 20px -15px rgba(150, 150, 150,0.8), 20px 0px 20px -15px rgba(150, 150, 150,0.8);
+}
+
+.error .clip:nth-of-type(3) .shadow:after, .error .clip:nth-of-type(1) .shadow:after
+{
+	content: "";
+	position: absolute;
+	right: -8px;
+	bottom: 0px;
+	z-index: 9999;
+	height: 100%;
+	width: 10px;
+	background: linear-gradient(90deg, transparent, rgba(173,173,173, 0.8), transparent);
+	border-radius: 50%;
+}
+.error .clip:nth-of-type(3) .shadow:after
+{
+	left: -8px;
+}
+.error .digit
+{
+	position: relative;
+	top: 8%;
+	color: white;
+	background: #d3301b;
+	border-radius: 50%;
+	display: inline-block;
+	transform: skew(45deg);
+}
+.error .clip:nth-of-type(2) .digit
+{
+	left: -10%;
+}
+.error .clip:nth-of-type(1) .digit
+{
+	right: -20%;
+}.error .clip:nth-of-type(3) .digit
+{
+	left: -20%;
+}    
+.error h2
+{
+	color: #A2A2A2;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+.error .msg
+{
+	position: relative;
+	z-index: 9999;
+	display: block;
+	background: #A2A2A2;
+	color: #FFF;
+	border-radius: 50%;
+	font-style: italic;
+}
+.error .triangle
+{
+	position: absolute;
+	z-index: 999;
+	transform: rotate(45deg);
+	content: "";
+	width: 0; 
+	height: 0; 
+}
+
+/* Error Page */
+@media(max-width: 767px)
+{
+/* Error Page */
+		.error .clip .shadow
+		{
+			height: 100px;  /*Contrall*/
+		}
+		.error .clip:nth-of-type(2) .shadow
+		{
+			width: 80px;   /*Contrall play with javascript*/ 
+		}
+		.error .clip:nth-of-type(1) .shadow, .error .clip:nth-of-type(3) .shadow
+		{
+			width: 100px; /*Contrall*/
+		}
+		.error .digit
+		{
+			width: 80px;   /*Contrall*/
+			height: 80px;  /*Contrall*/
+			line-height: 80px; /*Contrall*/
+			font-size: 52px;
+		}
+		.error h2   /*Contrall*/
+		{
+			font-size: 24px;
+		}
+		.error .msg /*Contrall*/
+		{
+			top: -110px;
+			left: 15%;
+			width: 40px;
+			height: 40px;
+			line-height: 40px;
+			font-size: 18px;
+		}
+		.error span.triangle    /*Contrall*/
+		{
+			top: 70%;
+			right: -3%;
+			border-left: 10px solid #A2A2A2;
+			border-top: 8px solid transparent;
+			border-bottom: 8px solid transparent;
+		}
+.error .container-error-404
+{
+height: 150px;
+}
+	/* Error Page */
+}
+
+/*--------------------------------------------Framework --------------------------------*/
+
+.overlay { position: relative; z-index: 20; } /*done*/
+.ground-color { background: white; }  /*done*/
+.item-bg-color { background: #EAEAEA } /*done*/
+
+/* Padding Section*/
+	.padding-top { padding-top: 10px; } /*done*/
+	.padding-bottom { padding-bottom: 10px; }   /*done*/
+	.padding-vertical { padding-top: 10px; padding-bottom: 10px; }
+	.padding-horizontal { padding-left: 10px; padding-right: 10px; }
+	.padding-all { padding: 10px; }   /*done*/
+
+	.no-padding-left { padding-left: 0px; }    /*done*/
+	.no-padding-right { padding-right: 0px; }   /*done*/
+	.no-vertical-padding { padding-top: 0px; padding-bottom: 0px; }
+	.no-horizontal-padding { padding-left: 0px; padding-right: 0px; }
+	.no-padding { padding: 0px; }   /*done*/
+/* Padding Section*/
+
+/* Margin section */
+	.margin-top { margin-top: 10px; }   /*done*/
+	.margin-bottom { margin-bottom: 10px; } /*done*/
+	.margin-right { margin-right: 10px; } /*done*/
+	.margin-left { margin-left: 10px; } /*done*/
+	.margin-horizontal { margin-left: 10px; margin-right: 10px; } /*done*/
+	.margin-vertical { margin-top: 10px; margin-bottom: 10px; } /*done*/
+	.margin-all { margin: 10px; }   /*done*/
+	.no-margin { margin: 0px; }   /*done*/
+
+	.no-vertical-margin { margin-top: 0px; margin-bottom: 0px; }
+	.no-horizontal-margin { margin-left: 0px; margin-right: 0px; }
+
+	.inside-col-shrink { margin: 0px 20px; }    /*done - For the inside sections that has also Title section*/ 
+/* Margin section */
+
+hr
+{ margin: 0px; padding: 0px; border-top: 1px dashed #999; }

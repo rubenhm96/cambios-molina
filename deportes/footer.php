@@ -22,15 +22,15 @@
 						
 						<p class="row">
 							<span class="col-5">
-							<img src="http://192.168.3.216/wordpress/juventud/wp-content/uploads/sites/6/2021/05/logos-molina-footer-blanco-2.png" alt="">
+							<img src="/juventud/wp-content/uploads/sites/11/2021/05/logos-molina-footer-blanco-2.png" alt="">
 							</span>
 							<span class="col-7">
-							<img src="http://192.168.3.216/wordpress/juventud/wp-content/uploads/sites/6/2021/05/logo-dereca.png" alt="">
+							<img src="/juventud/wp-content/uploads/sites/11/2021/05/logo-dereca.png" alt="">
 							</span>
 						</p>
 						<p class="row text-end">
 							<span class="col-5">
-								<img src="http://192.168.3.216/wordpress/juventud/wp-content/uploads/sites/6/2021/05/logo-feder-ue-footer-2.png" alt="">
+								<img src="/juventud/wp-content/uploads/sites/11/2021/05/logo-feder-ue-footer-2.png" alt="">
 							</span>
 						</p>
 					</div>

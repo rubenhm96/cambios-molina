@@ -10,50 +10,71 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
-
-		<section class="error-404 not-found">
-			<header class="page-header">
-				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'deportes' ); ?></h1>
-			</header><!-- .page-header -->
-
-			<div class="page-content">
-				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'deportes' ); ?></p>
-
-					<?php
-					get_search_form();
-
-					the_widget( 'WP_Widget_Recent_Posts' );
-					?>
-
-					<div class="widget widget_categories">
-						<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'deportes' ); ?></h2>
-						<ul>
-							<?php
-							wp_list_categories(
-								array(
-									'orderby'    => 'count',
-									'order'      => 'DESC',
-									'show_count' => 1,
-									'title_li'   => '',
-									'number'     => 10,
-								)
-							);
-							?>
-						</ul>
-					</div><!-- .widget -->
-
-					<?php
-					/* translators: %1$s: smiley */
-					$deportes_archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'deportes' ), convert_smilies( ':)' ) ) . '</p>';
-					the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$deportes_archive_content" );
-
-					the_widget( 'WP_Widget_Tag_Cloud' );
-					?>
-
-			</div><!-- .page-content -->
-		</section><!-- .error-404 -->
-
+	<main id="primary" class="site-main max-width-content">
+	 <!-- Error Page -->
+		 <div class="row error">
+                <div class="container-floud">
+                    <div class="col-xs-12 ground-color text-center">
+                        <div class="container-error-404">
+                            <div class="clip"><div class="shadow"><span class="digit thirdDigit"></span></div></div>
+                            <div class="clip"><div class="shadow"><span class="digit secondDigit"></span></div></div>
+                            <div class="clip"><div class="shadow"><span class="digit firstDigit"></span></div></div>
+                            <div class="msg">OH!<span class="triangle"></span></div>
+                        </div>
+                        <h2 class="h1">¡Lo Sentimos! Página no Encontrada</h2>
+						<h2 class="h1"><a href="/deportes/" class="btn-404">Ir a Inicio</a></h2>
+                    </div>
+                </div>
+            </div>
+        <!-- Error Page -->
+		<script>
+			function randomNum()
+	{
+		"use strict";
+		return Math.floor(Math.random() * 9)+1;
+	}
+		var loop1,loop2,loop3,time=60, i=0, number, selector3 = document.querySelector('.thirdDigit'), selector2 = document.querySelector('.secondDigit'),
+			selector1 = document.querySelector('.firstDigit');
+		loop3 = setInterval(function()
+		{
+		  "use strict";
+			if(i > 40)
+			{
+				clearInterval(loop3);
+				selector3.textContent = 4;
+			}else
+			{
+				selector3.textContent = randomNum();
+				i++;
+			}
+		}, time);
+		loop2 = setInterval(function()
+		{
+		  "use strict";
+			if(i > 80)
+			{
+				clearInterval(loop2);
+				selector2.textContent = 0;
+			}else
+			{
+				selector2.textContent = randomNum();
+				i++;
+			}
+		}, time);
+		loop1 = setInterval(function()
+		{
+		  "use strict";
+			if(i > 100)
+			{
+				clearInterval(loop1);
+				selector1.textContent = 4;
+			}else
+			{
+				selector1.textContent = randomNum();
+				i++;
+			}
+		}, time);
+		</script>
 	</main><!-- #main -->
 
 <?php

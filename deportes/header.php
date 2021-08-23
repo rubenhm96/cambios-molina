@@ -41,11 +41,8 @@
 						<?php echo do_shortcode('[wd_asp id=6]'); ?>
 					</div>
 					<div class="col-lg-12 col-md-12 col-sm-12 col-6 div-iconos-header">
-						<a href="https://www.facebook.com/AytoMolinaSegura" title="Facebook"><i class="bi bi-facebook"></i></a>
-						<a href="https://twitter.com/AytMolinaSegura" title="Twitter"><i class="bi bi-twitter"></i></a>
-						<a href="https://www.instagram.com/aytomolina" title="Instagram"><i class="bi bi-instagram"></i></a>
-						<a href="https://www.youtube.com/channel/UC0g4oAo4hihGQrfB2x7qxiw" title="Youtube"><i class="bi bi-youtube"></i></a>
-						<a href="https://t.me/AytoMolina" title="Telegram"><i class="bi bi-telegram"></i></a>
+						<a href="https://www.facebook.com/Concejal%C3%ADa-de-Deporte-y-Salud-de-Molina-de-Segura-136429330311227/" title="Facebook"><i class="bi bi-facebook"></i></a>
+						<a href="https://twitter.com/DEPORTEYSALUD4" title="Twitter"><i class="bi bi-twitter"></i></a>
 					</div>
 				</div>	
 			</div>

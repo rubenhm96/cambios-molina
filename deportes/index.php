@@ -26,7 +26,7 @@ get_header();
 			<a href="http://www.aemet.es/es/eltiempo/prediccion/municipios/molina-de-segura-id30027" class="div-weather">
 				<h2><i class="bi bi-geo-alt-fill"></i> Molina de Segura</h2>
 				<section id="tiempo_widget-2" class="widget tiempo_widget">
-					<div id="tiempo-widget-enlace" class="tiempo-widget weather_widget_wrap tight" data-background="#d3301b" data-text-color="#fff"  data-width="tight" data-days="0" data-sunrise="false" data-wind="false" data-current="on" data-language="spanish" data-city="Murcia" data-country="Spain"></div>
+					<div id="tiempo-widget-enlace" class="tiempo-widget weather_widget_wrap tight" data-background="#891809" data-text-color="#fff"  data-width="tight" data-days="0" data-sunrise="false" data-wind="false" data-current="on" data-language="spanish" data-city="Murcia" data-country="Spain"></div>
 				</section>
 			</a>
 		</div>
@@ -49,7 +49,7 @@ get_header();
 				<div class="banner-deportes-parent col-lg-4 col-md-6 col-sm-12 col-12">
 					<div class="banner-deportes col-12">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-12 banner-deportes-cabecera">
-							<a class="banner-deportes-cabecera-child" href="#" target="_blank">
+							<a class="banner-deportes-cabecera-child" href="/deportes/formulario-de-sugerencias-y-quejas/" target="_blank">
 								<div class="logo-deportes">
 									<lord-icon src="https://cdn.lordicon.com/rhvddzym.json"
 										trigger="loop"

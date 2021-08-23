@@ -96,6 +96,16 @@
 			menuItem.classList.toggle( 'focus' );
 		}
 	}
+	function rutaWeb(){
+		var rutaAbsoluta = self.location.href;   
+		var posicionFinalRuta = rutaAbsoluta.lastIndexOf("/deportes");
+		var rutaRelativa = rutaAbsoluta.substring( posicionFinalRuta + "/".length , rutaAbsoluta.length );
+		if (rutaRelativa==="deportes/") {
+			return true;
+		} else {
+			return false;
+		}
+	}
 	//Añadir Evento Finalizado
 	var aux = document.getElementsByClassName("mec-holding-status-expired");
 	for(i=0;i<aux.length;i++){
@@ -117,7 +127,9 @@
 		}
 	}
 	if(document.readyState=="loading"){
-		limiteGridCalendar();
+		if (rutaWeb()) {
+			limiteGridCalendar();
+		}
 	}
 	//Buscador Navegador
 	/*Contenedor seleccion categorias newsletter*/
@@ -128,10 +140,14 @@
 			document.getElementById("seleccion-categorias-newsletter-id").appendChild(categorias_newsletter);
 		})
 	}
-	modalNewsletter();
+	if (rutaWeb()) {
+		modalNewsletter();
+	}
 
 	function cambiarUrlTiempo() {
 		setTimeout(function(){ document.getElementById("tiempo-widget-enlace").firstChild.href="http://www.aemet.es/es/eltiempo/prediccion/municipios/molina-de-segura-id30027"; }, 5000);
 	}
-	cambiarUrlTiempo();
+	if (rutaWeb()) {
+		cambiarUrlTiempo();	
+	}
 }() );
