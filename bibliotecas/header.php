@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package cultura
+ * @package bibliotecas
  */
 
 ?>
@@ -26,7 +26,7 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'cultura' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'bibliotecas' ); ?></a>
 	<header id="masthead" class="site-header max-width">
 		<div class="site-branding">
 			<?php
@@ -56,7 +56,7 @@
 		</div><!-- .site-branding -->
 		<nav id="site-navigation" class="main-navigation">
 			<!--Menu de navegacion-->
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'cultura' ); ?></button>
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'bibliotecas' ); ?></button>
 			<div class="buscador-ajax">
 				<?php echo do_shortcode("[wd_asp elements='search' ratio='50%' id=1]"); ?>
 			</div>

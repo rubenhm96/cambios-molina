@@ -2,7 +2,7 @@
 /**
  * Functions which enhance the theme by hooking into WordPress
  *
- * @package cultura
+ * @package bibliotecas
  */
 
 /**
@@ -11,7 +11,7 @@
  * @param array $classes Classes for the body element.
  * @return array
  */
-function cultura_body_classes( $classes ) {
+function bibliotecas_body_classes( $classes ) {
 	// Adds a class of hfeed to non-singular pages.
 	if ( ! is_singular() ) {
 		$classes[] = 'hfeed';
@@ -24,14 +24,14 @@ function cultura_body_classes( $classes ) {
 
 	return $classes;
 }
-add_filter( 'body_class', 'cultura_body_classes' );
+add_filter( 'body_class', 'bibliotecas_body_classes' );
 
 /**
  * Add a pingback url auto-discovery header for single posts, pages, or attachments.
  */
-function cultura_pingback_header() {
+function bibliotecas_pingback_header() {
 	if ( is_singular() && pings_open() ) {
 		printf( '<link rel="pingback" href="%s">', esc_url( get_bloginfo( 'pingback_url' ) ) );
 	}
 }
-add_action( 'wp_head', 'cultura_pingback_header' );
+add_action( 'wp_head', 'bibliotecas_pingback_header' );

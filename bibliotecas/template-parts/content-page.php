@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package cultura
+ * @package bibliotecas
  */
 
 ?>
@@ -14,7 +14,7 @@
 		<?php /*the_title( '<h1 class="entry-title">', '</h1>' ); */?>
 	</header>--><!-- .entry-header -->
 
-	<?php cultura_post_thumbnail(); ?>
+	<?php bibliotecas_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
@@ -22,7 +22,7 @@
 
 		wp_link_pages(
 			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'cultura' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'bibliotecas' ),
 				'after'  => '</div>',
 			)
 		);
@@ -37,7 +37,7 @@
 				sprintf(
 					wp_kses(
 						/* translators: %s: Name of current post. Only visible to screen readers */
-						/*__( 'Edit <span class="screen-reader-text">%s</span>', 'cultura' ),
+						/*__( 'Edit <span class="screen-reader-text">%s</span>', 'bibliotecas' ),
 						array(
 							'span' => array(
 								'class' => array(),

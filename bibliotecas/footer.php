@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package cultura
+ * @package bibliotecas
  */
 ?>
 	<footer id="colophon" class="max-width">
